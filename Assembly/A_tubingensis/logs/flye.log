@@ -1,0 +1,90 @@
+[2025-06-24 18:23:04] INFO: Starting Flye 2.9-b1774
+[2025-06-24 18:23:04] INFO: >>>STAGE: configure
+[2025-06-24 18:23:04] INFO: Configuring run
+[2025-06-24 18:23:22] INFO: Total read length: 1117174092
+[2025-06-24 18:23:22] INFO: Input genome size: 35000000
+[2025-06-24 18:23:22] INFO: Estimated coverage: 31
+[2025-06-24 18:23:22] INFO: Reads N50/N90: 5291 / 1735
+[2025-06-24 18:23:22] INFO: Minimum overlap set to 2000
+[2025-06-24 18:23:22] INFO: >>>STAGE: assembly
+[2025-06-24 18:23:22] INFO: Assembling disjointigs
+[2025-06-24 18:23:22] INFO: Reading sequences
+[2025-06-24 18:23:36] INFO: Building minimizer index
+[2025-06-24 18:23:36] INFO: Pre-calculating index storage
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:23:45] INFO: Filling index
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:23:52] INFO: Extending reads
+[2025-06-24 18:24:05] INFO: Overlap-based coverage: 19
+[2025-06-24 18:24:05] INFO: Median overlap divergence: 0.0219456
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:24:59] INFO: Assembled 469 disjointigs
+[2025-06-24 18:25:00] INFO: Generating sequence
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:25:02] INFO: Filtering contained disjointigs
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:25:03] INFO: Contained seqs: 115
+[2025-06-24 18:25:03] INFO: >>>STAGE: consensus
+[2025-06-24 18:25:03] INFO: Running Minimap2
+[2025-06-24 18:26:07] INFO: Computing consensus
+[2025-06-24 18:27:06] INFO: Alignment error rate: 0.029915
+[2025-06-24 18:27:06] INFO: >>>STAGE: repeat
+[2025-06-24 18:27:06] INFO: Building and resolving repeat graph
+[2025-06-24 18:27:06] INFO: Parsing disjointigs
+[2025-06-24 18:27:06] INFO: Building repeat graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:27:09] INFO: Median overlap divergence: 0
+[2025-06-24 18:27:10] INFO: Parsing reads
+[2025-06-24 18:27:25] INFO: Aligning reads to the graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:27:40] INFO: Aligned read sequence: 943504510 / 980340185 (0.962426)
+[2025-06-24 18:27:40] INFO: Median overlap divergence: 0.0105804
+[2025-06-24 18:27:40] INFO: Mean edge coverage: 26
+[2025-06-24 18:27:40] INFO: Simplifying the graph
+[2025-06-24 18:27:43] INFO: >>>STAGE: contigger
+[2025-06-24 18:27:43] INFO: Generating contigs
+[2025-06-24 18:27:43] INFO: Reading sequences
+[2025-06-24 18:27:59] INFO: Generated 185 contigs
+[2025-06-24 18:27:59] INFO: Added 0 scaffold connections
+[2025-06-24 18:28:00] INFO: >>>STAGE: polishing
+[2025-06-24 18:28:00] INFO: Polishing genome (1/5)
+[2025-06-24 18:28:00] INFO: Running minimap2
+[2025-06-24 18:28:50] INFO: Separating alignment into bubbles
+[2025-06-24 18:30:01] INFO: Alignment error rate: 0.018260
+[2025-06-24 18:30:01] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:31:55] INFO: Polishing genome (2/5)
+[2025-06-24 18:31:55] INFO: Running minimap2
+[2025-06-24 18:32:45] INFO: Separating alignment into bubbles
+[2025-06-24 18:33:57] INFO: Alignment error rate: 0.017853
+[2025-06-24 18:33:57] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:35:43] INFO: Polishing genome (3/5)
+[2025-06-24 18:35:43] INFO: Running minimap2
+[2025-06-24 18:36:33] INFO: Separating alignment into bubbles
+[2025-06-24 18:37:45] INFO: Alignment error rate: 0.017848
+[2025-06-24 18:37:45] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:39:32] INFO: Polishing genome (4/5)
+[2025-06-24 18:39:32] INFO: Running minimap2
+[2025-06-24 18:40:22] INFO: Separating alignment into bubbles
+[2025-06-24 18:41:34] INFO: Alignment error rate: 0.017844
+[2025-06-24 18:41:34] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:43:21] INFO: Polishing genome (5/5)
+[2025-06-24 18:43:21] INFO: Running minimap2
+[2025-06-24 18:44:12] INFO: Separating alignment into bubbles
+[2025-06-24 18:45:23] INFO: Alignment error rate: 0.017844
+[2025-06-24 18:45:23] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2025-06-24 18:47:15] INFO: >>>STAGE: finalize
+[2025-06-24 18:47:16] INFO: Assembly statistics:
+
+	Total length:	35242421
+	Fragments:	184
+	Fragments N50:	437424
+	Largest frg:	1305287
+	Scaffolds:	0
+	Mean coverage:	30
+
+[2025-06-24 18:47:16] INFO: Final assembly: /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Assembly/A_tubingensis/assemblies/flye/assembly.fasta
