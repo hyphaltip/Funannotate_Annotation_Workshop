@@ -9,7 +9,7 @@ if [ ! -z $SLURM_CPUS_ON_NODE ]; then
     CPU=$SLURM_CPUS_ON_NODE
 fi
 INDIR=input
-OUTDIR=assemblies/hifasm
+OUTDIR=assemblies/hifiasm
 NANOBASE=SRR29740272
 ILLBASE=SRR29740273
 mkdir -p $OUTDIR
