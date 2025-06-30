@@ -1,0 +1,15 @@
+Assembly statistics for: genomes/A_tubingensis.sorted.fasta
+   CONTIG COUNT  =  88
+   TOTAL LENGTH  =  35171243
+            MIN  =  127
+            MAX  =  1967716
+         MEDIAN  =  216830
+           MEAN  =  399673.22
+            L50  =  13
+            N50  =  937373
+            L90  =  40
+            N90  =  245388
+            GC%  =  49.18
+  T2T SCAFFOLDS  =  0
+   TELOMERE FWD  =  1
+   TELOMERE REV  =  0
