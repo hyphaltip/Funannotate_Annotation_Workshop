@@ -1,0 +1,58 @@
+==================================================
+file name: A_tubingensis_scaf1.sorted.fasta
+sequences:             1
+total length:    1967716 bp  (1967716 bp excl N/X-runs)
+GC level:         50.53 %
+bases masked:      34862 bp ( 1.77 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements            1         1458 bp    0.07 %
+   SINEs:                0            0 bp    0.00 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:                1         1458 bp    0.07 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex          0            0 bp    0.00 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           0            0 bp    0.00 %
+     L1/CIN4             0            0 bp    0.00 %
+   LTR elements:         0            0 bp    0.00 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia           0            0 bp    0.00 %
+     Gypsy/DIRS1         0            0 bp    0.00 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons          0            0 bp    0.00 %
+   hobo-Activator        0            0 bp    0.00 %
+   Tc1-IS630-Pogo        0            0 bp    0.00 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             0            0 bp    0.00 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger     0            0 bp    0.00 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles          4          282 bp    0.01 %
+
+Unclassified:            3          251 bp    0.01 %
+
+Total interspersed repeats:        1709 bp    0.09 %
+
+
+Small RNA:               0            0 bp    0.00 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:        679        26047 bp    1.32 %
+Low complexity:        133         6824 bp    0.35 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be fungi         
+                                                                                  
+run with rmblastn version 2.14.1+
+FamDB: CONS-Dfam_3.9
