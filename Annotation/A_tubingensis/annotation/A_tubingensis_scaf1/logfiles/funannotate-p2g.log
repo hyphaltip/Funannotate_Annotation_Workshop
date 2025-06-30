@@ -1,0 +1,9 @@
+[06/30/25 05:54:31]: /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/aux_scripts/funannotate-p2g.py -p annotation/A_tubingensis_scaf1/predict_misc/proteins.combined.fa -g /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa -o annotation/A_tubingensis_scaf1/predict_misc/protein_alignments.gff3 --maxintron 1200 --cpus 16 --exonerate_pident 80 --ploidy 1 -f diamond --tmpdir /scratch/jstajich/17620058 --tblastn_out annotation/A_tubingensis_scaf1/predict_misc/p2g.diamond.out --logfile annotation/A_tubingensis_scaf1/logfiles/funannotate-p2g.log
+
+[06/30/25 05:54:33]: Mapping 560,293 proteins to genome using diamond and exonerate
+[06/30/25 05:54:33]: Diamond v2.1.8; Exonerate v2.4.0
+[06/30/25 05:54:33]: diamond makedb --threads 16 --in /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/proteins.combined.fa --db diamond
+[06/30/25 05:54:35]: diamond blastx --threads 16 -q /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa --db diamond -o diamond.matches.tab -e 1e-10 -k 0 --more-sensitive --unal 0 -c 1 -F 15 -f 6 sseqid slen sstart send qseqid qlen qstart qend pident length evalue score qcovhsp qframe
+[06/30/25 05:55:41]: Writing 27060 contig splits for exonerate
+[06/30/25 05:55:42]: Found 27,060 preliminary alignments with diamond in 0:00:39 --> generated FASTA files for exonerate in 0:00:29
+[06/30/25 05:57:36]: Exonerate finished in 0:01:53: found 228 alignments

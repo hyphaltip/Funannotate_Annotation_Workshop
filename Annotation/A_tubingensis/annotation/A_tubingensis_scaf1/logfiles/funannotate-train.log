@@ -1,0 +1,117 @@
+[06/30/25 05:28:01]: /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/funannotate train -i genomes/A_tubingensis_scaf1.masked.fasta --cpus 32 --memory 128G --species Aspergillus tubingensis --strain DFA_scaf1 -o annotation/A_tubingensis_scaf1 --jaccard_clip --max_intronlen 1000 --left lib/RNASeq/Atub_scaf1_R1.fastq.gz --right lib/RNASeq/Atub_scaf1_R2.fastq.gz
+
+[06/30/25 05:28:01]: OS: Rocky Linux 8.8, 64 cores, ~ 528 GB RAM. Python: 3.8.15
+[06/30/25 05:28:01]: Running 1.8.17
+[06/30/25 05:28:02]: fasta version=36.3.8g path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/fasta
+[06/30/25 05:28:02]: minimap2 version=2.26-r1175 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/minimap2
+[06/30/25 05:28:02]: hisat2 version=2.2.1 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/hisat2
+[06/30/25 05:28:02]: hisat2-build version=NA path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/hisat2-build
+[06/30/25 05:28:02]: Trinity version=2.8.5 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/Trinity
+[06/30/25 05:28:02]: java version=17.0.3-internal path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/java
+[06/30/25 05:28:02]: kallisto version=0.46.1 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/kallisto
+[06/30/25 05:28:02]: /rhome/jstajich/.pasa/Launch_PASA_pipeline.pl version=NA path=/rhome/jstajich/.pasa/Launch_PASA_pipeline.pl
+[06/30/25 05:28:02]: /rhome/jstajich/.pasa/bin/seqclean version=NA path=/rhome/jstajich/.pasa/bin/seqclean
+[06/30/25 05:28:02]: trimmomatic version=0.39 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/trimmomatic
+[06/30/25 05:28:02]: minimap2 version=2.26-r1175 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/minimap2
+[06/30/25 05:28:02]: blat version=BLAT v37x1 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/blat
+[06/30/25 05:28:02]: Input reads: ('/bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/lib/RNASeq/Atub_scaf1_R1.fastq.gz', '/bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/lib/RNASeq/Atub_scaf1_R2.fastq.gz', None)
+[06/30/25 05:28:02]: Adapter and Quality trimming PE reads with Trimmomatic
+[06/30/25 05:28:02]: trimmomatic PE -threads 32 -phred33 /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/lib/RNASeq/Atub_scaf1_R1.fastq.gz /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/lib/RNASeq/Atub_scaf1_R2.fastq.gz annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.fastq annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.unpaired.fastq annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.fastq annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.unpaired.fastq ILLUMINACLIP:/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/config/TruSeq3-PE.fa:2:30:10 SLIDINGWINDOW:4:5 LEADING:5 TRAILING:5 MINLEN:25
+[06/30/25 05:28:03]: TrimmomaticPE: Started with arguments:
+ -threads 32 -phred33 /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/lib/RNASeq/Atub_scaf1_R1.fastq.gz /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/lib/RNASeq/Atub_scaf1_R2.fastq.gz annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.fastq annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.unpaired.fastq annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.fastq annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.unpaired.fastq ILLUMINACLIP:/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/config/TruSeq3-PE.fa:2:30:10 SLIDINGWINDOW:4:5 LEADING:5 TRAILING:5 MINLEN:25
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 173857 Both Surviving: 167402 (96.29%) Forward Only Surviving: 6455 (3.71%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+
+[06/30/25 05:28:03]: pigz -f -p 32 annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.fastq
+[06/30/25 05:28:03]: pigz -f -p 32 annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.unpaired.fastq
+[06/30/25 05:28:03]: pigz -f -p 32 annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.fastq
+[06/30/25 05:28:04]: pigz -f -p 32 annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.unpaired.fastq
+[06/30/25 05:28:04]: Quality trimmed reads: ('annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.fastq.gz', 'annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.fastq.gz', None)
+[06/30/25 05:28:04]: FASTQ headers seem compatible with Trinity
+[06/30/25 05:28:04]: Running read normalization with Trinity
+[06/30/25 05:28:04]: /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/opt/trinity-2.8.5/util/insilico_read_normalization.pl --PARALLEL_STATS --JM 128G --min_cov 5 --max_cov 50 --seqType fq --output annotation/A_tubingensis_scaf1/training/normalize --CPU 32 --pairs_together --left annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.fastq.gz --right annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.fastq.gz
+[06/30/25 05:28:15]: Normalized reads: ('annotation/A_tubingensis_scaf1/training/normalize/left.norm.fq', 'annotation/A_tubingensis_scaf1/training/normalize/right.norm.fq', None)
+[06/30/25 05:28:15]: Long reads: (None, None, None)
+[06/30/25 05:28:15]: Long reads FASTA format: (None, None, None)
+[06/30/25 05:28:15]: Long SeqCleaned reads: (None, None, None)
+[06/30/25 05:35:45]: Running StringTie on Hisat2 coordsorted BAM
+[06/30/25 05:35:45]: stringtie -p 32 annotation/A_tubingensis_scaf1/training/hisat2.coordSorted.bam
+[06/30/25 05:35:46]: Removing poly-A sequences from trinity transcripts using seqclean
+[06/30/25 05:35:46]: /rhome/jstajich/.pasa/bin/seqclean trinity.fasta -c 16
+[06/30/25 05:35:48]: seqclean running options: 
+seqclean trinity.fasta -c 16
+ Standard log file: seqcl_trinity.fasta.log
+ Error log file:    err_seqcl_trinity.fasta.log
+ Using 16 CPUs for cleaning
+-= Rebuilding trinity.fasta cdb index =-
+ Launching actual cleaning process:
+ psx -p 16  -n 1000  -i trinity.fasta -d cleaning -C '/rhome/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/trinity.fasta:ANLMS100:::11:0' -c '/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/PASA/2.5.2/bin/seqclean.psx'
+Collecting cleaning reports
+
+**************************************************
+Sequences analyzed:      1782
+-----------------------------------
+                   valid:      1781  (66 trimmed)
+                 trashed:         1
+**************************************************
+----= Trashing summary =------
+                by 'dust':        1
+------------------------------
+Output file containing only valid and trimmed sequences: trinity.fasta.clean
+For trimming and trashing details see cleaning report  : trinity.fasta.cln
+--------------------------------------------------
+seqclean (trinity.fasta) finished on machine i31
+ in /rhome/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis, without a detectable error.
+
+[06/30/25 05:35:48]: minimap2 -ax splice -t 32 --cs -u b -G 1000 annotation/A_tubingensis_scaf1/training/genome.fasta annotation/A_tubingensis_scaf1/training/trinity.fasta.clean | samtools sort --reference annotation/A_tubingensis_scaf1/training/genome.fasta -@ 4 -o annotation/A_tubingensis_scaf1/training/trinity.alignments.bam -
+[06/30/25 05:35:49]: Converting transcript alignments to GFF3 format
+[06/30/25 05:35:49]: Converting Trinity transcript alignments to GFF3 format
+[06/30/25 05:35:49]: Running PASA alignment step using 1,781 transcripts
+[06/30/25 05:35:49]: /rhome/jstajich/.pasa/Launch_PASA_pipeline.pl -c /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/pasa/alignAssembly.txt -r -C -R -g /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/genome.fasta --IMPORT_CUSTOM_ALIGNMENTS /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/trinity.alignments.gff3 -T -t /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/trinity.fasta.clean -u /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/trinity.fasta --stringent_alignment_overlap 30.0 --TRANSDECODER --ALT_SPLICE --MAX_INTRON_LENGTH 1000 --CPU 32 --ALIGNERS blat --trans_gtf /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/funannotate_train.stringtie.gtf
+[06/30/25 05:43:38]: PASA assigned 1,630 transcripts to 1,201 loci (genes)
+[06/30/25 05:43:38]: Getting PASA models for training with TransDecoder
+[06/30/25 05:43:38]: /rhome/jstajich/.pasa/scripts/pasa_asmbls_to_training_set.dbi --pasa_transcripts_fasta Aspergillus_tubingensis_DFA_scaf1_pasa.assemblies.fasta --pasa_transcripts_gff3 Aspergillus_tubingensis_DFA_scaf1_pasa.pasa_assemblies.gff3
+[06/30/25 05:45:24]: PASA finished. PASAweb accessible via: localhost:port/cgi-bin/index.cgi?db=/bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/pasa/Aspergillus_tubingensis_DFA_scaf1_pasa
+[06/30/25 05:45:24]: Using Kallisto TPM data to determine which PASA gene models to select at each locus
+[06/30/25 05:45:24]: Building Kallisto index
+[06/30/25 05:45:24]: /rhome/jstajich/.pasa/misc_utilities/gff3_file_to_proteins.pl annotation/A_tubingensis_scaf1/training/pasa.step1.gff3 annotation/A_tubingensis_scaf1/training/genome.fasta cDNA
+[06/30/25 05:45:25]: 
+
+[06/30/25 05:45:25]: kallisto index -i annotation/A_tubingensis_scaf1/training/getBestModel/bestModel annotation/A_tubingensis_scaf1/training/getBestModel/transcripts.fa
+[06/30/25 05:45:27]: 
+[build] loading fasta file annotation/A_tubingensis_scaf1/training/getBestModel/transcripts.fa
+[build] k-mer length: 31
+[build] counting k-mers ... done.
+[build] building target de Bruijn graph ...  done 
+[build] creating equivalence classes ...  done
+[build] target de Bruijn graph has 2198 contigs and contains 975777 k-mers 
+
+
+[06/30/25 05:45:27]: Mapping reads using pseudoalignment in Kallisto
+[06/30/25 05:45:27]: kallisto quant -i annotation/A_tubingensis_scaf1/training/getBestModel/bestModel -o annotation/A_tubingensis_scaf1/training/getBestModel/kallisto --plaintext -t 32 annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.fastq.gz annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.fastq.gz
+[06/30/25 05:45:28]: 
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 1,278
+[index] number of k-mers: 975,777
+[index] number of equivalence classes: 2,149
+[quant] running in paired-end mode
+[quant] will process pair 1: annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.fastq.gz
+                             annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 167,402 reads, 147,415 reads pseudoaligned
+[quant] estimated average fragment length: 142.193
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,007 rounds
+
+
+[06/30/25 05:45:28]: Parsing expression value results. Keeping best transcript at each locus.
+[06/30/25 05:45:31]: Wrote 580 PASA gene models
+[06/30/25 05:45:31]: PASA database name: Aspergillus_tubingensis_DFA_scaf1
+[06/30/25 05:45:31]: Trinity/PASA has completed, you are now ready to run funanotate predict, for example:
+
+  funannotate predict -i genomes/A_tubingensis_scaf1.masked.fasta \
+            -o annotation/A_tubingensis_scaf1 -s "Aspergillus tubingensis" --strain DFA_scaf1 --cpus 32
+

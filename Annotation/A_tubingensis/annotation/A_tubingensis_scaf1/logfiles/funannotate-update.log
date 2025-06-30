@@ -1,0 +1,77 @@
+[06/30/25 06:33:16]: /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/funannotate update -i annotation/A_tubingensis_scaf1 --cpus 24
+
+[06/30/25 06:33:16]: OS: Rocky Linux 8.8, 64 cores, ~ 528 GB RAM. Python: 3.8.15
+[06/30/25 06:33:16]: Running 1.8.17
+[06/30/25 06:33:17]: fasta version=36.3.8g path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/fasta
+[06/30/25 06:33:17]: minimap2 version=2.26-r1175 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/minimap2
+[06/30/25 06:33:17]: tbl2asn version=25.8 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/tbl2asn
+[06/30/25 06:33:17]: hisat2 version=2.2.1 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/hisat2
+[06/30/25 06:33:17]: hisat2-build version=NA path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/hisat2-build
+[06/30/25 06:33:17]: kallisto version=0.46.1 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/kallisto
+[06/30/25 06:33:17]: Trinity version=2.8.5 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/Trinity
+[06/30/25 06:33:17]: bedtools version=bedtools v2.31.1 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/bedtools
+[06/30/25 06:33:17]: java version=17.0.3-internal path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/java
+[06/30/25 06:33:17]: /rhome/jstajich/.pasa/Launch_PASA_pipeline.pl version=NA path=/rhome/jstajich/.pasa/Launch_PASA_pipeline.pl
+[06/30/25 06:33:17]: /rhome/jstajich/.pasa/bin/seqclean version=NA path=/rhome/jstajich/.pasa/bin/seqclean
+[06/30/25 06:33:17]: trimmomatic version=0.39 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/trimmomatic
+[06/30/25 06:33:17]: minimap2 version=2.26-r1175 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/minimap2
+[06/30/25 06:33:17]: blat version=BLAT v37x1 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/blat
+[06/30/25 06:33:17]: No NCBI SBT file given, will use default, for NCBI submissions pass one here '--sbt'
+[06/30/25 06:33:17]: Found relevant files in annotation/A_tubingensis_scaf1/training, will re-use them:
+	GFF3: annotation/A_tubingensis_scaf1/predict_results/Aspergillus_tubingensis_DFA_scaf1.gff3
+	Genome: annotation/A_tubingensis_scaf1/predict_results/Aspergillus_tubingensis_DFA_scaf1.scaffolds.fa
+	Forward reads: annotation/A_tubingensis_scaf1/training/left.fq.gz
+	Reverse reads: annotation/A_tubingensis_scaf1/training/right.fq.gz
+	Forward Q-trimmed reads: annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.fastq.gz
+	Reverse Q-trimmed reads: annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.fastq.gz
+	Forward normalized reads: annotation/A_tubingensis_scaf1/training/normalize/left.norm.fq
+	Reverse normalized reads: annotation/A_tubingensis_scaf1/training/normalize/right.norm.fq
+	Trinity results: annotation/A_tubingensis_scaf1/training/funannotate_train.trinity-GG.fasta
+	PASA config file: annotation/A_tubingensis_scaf1/training/pasa/alignAssembly.txt
+	BAM alignments: annotation/A_tubingensis_scaf1/training/funannotate_train.coordSorted.bam
+	StringTie GTF: annotation/A_tubingensis_scaf1/training/funannotate_train.stringtie.gtf
+[06/30/25 06:33:18]: Reannotating Aspergillus tubingensis, NCBI accession: None
+[06/30/25 06:33:18]: Previous annotation consists of: 650 protein coding gene models and 19 non-coding gene models
+[06/30/25 06:33:18]: Existing annotation: locustag=ATUBSCAF1_ genenumber=669
+[06/30/25 06:33:18]: Input reads: ('annotation/A_tubingensis_scaf1/training/left.fq.gz', 'annotation/A_tubingensis_scaf1/training/right.fq.gz', None)
+[06/30/25 06:33:18]: Quality trimmed reads: ('annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_left.fastq.gz', 'annotation/A_tubingensis_scaf1/training/trimmomatic/trimmed_right.fastq.gz', None)
+[06/30/25 06:33:18]: FASTQ headers seem compatible with Trinity
+[06/30/25 06:33:18]: Normalized reads: ('annotation/A_tubingensis_scaf1/training/normalize/left.norm.fq', 'annotation/A_tubingensis_scaf1/training/normalize/right.norm.fq', None)
+[06/30/25 06:33:18]: Long reads: (None, None, None)
+[06/30/25 06:33:18]: Long reads FASTA format: (None, None, None)
+[06/30/25 06:33:18]: Long SeqCleaned reads: (None, None, None)
+[06/30/25 06:33:18]: /rhome/jstajich/.pasa/bin/seqclean trinity.fasta -c 16
+[06/30/25 06:33:20]: seqclean running options: 
+seqclean trinity.fasta -c 16
+ Standard log file: seqcl_trinity.fasta.log
+ Error log file:    err_seqcl_trinity.fasta.log
+ Using 16 CPUs for cleaning
+-= Rebuilding trinity.fasta cdb index =-
+ Launching actual cleaning process:
+ psx -p 16  -n 1000  -i trinity.fasta -d cleaning -C '/bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/trinity.fasta:ANLMS100:::11:0' -c '/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/PASA/2.5.2/bin/seqclean.psx'
+Collecting cleaning reports
+
+**************************************************
+Sequences analyzed:      1782
+-----------------------------------
+                   valid:      1781  (66 trimmed)
+                 trashed:         1
+**************************************************
+----= Trashing summary =------
+                by 'dust':        1
+------------------------------
+Output file containing only valid and trimmed sequences: trinity.fasta.clean
+For trimming and trashing details see cleaning report  : trinity.fasta.cln
+--------------------------------------------------
+seqclean (trinity.fasta) finished on machine i31
+ in /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis, without a detectable error.
+
+[06/30/25 06:33:20]: minimap2 -ax splice -t 24 --cs -u b -G 3000 annotation/A_tubingensis_scaf1/update_misc/genome.fa annotation/A_tubingensis_scaf1/update_misc/trinity.fasta.clean | samtools sort --reference annotation/A_tubingensis_scaf1/update_misc/genome.fa -@ 4 -o annotation/A_tubingensis_scaf1/update_misc/trinity.alignments.bam -
+[06/30/25 06:33:21]: Converting transcript alignments to GFF3 format
+[06/30/25 06:33:21]: Converting Trinity transcript alignments to GFF3 format
+[06/30/25 06:33:21]: PASA database is SQLite: /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/pasa/Aspergillus_tubingensis_DFA_scaf1_pasa
+[06/30/25 06:33:21]: /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/cdbfasta annotation/A_tubingensis_scaf1/update_misc/genome.fa
+[06/30/25 06:33:21]: 1 entries from file annotation/A_tubingensis_scaf1/update_misc/genome.fa were indexed in file annotation/A_tubingensis_scaf1/update_misc/genome.fa.cidx
+
+[06/30/25 06:33:21]: Running PASA annotation comparison step 1
+[06/30/25 06:33:21]: /rhome/jstajich/.pasa/Launch_PASA_pipeline.pl -c /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/update_misc/pasa/annotCompare.txt -g /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/update_misc/genome.fa -t /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/update_misc/trinity.fasta.clean -A -L --CPU 24 --annots /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/update_misc/genome.gff3

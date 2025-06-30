@@ -1,0 +1,2434 @@
+Will create parameters for a EUKARYOTIC species!
+creating directory /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/ ...
+creating /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg ...
+creating /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_weightmatrix.txt ...
+creating /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_metapars.cfg ...
+The necessary files for training aspergillus_tubingensis_dfa_scaf1 have been created.
+Now, either run etraining or optimize_parameters.pl with --species=aspergillus_tubingensis_dfa_scaf1.
+etraining quickly estimates the parameters from a file with training genes.
+optimize_augustus.pl alternates running etraining and augustus to find optimal metaparameters.
+
+# Read in 369 genbank sequences.
+Quantiles of the GC contents in the training set:
+0%	0.452
+5%	0.478	10%	0.487
+15%	0.492	20%	0.496
+25%	0.5	30%	0.503
+35%	0.507	40%	0.51
+45%	0.513	50%	0.516
+55%	0.519	60%	0.521
+65%	0.523	70%	0.526
+75%	0.529	80%	0.533
+85%	0.538	90%	0.546
+95%	0.551	100%	0.575
+HMM-training the parameters...
+i= 0 bc= (0.237, 0.263, 0.263, 0.237)
+ ** building model for exons *EXON*
+gene g_1-T1 transcr. 1 in sequence scaffold_1_34559-36871: Initial exon does not begin with start codon but with gat
+gene g_3-T1 transcr. 1 in sequence scaffold_1_47550-49232: Initial exon does not begin with start codon but with ccc
+gene g_348-T1 transcr. 1 in sequence scaffold_1_49233-50990: Initial exon does not begin with start codon but with acc
+gene g_5-T1 transcr. 1 in sequence scaffold_1_60570-62530: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_182-T1 transcr. 1 in sequence scaffold_1_82546-84630: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_8-T1 transcr. 1 in sequence scaffold_1_86634-88536: Initial exon does not begin with start codon but with atc
+gene g_8-T1 transcr. 1 in sequence scaffold_1_86634-88536: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_177-T1 transcr. 1 in sequence scaffold_1_88537-90132: Initial exon does not begin with start codon but with ctc
+gene g_177-T1 transcr. 1 in sequence scaffold_1_88537-90132: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_10-T1 transcr. 1 in sequence scaffold_1_118057-119639: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_11-T1 transcr. 1 in sequence scaffold_1_119640-121281: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_185-T1 transcr. 1 in sequence scaffold_1_125601-127573: Initial exon does not begin with start codon but with agc
+gene g_12-T1 transcr. 1 in sequence scaffold_1_130485-132996: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_159-T1 transcr. 1 in sequence scaffold_1_164869-168182: Initial exon does not begin with start codon but with gcc
+gene g_13-T1 transcr. 1 in sequence scaffold_1_171790-173598: Initial exon does not begin with start codon but with cgt
+gene g_13-T1 transcr. 1 in sequence scaffold_1_171790-173598: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_14-T1 transcr. 1 in sequence scaffold_1_177518-179302: Initial exon has length < 3!
+gene g_15-T1 transcr. 1 in sequence scaffold_1_179303-181116: Initial exon does not begin with start codon but with tgg
+gene g_188-T1 transcr. 1 in sequence scaffold_1_183440-185961: Initial exon does not begin with start codon but with gga
+gene g_189-T1 transcr. 1 in sequence scaffold_1_185962-187458: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_363-T1 transcr. 1 in sequence scaffold_1_202856-204022: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_192-T1 transcr. 1 in sequence scaffold_1_214381-216413: Initial exon does not begin with start codon but with ctc
+gene g_192-T1 transcr. 1 in sequence scaffold_1_214381-216413: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_193-T1 transcr. 1 in sequence scaffold_1_226454-230225: Initial exon does not begin with start codon but with cac
+gene g_160-T1 transcr. 1 in sequence scaffold_1_246071-247770: Initial exon does not begin with start codon but with ccc
+gene g_19-T1 transcr. 1 in sequence scaffold_1_265050-269144: Initial exon does not begin with start codon but with ggt
+gene g_20-T1 transcr. 1 in sequence scaffold_1_278782-280720: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_23-T1 transcr. 1 in sequence scaffold_1_310895-312519: Initial exon does not begin with start codon but with cga
+gene g_356-T1 transcr. 1 in sequence scaffold_1_337372-338468: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_24-T1 transcr. 1 in sequence scaffold_1_338469-340444: Initial exon does not begin with start codon but with aat
+gene g_207-T1 transcr. 1 in sequence scaffold_1_349987-351717: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_29-T1 transcr. 1 in sequence scaffold_1_365246-367308: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_31-T1 transcr. 1 in sequence scaffold_1_368771-369932: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_209-T1 transcr. 1 in sequence scaffold_1_375178-378554: Initial exon does not begin with start codon but with gta
+gene g_32-T1 transcr. 1 in sequence scaffold_1_395238-396359: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_33-T1 transcr. 1 in sequence scaffold_1_396360-398079: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_35-T1 transcr. 1 in sequence scaffold_1_406569-408764: Initial exon does not begin with start codon but with cac
+gene g_35-T1 transcr. 1 in sequence scaffold_1_406569-408764: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_36-T1 transcr. 1 in sequence scaffold_1_408765-409972: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_162-T1 transcr. 1 in sequence scaffold_1_427147-429352: Initial exon has length < 3!
+gene g_213-T1 transcr. 1 in sequence scaffold_1_429587-431369: Initial exon does not begin with start codon but with cac
+gene g_40-T1 transcr. 1 in sequence scaffold_1_473209-477128: Initial exon does not begin with start codon but with aaa
+gene g_216-T1 transcr. 1 in sequence scaffold_1_481199-482091: Initial exon does not begin with start codon but with acc
+gene g_216-T1 transcr. 1 in sequence scaffold_1_481199-482091: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_41-T1 transcr. 1 in sequence scaffold_1_482092-483207: Initial exon does not begin with start codon but with tta
+gene g_355-T1 transcr. 1 in sequence scaffold_1_495665-497391: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_223-T1 transcr. 1 in sequence scaffold_1_542463-544050: Initial exon does not begin with start codon but with gta
+gene g_165-T1 transcr. 1 in sequence scaffold_1_545191-547691: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_354-T1 transcr. 1 in sequence scaffold_1_548496-550079: Initial exon does not begin with start codon but with gtt
+gene g_161-T1 transcr. 1 in sequence scaffold_1_561675-563657: Initial exon does not begin with start codon but with gct
+gene g_161-T1 transcr. 1 in sequence scaffold_1_561675-563657: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_224-T1 transcr. 1 in sequence scaffold_1_566419-569903: Initial exon does not begin with start codon but with aaa
+gene g_155-T1 transcr. 1 in sequence scaffold_1_569904-571484: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_358-T1 transcr. 1 in sequence scaffold_1_572014-573663: Initial exon does not begin with start codon but with atc
+gene g_358-T1 transcr. 1 in sequence scaffold_1_572014-573663: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_225-T1 transcr. 1 in sequence scaffold_1_577999-580433: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_226-T1 transcr. 1 in sequence scaffold_1_586100-589416: Initial exon does not begin with start codon but with atc
+gene g_227-T1 transcr. 1 in sequence scaffold_1_597136-601532: Initial exon does not begin with start codon but with tcc
+gene g_369-T1 transcr. 1 in sequence scaffold_1_616079-617427: Initial exon does not begin with start codon but with tgg
+gene g_369-T1 transcr. 1 in sequence scaffold_1_616079-617427: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_233-T1 transcr. 1 in sequence scaffold_1_673246-674685: Initial exon does not begin with start codon but with ccc
+gene g_233-T1 transcr. 1 in sequence scaffold_1_673246-674685: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_234-T1 transcr. 1 in sequence scaffold_1_676809-678942: Initial exon does not begin with start codon but with ggg
+gene g_237-T1 transcr. 1 in sequence scaffold_1_700895-702658: Initial exon does not begin with start codon but with ctc
+gene g_239-T1 transcr. 1 in sequence scaffold_1_710800-713508: Initial exon does not begin with start codon but with ggg
+gene g_56-T1 transcr. 1 in sequence scaffold_1_713550-715900: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_152-T1 transcr. 1 in sequence scaffold_1_750538-752222: Initial exon does not begin with start codon but with gac
+gene g_57-T1 transcr. 1 in sequence scaffold_1_758254-760041: Initial exon does not begin with start codon but with atc
+gene g_57-T1 transcr. 1 in sequence scaffold_1_758254-760041: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_59-T1 transcr. 1 in sequence scaffold_1_767767-769976: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_245-T1 transcr. 1 in sequence scaffold_1_769977-772029: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_246-T1 transcr. 1 in sequence scaffold_1_780567-783017: Initial exon does not begin with start codon but with cct
+gene g_247-T1 transcr. 1 in sequence scaffold_1_792199-793653: Initial exon does not begin with start codon but with ggt
+gene g_247-T1 transcr. 1 in sequence scaffold_1_792199-793653: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_179-T1 transcr. 1 in sequence scaffold_1_793654-795467: Initial exon does not begin with start codon but with gtg
+gene g_179-T1 transcr. 1 in sequence scaffold_1_793654-795467: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_250-T1 transcr. 1 in sequence scaffold_1_818029-820521: Initial exon does not begin with start codon but with atc
+gene g_168-T1 transcr. 1 in sequence scaffold_1_838438-839992: Initial exon does not begin with start codon but with tcc
+gene g_168-T1 transcr. 1 in sequence scaffold_1_838438-839992: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_64-T1 transcr. 1 in sequence scaffold_1_855862-857435: Initial exon does not begin with start codon but with gcg
+gene g_64-T1 transcr. 1 in sequence scaffold_1_855862-857435: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_65-T1 transcr. 1 in sequence scaffold_1_860327-862199: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_365-T1 transcr. 1 in sequence scaffold_1_871077-872100: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_257-T1 transcr. 1 in sequence scaffold_1_872101-876079: Initial exon does not begin with start codon but with caa
+gene g_181-T1 transcr. 1 in sequence scaffold_1_885412-886707: Initial exon does not begin with start codon but with tcc
+gene g_68-T1 transcr. 1 in sequence scaffold_1_910983-912268: Initial exon does not begin with start codon but with gac
+gene g_68-T1 transcr. 1 in sequence scaffold_1_910983-912268: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_154-T1 transcr. 1 in sequence scaffold_1_912269-913686: Initial exon does not begin with start codon but with ccc
+gene g_154-T1 transcr. 1 in sequence scaffold_1_912269-913686: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_360-T1 transcr. 1 in sequence scaffold_1_954253-959231: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_73-T1 transcr. 1 in sequence scaffold_1_965813-967550: Initial exon does not begin with start codon but with caa
+gene g_267-T1 transcr. 1 in sequence scaffold_1_981030-982290: Initial exon does not begin with start codon but with acc
+gene g_267-T1 transcr. 1 in sequence scaffold_1_981030-982290: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_269-T1 transcr. 1 in sequence scaffold_1_993374-995836: Initial exon does not begin with start codon but with ggc
+gene g_176-T1 transcr. 1 in sequence scaffold_1_995837-997237: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_270-T1 transcr. 1 in sequence scaffold_1_1009731-1012685: Initial exon does not begin with start codon but with aag
+gene g_81-T1 transcr. 1 in sequence scaffold_1_1043709-1045486: Initial exon does not begin with start codon but with gaa
+gene g_81-T1 transcr. 1 in sequence scaffold_1_1043709-1045486: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_361-T1 transcr. 1 in sequence scaffold_1_1066250-1068797: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_367-T1 transcr. 1 in sequence scaffold_1_1070046-1071721: Initial exon does not begin with start codon but with tac
+gene g_367-T1 transcr. 1 in sequence scaffold_1_1070046-1071721: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_82-T1 transcr. 1 in sequence scaffold_1_1087566-1089400: Initial exon does not begin with start codon but with ctc
+gene g_275-T1 transcr. 1 in sequence scaffold_1_1095416-1097088: Initial exon does not begin with start codon but with gag
+gene g_276-T1 transcr. 1 in sequence scaffold_1_1138520-1140962: Initial exon does not begin with start codon but with tcc
+gene g_277-T1 transcr. 1 in sequence scaffold_1_1147410-1149464: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_83-T1 transcr. 1 in sequence scaffold_1_1155141-1158043: Initial exon does not begin with start codon but with agc
+gene g_349-T1 transcr. 1 in sequence scaffold_1_1163872-1165535: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_281-T1 transcr. 1 in sequence scaffold_1_1184336-1186061: Initial exon does not begin with start codon but with tac
+gene g_286-T1 transcr. 1 in sequence scaffold_1_1230019-1232427: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_364-T1 transcr. 1 in sequence scaffold_1_1232428-1234231: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_92-T1 transcr. 1 in sequence scaffold_1_1245082-1247511: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_288-T1 transcr. 1 in sequence scaffold_1_1247512-1249329: Initial exon does not begin with start codon but with gtg
+gene g_288-T1 transcr. 1 in sequence scaffold_1_1247512-1249329: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_289-T1 transcr. 1 in sequence scaffold_1_1264022-1265896: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_290-T1 transcr. 1 in sequence scaffold_1_1265897-1267825: Initial exon does not begin with start codon but with aag
+gene g_153-T1 transcr. 1 in sequence scaffold_1_1269738-1271799: Initial exon does not begin with start codon but with aga
+gene g_291-T1 transcr. 1 in sequence scaffold_1_1271800-1272820: Initial exon does not begin with start codon but with ctc
+gene g_291-T1 transcr. 1 in sequence scaffold_1_1271800-1272820: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_95-T1 transcr. 1 in sequence scaffold_1_1272821-1274793: Initial exon does not begin with start codon but with cac
+gene g_96-T1 transcr. 1 in sequence scaffold_1_1274794-1276313: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_98-T1 transcr. 1 in sequence scaffold_1_1301317-1302976: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_295-T1 transcr. 1 in sequence scaffold_1_1311383-1314511: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_350-T1 transcr. 1 in sequence scaffold_1_1386255-1390064: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_303-T1 transcr. 1 in sequence scaffold_1_1399575-1401445: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_102-T1 transcr. 1 in sequence scaffold_1_1405976-1408060: Initial exon does not begin with start codon but with gaa
+gene g_102-T1 transcr. 1 in sequence scaffold_1_1405976-1408060: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_103-T1 transcr. 1 in sequence scaffold_1_1409363-1413122: Initial exon does not begin with start codon but with gaa
+gene g_173-T1 transcr. 1 in sequence scaffold_1_1413123-1414610: Initial exon does not begin with start codon but with cag
+gene g_173-T1 transcr. 1 in sequence scaffold_1_1413123-1414610: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_104-T1 transcr. 1 in sequence scaffold_1_1419317-1421175: Initial exon does not begin with start codon but with agc
+gene g_104-T1 transcr. 1 in sequence scaffold_1_1419317-1421175: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_305-T1 transcr. 1 in sequence scaffold_1_1421176-1423561: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_106-T1 transcr. 1 in sequence scaffold_1_1449668-1451719: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_309-T1 transcr. 1 in sequence scaffold_1_1463558-1466112: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_110-T1 transcr. 1 in sequence scaffold_1_1471448-1473303: Initial exon does not begin with start codon but with cgc
+gene g_110-T1 transcr. 1 in sequence scaffold_1_1471448-1473303: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_310-T1 transcr. 1 in sequence scaffold_1_1473304-1474611: Initial exon does not begin with start codon but with cat
+gene g_156-T1 transcr. 1 in sequence scaffold_1_1474612-1477922: Initial exon does not begin with start codon but with tac
+gene g_366-T1 transcr. 1 in sequence scaffold_1_1486974-1488548: Initial exon does not begin with start codon but with caa
+gene g_171-T1 transcr. 1 in sequence scaffold_1_1488549-1490095: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_312-T1 transcr. 1 in sequence scaffold_1_1504945-1507428: Initial exon does not begin with start codon but with cag
+gene g_353-T1 transcr. 1 in sequence scaffold_1_1516986-1519926: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_316-T1 transcr. 1 in sequence scaffold_1_1532056-1535651: Initial exon does not begin with start codon but with gca
+gene g_316-T1 transcr. 1 in sequence scaffold_1_1532056-1535651: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_317-T1 transcr. 1 in sequence scaffold_1_1571105-1573414: Initial exon does not begin with start codon but with cga
+gene g_114-T1 transcr. 1 in sequence scaffold_1_1585405-1587538: Initial exon does not begin with start codon but with ggc
+gene g_115-T1 transcr. 1 in sequence scaffold_1_1592331-1594831: Initial exon does not begin with start codon but with agg
+gene g_116-T1 transcr. 1 in sequence scaffold_1_1594832-1596300: Initial exon does not begin with start codon but with cac
+gene g_322-T1 transcr. 1 in sequence scaffold_1_1633536-1636479: Initial exon does not begin with start codon but with ttc
+gene g_174-T1 transcr. 1 in sequence scaffold_1_1636480-1638035: Initial exon does not begin with start codon but with tcc
+gene g_174-T1 transcr. 1 in sequence scaffold_1_1636480-1638035: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_170-T1 transcr. 1 in sequence scaffold_1_1638209-1640232: Initial exon does not begin with start codon but with aac
+gene g_121-T1 transcr. 1 in sequence scaffold_1_1641515-1645402: Initial exon does not begin with start codon but with ctc
+gene g_121-T1 transcr. 1 in sequence scaffold_1_1641515-1645402: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_122-T1 transcr. 1 in sequence scaffold_1_1648710-1652029: Initial exon does not begin with start codon but with ccc
+gene g_123-T1 transcr. 1 in sequence scaffold_1_1663134-1664802: Initial exon does not begin with start codon but with ccg
+gene g_126-T1 transcr. 1 in sequence scaffold_1_1682936-1685302: Initial exon does not begin with start codon but with ggt
+gene g_133-T1 transcr. 1 in sequence scaffold_1_1720273-1722315: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_326-T1 transcr. 1 in sequence scaffold_1_1731084-1733399: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_134-T1 transcr. 1 in sequence scaffold_1_1741773-1743873: Initial exon does not begin with start codon but with aga
+gene g_136-T1 transcr. 1 in sequence scaffold_1_1764001-1765840: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_332-T1 transcr. 1 in sequence scaffold_1_1793148-1794535: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_137-T1 transcr. 1 in sequence scaffold_1_1818729-1820218: Initial exon does not begin with start codon but with aaa
+gene g_357-T1 transcr. 1 in sequence scaffold_1_1822713-1824741: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_138-T1 transcr. 1 in sequence scaffold_1_1828076-1830127: Initial exon does not begin with start codon but with aaa
+gene g_138-T1 transcr. 1 in sequence scaffold_1_1828076-1830127: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_139-T1 transcr. 1 in sequence scaffold_1_1834960-1837327: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_140-T1 transcr. 1 in sequence scaffold_1_1839567-1842497: Initial exon does not begin with start codon but with gct
+gene g_339-T1 transcr. 1 in sequence scaffold_1_1860705-1862178: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_141-T1 transcr. 1 in sequence scaffold_1_1862179-1865235: Initial exon does not begin with start codon but with aat
+gene g_359-T1 transcr. 1 in sequence scaffold_1_1867881-1870933: Initial exon does not begin with start codon but with cgt
+gene g_359-T1 transcr. 1 in sequence scaffold_1_1867881-1870933: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_143-T1 transcr. 1 in sequence scaffold_1_1879425-1881923: Initial exon does not begin with start codon but with att
+gene g_143-T1 transcr. 1 in sequence scaffold_1_1879425-1881923: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_341-T1 transcr. 1 in sequence scaffold_1_1883657-1885038: Initial exon does not begin with start codon but with gca
+gene g_341-T1 transcr. 1 in sequence scaffold_1_1883657-1885038: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_342-T1 transcr. 1 in sequence scaffold_1_1885039-1886551: Initial exon does not begin with start codon but with caa
+gene g_146-T1 transcr. 1 in sequence scaffold_1_1901709-1903903: Initial exon does not begin with start codon but with gtc
+gene g_147-T1 transcr. 1 in sequence scaffold_1_1903904-1905259: Initial exon does not begin with start codon but with tca
+gene g_180-T1 transcr. 1 in sequence scaffold_1_1905260-1907488: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_368-T1 transcr. 1 in sequence scaffold_1_1911350-1913643: Initial exon does not begin with start codon but with ata
+gene g_148-T1 transcr. 1 in sequence scaffold_1_1920056-1922591: Initial exon does not begin with start codon but with aac
+gene g_346-T1 transcr. 1 in sequence scaffold_1_1931137-1933372: Initial exon does not begin with start codon but with gcc
+gene g_347-T1 transcr. 1 in sequence scaffold_1_1956420-1960390: Initial exon does not begin with start codon but with cag
+start codon frequencies: ATG(261), CTG(3), TTG(5)
+# admissible start codons and their probabilities: ATG(0.97), CTG(0.0112), TTG(0.0186)
+ number of bases in the reading frames: 131159 131443 131470
+--- frame = 0 ---    minPatSum = 233
+--- frame = 1 ---    minPatSum = 233
+--- frame = 2 ---    minPatSum = 233
+--- initial frame = 0 ---    minPatSum = 233
+--- initial frame = 1 ---    minPatSum = 233
+--- initial frame = 2 ---    minPatSum = 233
+--- internal exon terminal frame = 0 ---    minPatSum = 233
+--- internal exon terminal frame = 1 ---    minPatSum = 233
+--- internal exon terminal frame = 2 ---    minPatSum = 233
+single, initial, internal, terminal mean exon lengths :
+n.a.	267	308	456
+single exon : 0
+initial exon 0 : 110
+initial exon 1 : 94
+initial exon 2 : 65
+internal exon 0 : 160
+internal exon 1 : 140
+internal exon 2 : 105
+terminal exon : 285
+Frequency of stop codons:
+tag:   81 (0.284)
+taa:   92 (0.323)
+tga:  112 (0.393)
+end *EXON*
+Storing parameters to file...
+Writing exon model parameters [1] to file /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_exon_probs.pbl.
+Splitting training file into 8 buckets...
+WARNING: parameter --cpus has value 16 but parameter --kfold has value 8. --kfold limits the number of --cpus that can be used. Will use only 8 CPUs. Please abort and restart with --kfold=16 to really use that number of CPUs!
+Reading in the meta parameters used for optimization from /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/generic/generic_metapars.cfg...
+Reading in the starting meta parameters from /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 8 6 4 1 2 5 7 3 
+starting accuracy: 0.9165, 0.8836, 0.6104, 0.6193, 0.3083, 0.3152, -1.00, -1.00, starting target: 0.6809
+improving parameter /Constant/dss_end curently set to 4
+1-4
+/Constant/dss_end: checking values 1	2	3	4
+bucket 8 6 5 7 3 2 4 1 
+bucket 3 8 6 7 1 5 4 2 
+bucket 8 3 7 4 6 2 1 5 
+retrieve accuracy from previous computation
+values  1	2	3	4
+targets 0.6326	0.6598	0.6606	0.6809
+improving parameter /Constant/dss_start curently set to 3
+1-3
+/Constant/dss_start: checking values 1	2	3
+bucket 3 8 4 6 5 7 1 2 
+found improvement: 0.9180, 0.8776, 0.6379, 0.6199, 0.3221, 0.3256, -1.00, -1.00, optimal target: 0.6882
+changing /Constant/dss_start to 1
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	3
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	30
+/IntronModel/d	100
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	2
+/Constant/trans_init_window	20
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 3 8 6 2 7 4 5 1 
+retrieve accuracy from previous computation
+values  1	2	3
+targets 0.6882	0.6814	0.6809
+improving parameter /Constant/ass_start curently set to 3
+1-3
+/Constant/ass_start: checking values 1	2	3
+bucket 8 3 4 6 2 5 7 1 
+found improvement: 0.9221, 0.8756, 0.6630, 0.6298, 0.3221, 0.3242, -1.00, -1.00, optimal target: 0.6954
+changing /Constant/ass_start to 1
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	1
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	30
+/IntronModel/d	100
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	2
+/Constant/trans_init_window	20
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 3 7 1 2 4 8 6 5 
+found improvement: 0.9197, 0.8771, 0.6587, 0.6355, 0.3360, 0.3381, -1.00, -1.00, optimal target: 0.6983
+changing /Constant/ass_start to 2
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	30
+/IntronModel/d	100
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	2
+/Constant/trans_init_window	20
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+retrieve accuracy from previous computation
+values  1	2	3
+targets 0.6954	0.6983	0.6882
+/Constant/ass_start: checking values 2
+retrieve accuracy from previous computation
+values  2
+targets 0.6983
+improving parameter /Constant/ass_end curently set to 2
+0-4
+/Constant/ass_end: checking values 0	1	2	3	4
+bucket 5 8 6 7 3 4 2 1 
+bucket 3 4 8 2 7 6 1 5 
+retrieve accuracy from previous computation
+bucket 3 8 7 2 4 5 6 1 
+bucket 3 8 6 4 1 2 7 5 
+values  0	1	2	3	4
+targets 0.6940	0.6977	0.6983	0.6874	0.6803
+improving parameter /Constant/ass_upwindow_size curently set to 30
+1-50
+/Constant/ass_upwindow_size: checking values 1	13	25	37	50
+bucket 3 7 1 6 8 4 5 2 
+bucket 3 8 7 4 6 1 5 2 
+bucket 3 8 6 7 2 4 5 1 
+found improvement: 0.9206, 0.8769, 0.6635, 0.6426, 0.3499, 0.3520, -1.00, -1.00, optimal target: 0.7036
+changing /Constant/ass_upwindow_size to 25
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	25
+/IntronModel/d	100
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	2
+/Constant/trans_init_window	20
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 3 7 6 8 2 4 1 5 
+found improvement: 0.9230, 0.8805, 0.6590, 0.6454, 0.3498, 0.3551, -1.00, -1.00, optimal target: 0.7045
+changing /Constant/ass_upwindow_size to 37
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	100
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	2
+/Constant/trans_init_window	20
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 3 8 4 2 7 6 5 1 
+values  1	13	25	37	50
+targets 0.6746	0.6897	0.7036	0.7045	0.5877
+/Constant/ass_upwindow_size: checking values 25	31	37	43	49
+retrieve accuracy from previous computation
+bucket 3 8 6 2 5 7 1 4 
+retrieve accuracy from previous computation
+bucket 3 8 6 7 4 2 5 1 
+bucket 8 1 4 7 3 6 2 5 
+values  25	31	37	43	49
+targets 0.7036	0.6991	0.7045	0.6652	0.5940
+improving parameter /IntronModel/d curently set to 100
+100-950
+/IntronModel/d: checking values 100	312	525	737	950
+retrieve accuracy from previous computation
+bucket 3 7 8 4 6 1 2 5 
+found improvement: 0.9234, 0.8812, 0.6679, 0.6554, 0.3498, 0.3551, -1.00, -1.00, optimal target: 0.7084
+changing /IntronModel/d to 312
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	3
+/ExonModel/tis_motif_radius	2
+/Constant/trans_init_window	20
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 4 7 3 8 5 6 2 1 
+bucket 3 8 6 2 5 4 7 1 
+bucket 3 8 5 2 4 1 6 7 
+values  100	312	525	737	950
+targets 0.7045	0.7084	0.6940	0.6978	0.6963
+/IntronModel/d: checking values 101	206	312	418	524
+bucket 8 3 7 4 5 1 6 2 
+bucket 3 4 6 2 8 1 7 5 
+retrieve accuracy from previous computation
+bucket 8 6 4 7 3 5 2 1 
+bucket 3 8 6 7 2 5 4 1 
+values  101	206	312	418	524
+targets 0.7045	0.7084	0.7084	0.7084	0.6940
+improving parameter /IntronModel/ass_motif_memory curently set to 3
+0-3
+/IntronModel/ass_motif_memory: checking values 0	1	2	3
+bucket 8 3 6 2 1 7 4 5 
+bucket 8 3 2 7 5 4 1 6 
+bucket 3 8 1 6 2 5 7 4 
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.6997	0.6865	0.6996	0.7084
+improving parameter /IntronModel/ass_motif_radius curently set to 3
+0-4
+/IntronModel/ass_motif_radius: checking values 0	1	2	3	4
+bucket 3 8 6 4 5 1 7 2 
+bucket 3 8 7 4 2 5 1 6 
+bucket 3 2 7 6 8 4 1 5 
+retrieve accuracy from previous computation
+bucket 3 4 7 6 1 8 5 2 
+values  0	1	2	3	4
+targets 0.7000	0.7033	0.7060	0.7084	0.7029
+improving parameter /ExonModel/tis_motif_memory curently set to 3
+0-3
+/ExonModel/tis_motif_memory: checking values 0	1	2	3
+bucket 8 7 3 4 2 6 5 1 
+found improvement: 0.9336, 0.8746, 0.6679, 0.6506, 0.3636, 0.3676, -1.00, -1.00, optimal target: 0.7106
+changing /ExonModel/tis_motif_memory to 0
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	0
+/ExonModel/tis_motif_radius	2
+/Constant/trans_init_window	20
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 3 8 7 6 2 1 4 5 
+found improvement: 0.9336, 0.8762, 0.6679, 0.6540, 0.3636, 0.3676, -1.00, -1.00, optimal target: 0.7115
+changing /ExonModel/tis_motif_memory to 1
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	1
+/ExonModel/tis_motif_radius	2
+/Constant/trans_init_window	20
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 3 8 7 1 4 2 6 5 
+found improvement: 0.9342, 0.8761, 0.6718, 0.6579, 0.3761, 0.3801, -1.00, -1.00, optimal target: 0.7157
+changing /ExonModel/tis_motif_memory to 2
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	2
+/ExonModel/tis_motif_radius	2
+/Constant/trans_init_window	20
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7106	0.7115	0.7157	0.7084
+/ExonModel/tis_motif_memory: checking values 2
+retrieve accuracy from previous computation
+values  2
+targets 0.7157
+improving parameter /ExonModel/tis_motif_radius curently set to 2
+0-3
+/ExonModel/tis_motif_radius: checking values 0	1	2	3
+bucket 3 8 4 2 6 1 7 5 
+bucket 7 8 6 5 4 3 1 2 
+retrieve accuracy from previous computation
+bucket 8 3 6 2 7 1 4 5 
+found improvement: 0.9256, 0.8827, 0.6764, 0.6686, 0.3761, 0.3854, -1.00, -1.00, optimal target: 0.7190
+changing /ExonModel/tis_motif_radius to 3
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	2
+/ExonModel/tis_motif_radius	3
+/Constant/trans_init_window	20
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+values  0	1	2	3
+targets 0.7080	0.7123	0.7157	0.7190
+/ExonModel/tis_motif_radius: checking values 3
+retrieve accuracy from previous computation
+values  3
+targets 0.7190
+improving parameter /Constant/trans_init_window curently set to 20
+0-25
+/Constant/trans_init_window: checking values 0	6	12	18	25
+bucket 8 3 7 2 5 6 1 4 
+bucket 8 3 2 1 5 7 4 6 
+found improvement: 0.9262, 0.8835, 0.6770, 0.6703, 0.3886, 0.4010, -1.00, -1.00, optimal target: 0.7224
+changing /Constant/trans_init_window to 6
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	2
+/ExonModel/tis_motif_radius	3
+/Constant/trans_init_window	6
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 3 2 4 8 1 7 6 5 
+bucket 3 8 6 2 4 7 5 1 
+found improvement: 0.9260, 0.8831, 0.6807, 0.6754, 0.3901, 0.3979, -1.00, -1.00, optimal target: 0.7239
+changing /Constant/trans_init_window to 18
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	2
+/ExonModel/tis_motif_radius	3
+/Constant/trans_init_window	18
+/Constant/init_coding_len	15
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 3 8 7 2 5 1 6 4 
+values  0	6	12	18	25
+targets 0.7071	0.7224	0.7203	0.7239	0.7139
+/Constant/trans_init_window: checking values 12	15	18	21	24
+retrieve accuracy from previous computation
+bucket 6 2 8 7 3 4 5 1 
+retrieve accuracy from previous computation
+bucket 3 8 7 2 4 5 6 1 
+bucket 4 6 3 8 7 2 1 5 
+values  12	15	18	21	24
+targets 0.7203	0.7239	0.7239	0.7176	0.7195
+improving parameter /Constant/init_coding_len curently set to 15
+0-18
+/Constant/init_coding_len: checking values 0	4	9	13	18
+bucket 3 4 8 1 5 6 2 7 
+bucket 8 3 7 5 4 6 2 1 
+bucket 3 8 2 7 4 6 1 5 
+bucket 2 8 6 7 3 1 5 4 
+found improvement: 0.9260, 0.8832, 0.6807, 0.6754, 0.3901, 0.3979, -1.00, -1.00, optimal target: 0.7240
+changing /Constant/init_coding_len to 13
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	2
+/ExonModel/tis_motif_radius	3
+/Constant/trans_init_window	18
+/Constant/init_coding_len	13
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.3
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 7 1 8 3 5 2 6 4 
+values  0	4	9	13	18
+targets 0.7054	0.7081	0.7181	0.7240	0.7240
+/Constant/init_coding_len: checking values 9	11	13	15	17
+retrieve accuracy from previous computation
+bucket 5 6 3 4 8 7 1 2 
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+bucket 8 3 6 7 4 1 5 2 
+values  9	11	13	15	17
+targets 0.7181	0.7133	0.7240	0.7239	0.7239
+improving parameter /ExonModel/patpseudocount curently set to 5.0
+0.5-5
+/ExonModel/patpseudocount: checking values 0.5	1.625	2.75	3.875	5
+bucket 3 4 8 7 6 5 2 1 
+bucket 3 2 8 7 6 5 4 1 
+bucket 3 6 8 7 4 5 1 2 
+bucket 3 8 6 2 7 5 4 1 
+bucket 3 2 6 8 7 4 5 1 
+values  0.5	1.625	2.75	3.875	5
+targets 0.7116	0.7117	0.7116	0.7181	0.7240
+improving parameter /ExonModel/etpseudocount curently set to 3
+0-10
+/ExonModel/etpseudocount: checking values 0	2	5	7	10
+bucket 3 7 6 4 1 8 5 2 
+bucket 3 8 7 6 2 5 4 1 
+bucket 3 8 6 7 5 1 2 4 
+bucket 3 8 4 2 6 5 7 1 
+bucket 3 8 6 4 5 1 2 7 
+values  0	2	5	7	10
+targets 0.7240	0.7240	0.7240	0.7240	0.7240
+improving parameter /ExonModel/etorder curently set to 2
+0-3
+/ExonModel/etorder: checking values 0	1	2	3
+bucket 3 8 7 4 1 5 6 2 
+bucket 3 8 1 7 4 2 5 6 
+retrieve accuracy from previous computation
+bucket 2 6 5 4 3 8 7 1 
+values  0	1	2	3
+targets 0.7240	0.7240	0.7240	0.7240
+improving parameter /Constant/intterm_coding_len curently set to 5
+0-13
+/Constant/intterm_coding_len: checking values 0	3	6	9	13
+bucket 8 3 6 7 2 4 5 1 
+bucket 3 8 2 7 6 5 4 1 
+bucket 8 3 6 2 4 7 1 5 
+bucket 3 8 7 2 4 6 1 5 
+bucket 8 3 5 7 4 2 6 1 
+values  0	3	6	9	13
+targets 0.7182	0.7185	0.7240	0.7132	0.7076
+improving parameter /ExonModel/slope_of_bandwidth curently set to 0.3
+0.05-0.6
+/ExonModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+bucket 3 8 7 6 4 2 5 1 
+found improvement: 0.9260, 0.8850, 0.6807, 0.6754, 0.3901, 0.3979, -1.00, -1.00, optimal target: 0.7242
+changing /ExonModel/slope_of_bandwidth to 0.05
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	2
+/ExonModel/tis_motif_radius	3
+/Constant/trans_init_window	18
+/Constant/init_coding_len	13
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.05
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.0005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 2 3 4 6 1 8 7 5 
+bucket 3 7 8 6 2 4 1 5 
+bucket 3 8 4 7 2 5 1 6 
+bucket 3 4 8 7 2 1 6 5 
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.7242	0.7240	0.7240	0.7240	0.7183
+/ExonModel/slope_of_bandwidth: checking values 0.05	0.084375	0.11875	0.153125	0.1875
+retrieve accuracy from previous computation
+bucket 3 4 8 6 7 5 2 1 
+bucket 8 3 6 2 7 5 1 4 
+bucket 3 8 2 7 4 5 1 6 
+retrieve accuracy from previous computation
+values  0.05	0.084375	0.11875	0.153125	0.1875
+targets 0.7242	0.7242	0.7242	0.7240	0.7240
+improving parameter /ExonModel/minwindowcount curently set to 10
+1-15
+/ExonModel/minwindowcount: checking values 1	4	8	11	15
+bucket 3 7 4 6 2 1 8 5 
+bucket 8 3 7 6 5 1 2 4 
+bucket 7 8 5 4 2 1 3 6 
+bucket 8 4 7 3 5 6 2 1 
+bucket 3 8 2 4 5 7 6 1 
+values  1	4	8	11	15
+targets 0.7049	0.7117	0.7183	0.7240	0.7240
+improving parameter /IGenicModel/patpseudocount curently set to 5.0
+0.5-7
+/IGenicModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+bucket 6 3 4 7 8 2 1 5 
+bucket 4 3 7 8 1 6 5 2 
+bucket 8 3 2 6 5 1 4 7 
+bucket 2 3 4 8 7 5 6 1 
+bucket 8 7 4 3 6 1 2 5 
+values  0.5	2.125	3.75	5.375	7
+targets 0.7242	0.7242	0.7242	0.7242	0.7242
+improving parameter /IntronModel/patpseudocount curently set to 5.0
+0.5-7
+/IntronModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+bucket 3 5 8 4 2 1 7 6 
+bucket 3 1 8 7 4 6 5 2 
+bucket 3 5 7 8 2 1 6 4 
+bucket 3 8 4 7 2 6 5 1 
+bucket 3 8 2 6 1 7 4 5 
+values  0.5	2.125	3.75	5.375	7
+targets 0.7242	0.7242	0.7242	0.7242	0.7242
+improving parameter /IntronModel/slope_of_bandwidth curently set to 0.4
+0.05-0.6
+/IntronModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+bucket 3 8 6 2 7 4 1 5 
+bucket 3 8 2 4 6 7 1 5 
+bucket 8 3 7 5 2 4 6 1 
+bucket 8 3 7 4 2 5 6 1 
+bucket 2 6 3 4 1 8 7 5 
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.7242	0.7242	0.7242	0.7242	0.7242
+improving parameter /IntronModel/minwindowcount curently set to 4
+1-8
+/IntronModel/minwindowcount: checking values 1	2	4	6	8
+bucket 3 8 7 6 2 5 4 1 
+bucket 3 7 8 4 5 6 1 2 
+retrieve accuracy from previous computation
+bucket 3 8 7 6 4 5 2 1 
+bucket 2 4 3 8 7 6 5 1 
+values  1	2	4	6	8
+targets 0.7242	0.7242	0.7242	0.7242	0.7242
+improving parameter /IntronModel/asspseudocount curently set to 0.00266
+0.0005-0.03
+/IntronModel/asspseudocount: checking values 0.0005	0.007875	0.01525	0.022625	0.03
+bucket 3 7 4 6 2 5 8 1 
+bucket 3 8 4 1 7 6 2 5 
+bucket 3 8 7 4 1 6 5 2 
+bucket 3 8 6 5 7 1 4 2 
+bucket 8 3 2 4 5 1 7 6 
+values  0.0005	0.007875	0.01525	0.022625	0.03
+targets 0.7242	0.7242	0.7242	0.7242	0.7242
+improving parameter /IntronModel/dsspseudocount curently set to 0.0005
+0.0002-0.04
+/IntronModel/dsspseudocount: checking values 0.0002	0.01015	0.0201	0.03005	0.04
+bucket 3 8 7 2 6 4 5 1 
+bucket 3 8 6 1 4 5 7 2 
+bucket 3 6 8 2 7 4 1 5 
+bucket 3 7 4 5 6 8 1 2 
+found improvement: 0.9280, 0.8869, 0.6854, 0.6705, 0.3901, 0.3979, -1.00, -1.00, optimal target: 0.7248
+changing /IntronModel/dsspseudocount to 0.03005
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	2
+/ExonModel/tis_motif_radius	3
+/Constant/trans_init_window	18
+/Constant/init_coding_len	13
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.05
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.03005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	233.3
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 3 2 8 4 6 1 7 5 
+values  0.0002	0.01015	0.0201	0.03005	0.04
+targets 0.7242	0.7242	0.7233	0.7248	0.7245
+/IntronModel/dsspseudocount: checking values 0.0201	0.025075	0.03005	0.035025	0.04
+retrieve accuracy from previous computation
+bucket 3 8 6 4 7 1 2 5 
+retrieve accuracy from previous computation
+bucket 8 3 5 7 2 1 6 4 
+retrieve accuracy from previous computation
+values  0.0201	0.025075	0.03005	0.035025	0.04
+targets 0.7233	0.7233	0.7248	0.7245	0.7245
+improving parameter /IntronModel/dssneighborfactor curently set to 0.00173
+0.0001-0.01
+/IntronModel/dssneighborfactor: checking values 0.0001	0.002575	0.00505	0.007525	0.01
+bucket 3 6 8 5 4 1 7 2 
+bucket 4 2 3 8 7 6 5 1 
+bucket 3 8 4 7 2 5 6 1 
+bucket 3 8 1 2 6 4 7 5 
+bucket 3 8 7 4 2 6 5 1 
+values  0.0001	0.002575	0.00505	0.007525	0.01
+targets 0.7233	0.7245	0.7239	0.7239	0.7239
+improving parameter /ExonModel/minPatSum curently set to 233.3
+100-600
+/ExonModel/minPatSum: checking values 100	225	350	475	600
+bucket 8 6 3 2 4 7 5 1 
+bucket 8 3 7 4 1 5 6 2 
+found improvement: 0.9280, 0.8838, 0.6854, 0.6739, 0.3901, 0.3979, -1.00, -1.00, optimal target: 0.7250
+changing /ExonModel/minPatSum to 225
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	2
+/ExonModel/tis_motif_radius	3
+/Constant/trans_init_window	18
+/Constant/init_coding_len	13
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.05
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.03005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	225
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+bucket 8 3 7 4 6 1 5 2 
+bucket 8 3 7 5 4 6 2 1 
+bucket 3 8 7 6 2 4 1 5 
+values  100	225	350	475	600
+targets 0.7191	0.7250	0.7040	0.7012	0.7051
+/ExonModel/minPatSum: checking values 100	162.5	225	287.5	350
+retrieve accuracy from previous computation
+bucket 8 3 6 7 2 4 5 1 
+retrieve accuracy from previous computation
+bucket 3 8 7 6 2 5 4 1 
+retrieve accuracy from previous computation
+values  100	162.5	225	287.5	350
+targets 0.7191	0.7244	0.7250	0.7111	0.7040
+improving parameter /Constant/probNinCoding curently set to 0.23
+0.15-.25
+/Constant/probNinCoding: checking values 0.15	0.175	0.2	0.225	0.25
+bucket 3 8 6 7 2 4 5 1 
+bucket 3 8 2 4 6 5 7 1 
+bucket 6 3 7 8 2 4 1 5 
+bucket 2 4 8 7 1 3 6 5 
+bucket 3 7 8 2 6 4 1 5 
+values  0.15	0.175	0.2	0.225	0.25
+targets 0.7250	0.7250	0.7250	0.7250	0.7250
+improving parameter /Constant/decomp_num_steps curently set to 1
+1-5
+/Constant/decomp_num_steps: checking values 1	2	3	4	5
+retrieve accuracy from previous computation
+bucket 3 8 7 2 4 6 5 1 
+bucket 3 5 2 8 4 7 6 1 
+bucket 3 6 4 8 7 5 2 1 
+bucket 3 6 7 4 1 8 5 2 
+values  1	2	3	4	5
+targets 0.7250	0.7011	0.7076	0.7088	0.7066
+improving parameter /Constant/dss_end curently set to 4
+1-4
+/Constant/dss_end: checking values 1	2	3	4
+bucket 8 3 2 6 7 1 5 4 
+bucket 3 8 4 6 7 2 5 1 
+bucket 3 8 1 4 2 7 6 5 
+retrieve accuracy from previous computation
+values  1	2	3	4
+targets 0.6640	0.6820	0.7051	0.7250
+improving parameter /Constant/dss_start curently set to 1
+1-3
+/Constant/dss_start: checking values 1	2	3
+retrieve accuracy from previous computation
+bucket 2 1 5 3 7 8 4 6 
+bucket 7 3 8 4 5 6 1 2 
+values  1	2	3
+targets 0.7250	0.7173	0.6830
+improving parameter /Constant/ass_start curently set to 2
+1-3
+/Constant/ass_start: checking values 1	2	3
+bucket 3 8 6 4 7 2 1 5 
+retrieve accuracy from previous computation
+bucket 3 7 8 6 1 4 5 2 
+values  1	2	3
+targets 0.7215	0.7250	0.6891
+improving parameter /Constant/ass_end curently set to 2
+0-4
+/Constant/ass_end: checking values 0	1	2	3	4
+bucket 6 2 8 3 7 4 1 5 
+bucket 3 2 6 4 8 5 7 1 
+retrieve accuracy from previous computation
+bucket 3 8 4 5 7 6 2 1 
+bucket 3 7 8 2 4 1 5 6 
+values  0	1	2	3	4
+targets 0.7113	0.7119	0.7250	0.6922	0.6888
+improving parameter /Constant/ass_upwindow_size curently set to 37
+1-50
+/Constant/ass_upwindow_size: checking values 1	13	25	37	50
+bucket 3 8 7 5 6 4 2 1 
+bucket 3 7 6 8 5 1 4 2 
+bucket 8 6 4 2 7 3 5 1 
+retrieve accuracy from previous computation
+bucket 3 8 1 2 4 5 7 6 
+values  1	13	25	37	50
+targets 0.6982	0.7036	0.7142	0.7250	0.5909
+improving parameter /IntronModel/d curently set to 312
+100-950
+/IntronModel/d: checking values 100	312	525	737	950
+bucket 3 8 2 1 4 5 6 7 
+retrieve accuracy from previous computation
+bucket 7 8 3 6 4 1 2 5 
+bucket 8 3 4 6 5 1 7 2 
+bucket 8 3 1 7 4 6 2 5 
+values  100	312	525	737	950
+targets 0.7185	0.7250	0.7163	0.7114	0.7122
+improving parameter /IntronModel/ass_motif_memory curently set to 3
+0-3
+/IntronModel/ass_motif_memory: checking values 0	1	2	3
+bucket 5 3 1 8 2 6 7 4 
+bucket 3 6 7 1 5 2 8 4 
+bucket 3 8 7 6 4 5 2 1 
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7109	0.7061	0.7130	0.7250
+improving parameter /IntronModel/ass_motif_radius curently set to 3
+0-4
+/IntronModel/ass_motif_radius: checking values 0	1	2	3	4
+bucket 3 8 4 7 1 6 2 5 
+bucket 3 8 5 6 4 1 2 7 
+bucket 8 7 6 4 5 1 3 2 
+retrieve accuracy from previous computation
+bucket 3 7 6 5 2 1 4 8 
+values  0	1	2	3	4
+targets 0.7096	0.7052	0.7143	0.7250	0.7161
+improving parameter /ExonModel/tis_motif_memory curently set to 2
+0-3
+/ExonModel/tis_motif_memory: checking values 0	1	2	3
+bucket 3 8 6 7 5 2 4 1 
+bucket 3 8 7 4 6 2 1 5 
+retrieve accuracy from previous computation
+bucket 3 8 1 7 6 4 2 5 
+values  0	1	2	3
+targets 0.7113	0.7206	0.7250	0.7081
+improving parameter /ExonModel/tis_motif_radius curently set to 3
+0-3
+/ExonModel/tis_motif_radius: checking values 0	1	2	3
+bucket 3 5 8 7 2 6 1 4 
+bucket 3 8 7 5 1 2 4 6 
+bucket 3 8 6 7 5 2 4 1 
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7086	0.7139	0.7250	0.7250
+improving parameter /Constant/trans_init_window curently set to 18
+0-25
+/Constant/trans_init_window: checking values 0	6	12	18	25
+bucket 3 8 6 1 7 2 4 5 
+bucket 3 8 6 7 2 1 4 5 
+bucket 2 4 3 7 1 8 5 6 
+retrieve accuracy from previous computation
+bucket 3 8 1 7 6 4 2 5 
+values  0	6	12	18	25
+targets 0.7100	0.7163	0.7213	0.7250	0.7149
+improving parameter /Constant/init_coding_len curently set to 13
+0-18
+/Constant/init_coding_len: checking values 0	4	9	13	18
+bucket 3 4 8 2 5 7 6 1 
+bucket 3 8 2 1 6 5 7 4 
+bucket 3 8 4 6 2 1 5 7 
+found improvement: 0.9280, 0.8832, 0.6854, 0.6769, 0.3901, 0.3979, -1.00, -1.00, optimal target: 0.7255
+changing /Constant/init_coding_len to 9
+/Constant/dss_end	4
+/Constant/dss_start	1
+/Constant/ass_start	2
+/Constant/ass_end	2
+/Constant/ass_upwindow_size	37
+/IntronModel/d	312
+/IntronModel/ass_motif_memory	3
+/IntronModel/ass_motif_radius	3
+/ExonModel/tis_motif_memory	2
+/ExonModel/tis_motif_radius	3
+/Constant/trans_init_window	18
+/Constant/init_coding_len	9
+/ExonModel/patpseudocount	5.0
+/ExonModel/etpseudocount	3
+/ExonModel/etorder	2
+/Constant/intterm_coding_len	5
+/ExonModel/slope_of_bandwidth	0.05
+/ExonModel/minwindowcount	10
+/IGenicModel/patpseudocount	5.0
+/IntronModel/patpseudocount	5.0
+/IntronModel/slope_of_bandwidth	0.4
+/IntronModel/minwindowcount	4
+/IntronModel/asspseudocount	0.00266
+/IntronModel/dsspseudocount	0.03005
+/IntronModel/dssneighborfactor	0.00173
+/ExonModel/minPatSum	225
+/Constant/probNinCoding	0.23
+/Constant/decomp_num_steps	1
+Writing new parameters to /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_parameters.cfg...
+retrieve accuracy from previous computation
+bucket 3 1 2 8 6 5 4 7 
+values  0	4	9	13	18
+targets 0.7125	0.7148	0.7255	0.7250	0.7246
+/Constant/init_coding_len: checking values 5	7	9	11	13
+bucket 3 8 4 5 2 1 7 6 
+bucket 3 7 8 2 4 6 1 5 
+retrieve accuracy from previous computation
+bucket 6 8 3 2 1 7 5 4 
+retrieve accuracy from previous computation
+values  5	7	9	11	13
+targets 0.7181	0.7244	0.7255	0.7143	0.7250
+improving parameter /ExonModel/patpseudocount curently set to 5.0
+0.5-5
+/ExonModel/patpseudocount: checking values 0.5	1.625	2.75	3.875	5
+bucket 3 8 7 6 4 5 2 1 
+bucket 3 6 8 7 4 2 5 1 
+bucket 3 1 2 4 8 7 6 5 
+bucket 3 6 8 4 2 5 7 1 
+bucket 3 7 1 4 8 2 5 6 
+values  0.5	1.625	2.75	3.875	5
+targets 0.7053	0.7107	0.7175	0.7191	0.7255
+improving parameter /ExonModel/etpseudocount curently set to 3
+0-10
+/ExonModel/etpseudocount: checking values 0	2	5	7	10
+bucket 3 4 1 8 2 7 6 5 
+bucket 6 8 5 3 4 7 2 1 
+bucket 3 7 8 6 5 4 1 2 
+bucket 3 7 4 8 5 1 6 2 
+bucket 3 8 2 7 5 6 1 4 
+values  0	2	5	7	10
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /ExonModel/etorder curently set to 2
+0-3
+/ExonModel/etorder: checking values 0	1	2	3
+bucket 3 2 8 7 6 5 4 1 
+bucket 6 4 3 7 8 1 5 2 
+retrieve accuracy from previous computation
+bucket 3 8 2 4 5 6 7 1 
+values  0	1	2	3
+targets 0.7255	0.7255	0.7255	0.7255
+improving parameter /Constant/intterm_coding_len curently set to 5
+0-13
+/Constant/intterm_coding_len: checking values 0	3	6	9	13
+bucket 7 3 8 1 6 4 2 5 
+bucket 3 8 6 4 2 5 7 1 
+bucket 8 3 7 4 6 1 5 2 
+bucket 3 8 2 1 7 5 4 6 
+bucket 7 6 5 3 4 2 1 8 
+values  0	3	6	9	13
+targets 0.7152	0.7239	0.7238	0.7179	0.7033
+improving parameter /ExonModel/slope_of_bandwidth curently set to 0.05
+0.05-0.6
+/ExonModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+retrieve accuracy from previous computation
+bucket 3 2 4 6 7 1 8 5 
+bucket 3 8 7 6 5 2 4 1 
+bucket 3 7 4 6 8 2 1 5 
+bucket 8 6 4 3 5 7 2 1 
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.7255	0.7241	0.7240	0.7240	0.7240
+improving parameter /ExonModel/minwindowcount curently set to 10
+1-15
+/ExonModel/minwindowcount: checking values 1	4	8	11	15
+bucket 3 7 8 1 4 2 5 6 
+bucket 5 7 6 4 2 1 3 8 
+bucket 8 3 7 4 5 1 2 6 
+bucket 3 5 1 2 7 6 8 4 
+bucket 8 3 7 2 6 4 1 5 
+values  1	4	8	11	15
+targets 0.7093	0.7175	0.7197	0.7241	0.7240
+improving parameter /IGenicModel/patpseudocount curently set to 5.0
+0.5-7
+/IGenicModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+bucket 3 4 7 6 2 1 8 5 
+bucket 8 4 1 5 7 6 3 2 
+bucket 8 3 7 4 2 5 6 1 
+bucket 7 3 6 4 1 2 5 8 
+bucket 3 8 6 4 2 7 5 1 
+values  0.5	2.125	3.75	5.375	7
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/patpseudocount curently set to 5.0
+0.5-7
+/IntronModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+bucket 8 3 2 4 1 6 7 5 
+bucket 3 8 7 4 1 5 6 2 
+bucket 7 2 8 5 4 3 1 6 
+bucket 8 4 6 3 1 7 5 2 
+bucket 3 8 6 7 2 4 5 1 
+values  0.5	2.125	3.75	5.375	7
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/slope_of_bandwidth curently set to 0.4
+0.05-0.6
+/IntronModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+bucket 7 8 3 6 2 4 5 1 
+bucket 6 4 8 3 7 1 5 2 
+bucket 8 3 2 4 1 7 6 5 
+bucket 3 8 6 7 1 5 4 2 
+bucket 8 7 3 6 5 2 4 1 
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.7255	0.7255	0.7255	0.7254	0.7240
+improving parameter /IntronModel/minwindowcount curently set to 4
+1-8
+/IntronModel/minwindowcount: checking values 1	2	4	6	8
+bucket 8 3 4 6 2 1 5 7 
+bucket 3 7 8 4 2 6 1 5 
+retrieve accuracy from previous computation
+bucket 3 7 1 8 2 6 5 4 
+bucket 6 3 7 2 8 5 1 4 
+values  1	2	4	6	8
+targets 0.7255	0.7255	0.7255	0.7255	0.7240
+improving parameter /IntronModel/asspseudocount curently set to 0.00266
+0.0005-0.03
+/IntronModel/asspseudocount: checking values 0.0005	0.007875	0.01525	0.022625	0.03
+bucket 3 6 4 5 1 2 8 7 
+bucket 3 8 1 5 6 7 4 2 
+bucket 3 5 8 7 6 1 4 2 
+bucket 3 8 1 2 7 4 6 5 
+bucket 3 8 7 2 5 4 6 1 
+values  0.0005	0.007875	0.01525	0.022625	0.03
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/dsspseudocount curently set to 0.03005
+0.0002-0.04
+/IntronModel/dsspseudocount: checking values 0.0002	0.01015	0.0201	0.03005	0.04
+bucket 4 2 6 5 3 8 1 7 
+bucket 4 3 8 6 1 2 7 5 
+bucket 8 2 3 7 1 5 6 4 
+retrieve accuracy from previous computation
+bucket 3 4 8 7 2 6 1 5 
+values  0.0002	0.01015	0.0201	0.03005	0.04
+targets 0.7240	0.7240	0.7240	0.7255	0.7246
+improving parameter /IntronModel/dssneighborfactor curently set to 0.00173
+0.0001-0.01
+/IntronModel/dssneighborfactor: checking values 0.0001	0.002575	0.00505	0.007525	0.01
+bucket 8 3 1 5 7 2 6 4 
+bucket 3 7 4 1 8 6 5 2 
+bucket 3 4 6 7 8 1 5 2 
+bucket 3 8 6 7 4 1 2 5 
+bucket 3 4 8 7 2 6 5 1 
+values  0.0001	0.002575	0.00505	0.007525	0.01
+targets 0.7240	0.7255	0.7249	0.7244	0.7244
+improving parameter /ExonModel/minPatSum curently set to 225
+100-600
+/ExonModel/minPatSum: checking values 100	225	350	475	600
+bucket 3 8 7 6 2 5 4 1 
+retrieve accuracy from previous computation
+bucket 3 8 4 7 6 2 5 1 
+bucket 8 3 2 4 7 5 1 6 
+bucket 3 8 7 6 4 1 2 5 
+values  100	225	350	475	600
+targets 0.7239	0.7255	0.7091	0.7043	0.6984
+improving parameter /Constant/probNinCoding curently set to 0.23
+0.15-.25
+/Constant/probNinCoding: checking values 0.15	0.175	0.2	0.225	0.25
+bucket 3 7 6 8 4 5 1 2 
+bucket 8 7 5 3 6 1 4 2 
+bucket 8 3 7 4 6 5 1 2 
+bucket 7 4 6 3 2 8 5 1 
+bucket 8 3 7 2 6 1 4 5 
+values  0.15	0.175	0.2	0.225	0.25
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /Constant/decomp_num_steps curently set to 1
+1-5
+/Constant/decomp_num_steps: checking values 1	2	3	4	5
+retrieve accuracy from previous computation
+bucket 3 8 7 5 6 4 2 1 
+bucket 3 8 6 1 5 2 7 4 
+bucket 3 6 8 2 4 5 7 1 
+bucket 8 3 2 1 7 4 5 6 
+values  1	2	3	4	5
+targets 0.7255	0.6974	0.7031	0.7039	0.7021
+improving parameter /Constant/dss_end curently set to 4
+1-4
+/Constant/dss_end: checking values 1	2	3	4
+bucket 3 8 7 2 5 1 6 4 
+bucket 8 3 7 6 4 2 5 1 
+bucket 3 8 2 6 5 7 4 1 
+retrieve accuracy from previous computation
+values  1	2	3	4
+targets 0.6665	0.6788	0.7052	0.7255
+improving parameter /Constant/dss_start curently set to 1
+1-3
+/Constant/dss_start: checking values 1	2	3
+retrieve accuracy from previous computation
+bucket 3 4 8 1 5 7 6 2 
+bucket 8 7 5 2 3 6 1 4 
+values  1	2	3
+targets 0.7255	0.7136	0.6850
+improving parameter /Constant/ass_start curently set to 2
+1-3
+/Constant/ass_start: checking values 1	2	3
+bucket 8 3 4 2 5 1 6 7 
+retrieve accuracy from previous computation
+bucket 3 8 7 4 6 1 5 2 
+values  1	2	3
+targets 0.7216	0.7255	0.6891
+improving parameter /Constant/ass_end curently set to 2
+0-4
+/Constant/ass_end: checking values 0	1	2	3	4
+bucket 8 3 7 1 2 5 4 6 
+bucket 3 8 6 7 1 4 2 5 
+retrieve accuracy from previous computation
+bucket 3 8 6 4 5 2 7 1 
+bucket 8 3 4 2 7 6 5 1 
+values  0	1	2	3	4
+targets 0.7162	0.7168	0.7255	0.6932	0.6872
+improving parameter /Constant/ass_upwindow_size curently set to 37
+1-50
+/Constant/ass_upwindow_size: checking values 1	13	25	37	50
+bucket 3 8 4 2 7 1 6 5 
+bucket 8 7 4 6 1 2 3 5 
+bucket 3 8 4 6 7 5 1 2 
+retrieve accuracy from previous computation
+bucket 8 4 2 3 6 1 5 7 
+values  1	13	25	37	50
+targets 0.7002	0.7090	0.7153	0.7255	0.5947
+improving parameter /IntronModel/d curently set to 312
+100-950
+/IntronModel/d: checking values 100	312	525	737	950
+bucket 8 3 5 7 1 6 4 2 
+retrieve accuracy from previous computation
+bucket 3 8 7 2 6 4 1 5 
+bucket 3 6 8 7 4 5 1 2 
+bucket 3 8 7 6 5 1 2 4 
+values  100	312	525	737	950
+targets 0.7201	0.7255	0.7135	0.7120	0.7127
+improving parameter /IntronModel/ass_motif_memory curently set to 3
+0-3
+/IntronModel/ass_motif_memory: checking values 0	1	2	3
+bucket 3 8 2 4 5 6 1 7 
+bucket 8 6 3 4 2 7 1 5 
+bucket 3 7 8 2 5 6 1 4 
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7159	0.7059	0.7130	0.7255
+improving parameter /IntronModel/ass_motif_radius curently set to 3
+0-4
+/IntronModel/ass_motif_radius: checking values 0	1	2	3	4
+bucket 3 8 7 4 1 6 5 2 
+bucket 2 3 7 5 8 1 4 6 
+bucket 8 3 4 6 2 7 1 5 
+retrieve accuracy from previous computation
+bucket 3 6 1 8 4 7 5 2 
+values  0	1	2	3	4
+targets 0.7096	0.7102	0.7234	0.7255	0.7161
+improving parameter /ExonModel/tis_motif_memory curently set to 2
+0-3
+/ExonModel/tis_motif_memory: checking values 0	1	2	3
+bucket 8 2 5 3 1 6 7 4 
+bucket 6 2 8 3 7 4 1 5 
+retrieve accuracy from previous computation
+bucket 3 6 7 2 5 1 8 4 
+values  0	1	2	3
+targets 0.7184	0.7230	0.7255	0.7131
+improving parameter /ExonModel/tis_motif_radius curently set to 3
+0-3
+/ExonModel/tis_motif_radius: checking values 0	1	2	3
+bucket 3 7 8 1 6 2 4 5 
+bucket 3 8 7 4 6 5 1 2 
+bucket 8 3 6 4 7 2 5 1 
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7137	0.7181	0.7255	0.7255
+improving parameter /Constant/trans_init_window curently set to 18
+0-25
+/Constant/trans_init_window: checking values 0	6	12	18	25
+bucket 7 3 4 8 2 6 1 5 
+bucket 8 6 3 4 7 2 5 1 
+bucket 6 8 7 4 2 1 3 5 
+retrieve accuracy from previous computation
+bucket 3 7 8 6 4 2 1 5 
+values  0	6	12	18	25
+targets 0.7105	0.7232	0.7255	0.7255	0.7204
+improving parameter /Constant/init_coding_len curently set to 9
+0-18
+/Constant/init_coding_len: checking values 0	4	9	13	18
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	4	9	13	18
+targets 0.7125	0.7148	0.7255	0.7250	0.7246
+improving parameter /ExonModel/patpseudocount curently set to 5.0
+0.5-5
+/ExonModel/patpseudocount: checking values 0.5	1.625	2.75	3.875	5
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.5	1.625	2.75	3.875	5
+targets 0.7053	0.7107	0.7175	0.7191	0.7255
+improving parameter /ExonModel/etpseudocount curently set to 3
+0-10
+/ExonModel/etpseudocount: checking values 0	2	5	7	10
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	2	5	7	10
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /ExonModel/etorder curently set to 2
+0-3
+/ExonModel/etorder: checking values 0	1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7255	0.7255	0.7255	0.7255
+improving parameter /Constant/intterm_coding_len curently set to 5
+0-13
+/Constant/intterm_coding_len: checking values 0	3	6	9	13
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	3	6	9	13
+targets 0.7152	0.7239	0.7238	0.7179	0.7033
+improving parameter /ExonModel/slope_of_bandwidth curently set to 0.05
+0.05-0.6
+/ExonModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.7255	0.7241	0.7240	0.7240	0.7240
+improving parameter /ExonModel/minwindowcount curently set to 10
+1-15
+/ExonModel/minwindowcount: checking values 1	4	8	11	15
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	4	8	11	15
+targets 0.7093	0.7175	0.7197	0.7241	0.7240
+improving parameter /IGenicModel/patpseudocount curently set to 5.0
+0.5-7
+/IGenicModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.5	2.125	3.75	5.375	7
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/patpseudocount curently set to 5.0
+0.5-7
+/IntronModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.5	2.125	3.75	5.375	7
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/slope_of_bandwidth curently set to 0.4
+0.05-0.6
+/IntronModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.7255	0.7255	0.7255	0.7254	0.7240
+improving parameter /IntronModel/minwindowcount curently set to 4
+1-8
+/IntronModel/minwindowcount: checking values 1	2	4	6	8
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	4	6	8
+targets 0.7255	0.7255	0.7255	0.7255	0.7240
+improving parameter /IntronModel/asspseudocount curently set to 0.00266
+0.0005-0.03
+/IntronModel/asspseudocount: checking values 0.0005	0.007875	0.01525	0.022625	0.03
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.0005	0.007875	0.01525	0.022625	0.03
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/dsspseudocount curently set to 0.03005
+0.0002-0.04
+/IntronModel/dsspseudocount: checking values 0.0002	0.01015	0.0201	0.03005	0.04
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.0002	0.01015	0.0201	0.03005	0.04
+targets 0.7240	0.7240	0.7240	0.7255	0.7246
+improving parameter /IntronModel/dssneighborfactor curently set to 0.00173
+0.0001-0.01
+/IntronModel/dssneighborfactor: checking values 0.0001	0.002575	0.00505	0.007525	0.01
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.0001	0.002575	0.00505	0.007525	0.01
+targets 0.7240	0.7255	0.7249	0.7244	0.7244
+improving parameter /ExonModel/minPatSum curently set to 225
+100-600
+/ExonModel/minPatSum: checking values 100	225	350	475	600
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  100	225	350	475	600
+targets 0.7239	0.7255	0.7091	0.7043	0.6984
+improving parameter /Constant/probNinCoding curently set to 0.23
+0.15-.25
+/Constant/probNinCoding: checking values 0.15	0.175	0.2	0.225	0.25
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.15	0.175	0.2	0.225	0.25
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /Constant/decomp_num_steps curently set to 1
+1-5
+/Constant/decomp_num_steps: checking values 1	2	3	4	5
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	3	4	5
+targets 0.7255	0.6974	0.7031	0.7039	0.7021
+improving parameter /Constant/dss_end curently set to 4
+1-4
+/Constant/dss_end: checking values 1	2	3	4
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	3	4
+targets 0.6665	0.6788	0.7052	0.7255
+improving parameter /Constant/dss_start curently set to 1
+1-3
+/Constant/dss_start: checking values 1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	3
+targets 0.7255	0.7136	0.6850
+improving parameter /Constant/ass_start curently set to 2
+1-3
+/Constant/ass_start: checking values 1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	3
+targets 0.7216	0.7255	0.6891
+improving parameter /Constant/ass_end curently set to 2
+0-4
+/Constant/ass_end: checking values 0	1	2	3	4
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3	4
+targets 0.7162	0.7168	0.7255	0.6932	0.6872
+improving parameter /Constant/ass_upwindow_size curently set to 37
+1-50
+/Constant/ass_upwindow_size: checking values 1	13	25	37	50
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	13	25	37	50
+targets 0.7002	0.7090	0.7153	0.7255	0.5947
+improving parameter /IntronModel/d curently set to 312
+100-950
+/IntronModel/d: checking values 100	312	525	737	950
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  100	312	525	737	950
+targets 0.7201	0.7255	0.7135	0.7120	0.7127
+improving parameter /IntronModel/ass_motif_memory curently set to 3
+0-3
+/IntronModel/ass_motif_memory: checking values 0	1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7159	0.7059	0.7130	0.7255
+improving parameter /IntronModel/ass_motif_radius curently set to 3
+0-4
+/IntronModel/ass_motif_radius: checking values 0	1	2	3	4
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3	4
+targets 0.7096	0.7102	0.7234	0.7255	0.7161
+improving parameter /ExonModel/tis_motif_memory curently set to 2
+0-3
+/ExonModel/tis_motif_memory: checking values 0	1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7184	0.7230	0.7255	0.7131
+improving parameter /ExonModel/tis_motif_radius curently set to 3
+0-3
+/ExonModel/tis_motif_radius: checking values 0	1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7137	0.7181	0.7255	0.7255
+improving parameter /Constant/trans_init_window curently set to 18
+0-25
+/Constant/trans_init_window: checking values 0	6	12	18	25
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	6	12	18	25
+targets 0.7105	0.7232	0.7255	0.7255	0.7204
+improving parameter /Constant/init_coding_len curently set to 9
+0-18
+/Constant/init_coding_len: checking values 0	4	9	13	18
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	4	9	13	18
+targets 0.7125	0.7148	0.7255	0.7250	0.7246
+improving parameter /ExonModel/patpseudocount curently set to 5.0
+0.5-5
+/ExonModel/patpseudocount: checking values 0.5	1.625	2.75	3.875	5
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.5	1.625	2.75	3.875	5
+targets 0.7053	0.7107	0.7175	0.7191	0.7255
+improving parameter /ExonModel/etpseudocount curently set to 3
+0-10
+/ExonModel/etpseudocount: checking values 0	2	5	7	10
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	2	5	7	10
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /ExonModel/etorder curently set to 2
+0-3
+/ExonModel/etorder: checking values 0	1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7255	0.7255	0.7255	0.7255
+improving parameter /Constant/intterm_coding_len curently set to 5
+0-13
+/Constant/intterm_coding_len: checking values 0	3	6	9	13
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	3	6	9	13
+targets 0.7152	0.7239	0.7238	0.7179	0.7033
+improving parameter /ExonModel/slope_of_bandwidth curently set to 0.05
+0.05-0.6
+/ExonModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.7255	0.7241	0.7240	0.7240	0.7240
+improving parameter /ExonModel/minwindowcount curently set to 10
+1-15
+/ExonModel/minwindowcount: checking values 1	4	8	11	15
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	4	8	11	15
+targets 0.7093	0.7175	0.7197	0.7241	0.7240
+improving parameter /IGenicModel/patpseudocount curently set to 5.0
+0.5-7
+/IGenicModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.5	2.125	3.75	5.375	7
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/patpseudocount curently set to 5.0
+0.5-7
+/IntronModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.5	2.125	3.75	5.375	7
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/slope_of_bandwidth curently set to 0.4
+0.05-0.6
+/IntronModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.7255	0.7255	0.7255	0.7254	0.7240
+improving parameter /IntronModel/minwindowcount curently set to 4
+1-8
+/IntronModel/minwindowcount: checking values 1	2	4	6	8
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	4	6	8
+targets 0.7255	0.7255	0.7255	0.7255	0.7240
+improving parameter /IntronModel/asspseudocount curently set to 0.00266
+0.0005-0.03
+/IntronModel/asspseudocount: checking values 0.0005	0.007875	0.01525	0.022625	0.03
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.0005	0.007875	0.01525	0.022625	0.03
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/dsspseudocount curently set to 0.03005
+0.0002-0.04
+/IntronModel/dsspseudocount: checking values 0.0002	0.01015	0.0201	0.03005	0.04
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.0002	0.01015	0.0201	0.03005	0.04
+targets 0.7240	0.7240	0.7240	0.7255	0.7246
+improving parameter /IntronModel/dssneighborfactor curently set to 0.00173
+0.0001-0.01
+/IntronModel/dssneighborfactor: checking values 0.0001	0.002575	0.00505	0.007525	0.01
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.0001	0.002575	0.00505	0.007525	0.01
+targets 0.7240	0.7255	0.7249	0.7244	0.7244
+improving parameter /ExonModel/minPatSum curently set to 225
+100-600
+/ExonModel/minPatSum: checking values 100	225	350	475	600
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  100	225	350	475	600
+targets 0.7239	0.7255	0.7091	0.7043	0.6984
+improving parameter /Constant/probNinCoding curently set to 0.23
+0.15-.25
+/Constant/probNinCoding: checking values 0.15	0.175	0.2	0.225	0.25
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.15	0.175	0.2	0.225	0.25
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /Constant/decomp_num_steps curently set to 1
+1-5
+/Constant/decomp_num_steps: checking values 1	2	3	4	5
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	3	4	5
+targets 0.7255	0.6974	0.7031	0.7039	0.7021
+improving parameter /Constant/dss_end curently set to 4
+1-4
+/Constant/dss_end: checking values 1	2	3	4
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	3	4
+targets 0.6665	0.6788	0.7052	0.7255
+improving parameter /Constant/dss_start curently set to 1
+1-3
+/Constant/dss_start: checking values 1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	3
+targets 0.7255	0.7136	0.6850
+improving parameter /Constant/ass_start curently set to 2
+1-3
+/Constant/ass_start: checking values 1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	3
+targets 0.7216	0.7255	0.6891
+improving parameter /Constant/ass_end curently set to 2
+0-4
+/Constant/ass_end: checking values 0	1	2	3	4
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3	4
+targets 0.7162	0.7168	0.7255	0.6932	0.6872
+improving parameter /Constant/ass_upwindow_size curently set to 37
+1-50
+/Constant/ass_upwindow_size: checking values 1	13	25	37	50
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	13	25	37	50
+targets 0.7002	0.7090	0.7153	0.7255	0.5947
+improving parameter /IntronModel/d curently set to 312
+100-950
+/IntronModel/d: checking values 100	312	525	737	950
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  100	312	525	737	950
+targets 0.7201	0.7255	0.7135	0.7120	0.7127
+improving parameter /IntronModel/ass_motif_memory curently set to 3
+0-3
+/IntronModel/ass_motif_memory: checking values 0	1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7159	0.7059	0.7130	0.7255
+improving parameter /IntronModel/ass_motif_radius curently set to 3
+0-4
+/IntronModel/ass_motif_radius: checking values 0	1	2	3	4
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3	4
+targets 0.7096	0.7102	0.7234	0.7255	0.7161
+improving parameter /ExonModel/tis_motif_memory curently set to 2
+0-3
+/ExonModel/tis_motif_memory: checking values 0	1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7184	0.7230	0.7255	0.7131
+improving parameter /ExonModel/tis_motif_radius curently set to 3
+0-3
+/ExonModel/tis_motif_radius: checking values 0	1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7137	0.7181	0.7255	0.7255
+improving parameter /Constant/trans_init_window curently set to 18
+0-25
+/Constant/trans_init_window: checking values 0	6	12	18	25
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	6	12	18	25
+targets 0.7105	0.7232	0.7255	0.7255	0.7204
+improving parameter /Constant/init_coding_len curently set to 9
+0-18
+/Constant/init_coding_len: checking values 0	4	9	13	18
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	4	9	13	18
+targets 0.7125	0.7148	0.7255	0.7250	0.7246
+improving parameter /ExonModel/patpseudocount curently set to 5.0
+0.5-5
+/ExonModel/patpseudocount: checking values 0.5	1.625	2.75	3.875	5
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.5	1.625	2.75	3.875	5
+targets 0.7053	0.7107	0.7175	0.7191	0.7255
+improving parameter /ExonModel/etpseudocount curently set to 3
+0-10
+/ExonModel/etpseudocount: checking values 0	2	5	7	10
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	2	5	7	10
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /ExonModel/etorder curently set to 2
+0-3
+/ExonModel/etorder: checking values 0	1	2	3
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	1	2	3
+targets 0.7255	0.7255	0.7255	0.7255
+improving parameter /Constant/intterm_coding_len curently set to 5
+0-13
+/Constant/intterm_coding_len: checking values 0	3	6	9	13
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0	3	6	9	13
+targets 0.7152	0.7239	0.7238	0.7179	0.7033
+improving parameter /ExonModel/slope_of_bandwidth curently set to 0.05
+0.05-0.6
+/ExonModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.7255	0.7241	0.7240	0.7240	0.7240
+improving parameter /ExonModel/minwindowcount curently set to 10
+1-15
+/ExonModel/minwindowcount: checking values 1	4	8	11	15
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	4	8	11	15
+targets 0.7093	0.7175	0.7197	0.7241	0.7240
+improving parameter /IGenicModel/patpseudocount curently set to 5.0
+0.5-7
+/IGenicModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.5	2.125	3.75	5.375	7
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/patpseudocount curently set to 5.0
+0.5-7
+/IntronModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.5	2.125	3.75	5.375	7
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/slope_of_bandwidth curently set to 0.4
+0.05-0.6
+/IntronModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.05	0.1875	0.325	0.4625	0.6
+targets 0.7255	0.7255	0.7255	0.7254	0.7240
+improving parameter /IntronModel/minwindowcount curently set to 4
+1-8
+/IntronModel/minwindowcount: checking values 1	2	4	6	8
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	4	6	8
+targets 0.7255	0.7255	0.7255	0.7255	0.7240
+improving parameter /IntronModel/asspseudocount curently set to 0.00266
+0.0005-0.03
+/IntronModel/asspseudocount: checking values 0.0005	0.007875	0.01525	0.022625	0.03
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.0005	0.007875	0.01525	0.022625	0.03
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /IntronModel/dsspseudocount curently set to 0.03005
+0.0002-0.04
+/IntronModel/dsspseudocount: checking values 0.0002	0.01015	0.0201	0.03005	0.04
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.0002	0.01015	0.0201	0.03005	0.04
+targets 0.7240	0.7240	0.7240	0.7255	0.7246
+improving parameter /IntronModel/dssneighborfactor curently set to 0.00173
+0.0001-0.01
+/IntronModel/dssneighborfactor: checking values 0.0001	0.002575	0.00505	0.007525	0.01
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.0001	0.002575	0.00505	0.007525	0.01
+targets 0.7240	0.7255	0.7249	0.7244	0.7244
+improving parameter /ExonModel/minPatSum curently set to 225
+100-600
+/ExonModel/minPatSum: checking values 100	225	350	475	600
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  100	225	350	475	600
+targets 0.7239	0.7255	0.7091	0.7043	0.6984
+improving parameter /Constant/probNinCoding curently set to 0.23
+0.15-.25
+/Constant/probNinCoding: checking values 0.15	0.175	0.2	0.225	0.25
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  0.15	0.175	0.2	0.225	0.25
+targets 0.7255	0.7255	0.7255	0.7255	0.7255
+improving parameter /Constant/decomp_num_steps curently set to 1
+1-5
+/Constant/decomp_num_steps: checking values 1	2	3	4	5
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+retrieve accuracy from previous computation
+values  1	2	3	4	5
+targets 0.7255	0.6974	0.7031	0.7039	0.7021
+Making final training with the optimized parameters.
+etraining --species=aspergillus_tubingensis_dfa_scaf1 --AUGUSTUS_CONFIG_PATH=/bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/ --/augustus/verbosity=0 --/ExonModel/verbosity=0 --/IGenicModel/verbosity=0 --/IntronModel/verbosity=0 --/UtrModel/verbosity=0 --/genbank/verbosity=0 tmp_opt_aspergillus_tubingensis_dfa_scaf1/curtrain  
+# Read in 369 genbank sequences.
+Quantiles of the GC contents in the training set:
+0%	0.452
+5%	0.478	10%	0.487
+15%	0.492	20%	0.496
+25%	0.5	30%	0.503
+35%	0.507	40%	0.51
+45%	0.513	50%	0.516
+55%	0.519	60%	0.521
+65%	0.523	70%	0.526
+75%	0.529	80%	0.533
+85%	0.538	90%	0.546
+95%	0.551	100%	0.575
+HMM-training the parameters...
+i= 0 bc= (0.237, 0.263, 0.263, 0.237)
+ ** building model for exons *EXON*
+gene g_1-T1 transcr. 1 in sequence scaffold_1_34559-36871: Initial exon does not begin with start codon but with gat
+gene g_3-T1 transcr. 1 in sequence scaffold_1_47550-49232: Initial exon does not begin with start codon but with ccc
+gene g_348-T1 transcr. 1 in sequence scaffold_1_49233-50990: Initial exon does not begin with start codon but with acc
+gene g_5-T1 transcr. 1 in sequence scaffold_1_60570-62530: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_182-T1 transcr. 1 in sequence scaffold_1_82546-84630: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_8-T1 transcr. 1 in sequence scaffold_1_86634-88536: Initial exon does not begin with start codon but with atc
+gene g_8-T1 transcr. 1 in sequence scaffold_1_86634-88536: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_177-T1 transcr. 1 in sequence scaffold_1_88537-90132: Initial exon does not begin with start codon but with ctc
+gene g_177-T1 transcr. 1 in sequence scaffold_1_88537-90132: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_10-T1 transcr. 1 in sequence scaffold_1_118057-119639: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_11-T1 transcr. 1 in sequence scaffold_1_119640-121281: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_185-T1 transcr. 1 in sequence scaffold_1_125601-127573: Initial exon does not begin with start codon but with agc
+gene g_12-T1 transcr. 1 in sequence scaffold_1_130485-132996: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_159-T1 transcr. 1 in sequence scaffold_1_164869-168182: Initial exon does not begin with start codon but with gcc
+gene g_13-T1 transcr. 1 in sequence scaffold_1_171790-173598: Initial exon does not begin with start codon but with cgt
+gene g_13-T1 transcr. 1 in sequence scaffold_1_171790-173598: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_14-T1 transcr. 1 in sequence scaffold_1_177518-179302: Initial exon has length < 3!
+gene g_15-T1 transcr. 1 in sequence scaffold_1_179303-181116: Initial exon does not begin with start codon but with tgg
+gene g_188-T1 transcr. 1 in sequence scaffold_1_183440-185961: Initial exon does not begin with start codon but with gga
+gene g_189-T1 transcr. 1 in sequence scaffold_1_185962-187458: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_363-T1 transcr. 1 in sequence scaffold_1_202856-204022: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_192-T1 transcr. 1 in sequence scaffold_1_214381-216413: Initial exon does not begin with start codon but with ctc
+gene g_192-T1 transcr. 1 in sequence scaffold_1_214381-216413: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_193-T1 transcr. 1 in sequence scaffold_1_226454-230225: Initial exon does not begin with start codon but with cac
+gene g_160-T1 transcr. 1 in sequence scaffold_1_246071-247770: Initial exon does not begin with start codon but with ccc
+gene g_19-T1 transcr. 1 in sequence scaffold_1_265050-269144: Initial exon does not begin with start codon but with ggt
+gene g_20-T1 transcr. 1 in sequence scaffold_1_278782-280720: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_23-T1 transcr. 1 in sequence scaffold_1_310895-312519: Initial exon does not begin with start codon but with cga
+gene g_356-T1 transcr. 1 in sequence scaffold_1_337372-338468: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_24-T1 transcr. 1 in sequence scaffold_1_338469-340444: Initial exon does not begin with start codon but with aat
+gene g_207-T1 transcr. 1 in sequence scaffold_1_349987-351717: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_29-T1 transcr. 1 in sequence scaffold_1_365246-367308: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_31-T1 transcr. 1 in sequence scaffold_1_368771-369932: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_209-T1 transcr. 1 in sequence scaffold_1_375178-378554: Initial exon does not begin with start codon but with gta
+gene g_32-T1 transcr. 1 in sequence scaffold_1_395238-396359: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_33-T1 transcr. 1 in sequence scaffold_1_396360-398079: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_35-T1 transcr. 1 in sequence scaffold_1_406569-408764: Initial exon does not begin with start codon but with cac
+gene g_35-T1 transcr. 1 in sequence scaffold_1_406569-408764: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_36-T1 transcr. 1 in sequence scaffold_1_408765-409972: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_162-T1 transcr. 1 in sequence scaffold_1_427147-429352: Initial exon has length < 3!
+gene g_213-T1 transcr. 1 in sequence scaffold_1_429587-431369: Initial exon does not begin with start codon but with cac
+gene g_40-T1 transcr. 1 in sequence scaffold_1_473209-477128: Initial exon does not begin with start codon but with aaa
+gene g_216-T1 transcr. 1 in sequence scaffold_1_481199-482091: Initial exon does not begin with start codon but with acc
+gene g_216-T1 transcr. 1 in sequence scaffold_1_481199-482091: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_41-T1 transcr. 1 in sequence scaffold_1_482092-483207: Initial exon does not begin with start codon but with tta
+gene g_355-T1 transcr. 1 in sequence scaffold_1_495665-497391: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_223-T1 transcr. 1 in sequence scaffold_1_542463-544050: Initial exon does not begin with start codon but with gta
+gene g_165-T1 transcr. 1 in sequence scaffold_1_545191-547691: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_354-T1 transcr. 1 in sequence scaffold_1_548496-550079: Initial exon does not begin with start codon but with gtt
+gene g_161-T1 transcr. 1 in sequence scaffold_1_561675-563657: Initial exon does not begin with start codon but with gct
+gene g_161-T1 transcr. 1 in sequence scaffold_1_561675-563657: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_224-T1 transcr. 1 in sequence scaffold_1_566419-569903: Initial exon does not begin with start codon but with aaa
+gene g_155-T1 transcr. 1 in sequence scaffold_1_569904-571484: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_358-T1 transcr. 1 in sequence scaffold_1_572014-573663: Initial exon does not begin with start codon but with atc
+gene g_358-T1 transcr. 1 in sequence scaffold_1_572014-573663: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_225-T1 transcr. 1 in sequence scaffold_1_577999-580433: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_226-T1 transcr. 1 in sequence scaffold_1_586100-589416: Initial exon does not begin with start codon but with atc
+gene g_227-T1 transcr. 1 in sequence scaffold_1_597136-601532: Initial exon does not begin with start codon but with tcc
+gene g_369-T1 transcr. 1 in sequence scaffold_1_616079-617427: Initial exon does not begin with start codon but with tgg
+gene g_369-T1 transcr. 1 in sequence scaffold_1_616079-617427: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_233-T1 transcr. 1 in sequence scaffold_1_673246-674685: Initial exon does not begin with start codon but with ccc
+gene g_233-T1 transcr. 1 in sequence scaffold_1_673246-674685: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_234-T1 transcr. 1 in sequence scaffold_1_676809-678942: Initial exon does not begin with start codon but with ggg
+gene g_237-T1 transcr. 1 in sequence scaffold_1_700895-702658: Initial exon does not begin with start codon but with ctc
+gene g_239-T1 transcr. 1 in sequence scaffold_1_710800-713508: Initial exon does not begin with start codon but with ggg
+gene g_56-T1 transcr. 1 in sequence scaffold_1_713550-715900: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_152-T1 transcr. 1 in sequence scaffold_1_750538-752222: Initial exon does not begin with start codon but with gac
+gene g_57-T1 transcr. 1 in sequence scaffold_1_758254-760041: Initial exon does not begin with start codon but with atc
+gene g_57-T1 transcr. 1 in sequence scaffold_1_758254-760041: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_59-T1 transcr. 1 in sequence scaffold_1_767767-769976: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_245-T1 transcr. 1 in sequence scaffold_1_769977-772029: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_246-T1 transcr. 1 in sequence scaffold_1_780567-783017: Initial exon does not begin with start codon but with cct
+gene g_247-T1 transcr. 1 in sequence scaffold_1_792199-793653: Initial exon does not begin with start codon but with ggt
+gene g_247-T1 transcr. 1 in sequence scaffold_1_792199-793653: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_179-T1 transcr. 1 in sequence scaffold_1_793654-795467: Initial exon does not begin with start codon but with gtg
+gene g_179-T1 transcr. 1 in sequence scaffold_1_793654-795467: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_250-T1 transcr. 1 in sequence scaffold_1_818029-820521: Initial exon does not begin with start codon but with atc
+gene g_168-T1 transcr. 1 in sequence scaffold_1_838438-839992: Initial exon does not begin with start codon but with tcc
+gene g_168-T1 transcr. 1 in sequence scaffold_1_838438-839992: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_64-T1 transcr. 1 in sequence scaffold_1_855862-857435: Initial exon does not begin with start codon but with gcg
+gene g_64-T1 transcr. 1 in sequence scaffold_1_855862-857435: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_65-T1 transcr. 1 in sequence scaffold_1_860327-862199: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_365-T1 transcr. 1 in sequence scaffold_1_871077-872100: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_257-T1 transcr. 1 in sequence scaffold_1_872101-876079: Initial exon does not begin with start codon but with caa
+gene g_181-T1 transcr. 1 in sequence scaffold_1_885412-886707: Initial exon does not begin with start codon but with tcc
+gene g_68-T1 transcr. 1 in sequence scaffold_1_910983-912268: Initial exon does not begin with start codon but with gac
+gene g_68-T1 transcr. 1 in sequence scaffold_1_910983-912268: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_154-T1 transcr. 1 in sequence scaffold_1_912269-913686: Initial exon does not begin with start codon but with ccc
+gene g_154-T1 transcr. 1 in sequence scaffold_1_912269-913686: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_360-T1 transcr. 1 in sequence scaffold_1_954253-959231: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_73-T1 transcr. 1 in sequence scaffold_1_965813-967550: Initial exon does not begin with start codon but with caa
+gene g_267-T1 transcr. 1 in sequence scaffold_1_981030-982290: Initial exon does not begin with start codon but with acc
+gene g_267-T1 transcr. 1 in sequence scaffold_1_981030-982290: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_269-T1 transcr. 1 in sequence scaffold_1_993374-995836: Initial exon does not begin with start codon but with ggc
+gene g_176-T1 transcr. 1 in sequence scaffold_1_995837-997237: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_270-T1 transcr. 1 in sequence scaffold_1_1009731-1012685: Initial exon does not begin with start codon but with aag
+gene g_81-T1 transcr. 1 in sequence scaffold_1_1043709-1045486: Initial exon does not begin with start codon but with gaa
+gene g_81-T1 transcr. 1 in sequence scaffold_1_1043709-1045486: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_361-T1 transcr. 1 in sequence scaffold_1_1066250-1068797: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_367-T1 transcr. 1 in sequence scaffold_1_1070046-1071721: Initial exon does not begin with start codon but with tac
+gene g_367-T1 transcr. 1 in sequence scaffold_1_1070046-1071721: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_82-T1 transcr. 1 in sequence scaffold_1_1087566-1089400: Initial exon does not begin with start codon but with ctc
+gene g_275-T1 transcr. 1 in sequence scaffold_1_1095416-1097088: Initial exon does not begin with start codon but with gag
+gene g_276-T1 transcr. 1 in sequence scaffold_1_1138520-1140962: Initial exon does not begin with start codon but with tcc
+gene g_277-T1 transcr. 1 in sequence scaffold_1_1147410-1149464: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_83-T1 transcr. 1 in sequence scaffold_1_1155141-1158043: Initial exon does not begin with start codon but with agc
+gene g_349-T1 transcr. 1 in sequence scaffold_1_1163872-1165535: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_281-T1 transcr. 1 in sequence scaffold_1_1184336-1186061: Initial exon does not begin with start codon but with tac
+gene g_286-T1 transcr. 1 in sequence scaffold_1_1230019-1232427: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_364-T1 transcr. 1 in sequence scaffold_1_1232428-1234231: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_92-T1 transcr. 1 in sequence scaffold_1_1245082-1247511: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_288-T1 transcr. 1 in sequence scaffold_1_1247512-1249329: Initial exon does not begin with start codon but with gtg
+gene g_288-T1 transcr. 1 in sequence scaffold_1_1247512-1249329: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_289-T1 transcr. 1 in sequence scaffold_1_1264022-1265896: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_290-T1 transcr. 1 in sequence scaffold_1_1265897-1267825: Initial exon does not begin with start codon but with aag
+gene g_153-T1 transcr. 1 in sequence scaffold_1_1269738-1271799: Initial exon does not begin with start codon but with aga
+gene g_291-T1 transcr. 1 in sequence scaffold_1_1271800-1272820: Initial exon does not begin with start codon but with ctc
+gene g_291-T1 transcr. 1 in sequence scaffold_1_1271800-1272820: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_95-T1 transcr. 1 in sequence scaffold_1_1272821-1274793: Initial exon does not begin with start codon but with cac
+gene g_96-T1 transcr. 1 in sequence scaffold_1_1274794-1276313: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_98-T1 transcr. 1 in sequence scaffold_1_1301317-1302976: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_295-T1 transcr. 1 in sequence scaffold_1_1311383-1314511: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_350-T1 transcr. 1 in sequence scaffold_1_1386255-1390064: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_303-T1 transcr. 1 in sequence scaffold_1_1399575-1401445: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_102-T1 transcr. 1 in sequence scaffold_1_1405976-1408060: Initial exon does not begin with start codon but with gaa
+gene g_102-T1 transcr. 1 in sequence scaffold_1_1405976-1408060: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_103-T1 transcr. 1 in sequence scaffold_1_1409363-1413122: Initial exon does not begin with start codon but with gaa
+gene g_173-T1 transcr. 1 in sequence scaffold_1_1413123-1414610: Initial exon does not begin with start codon but with cag
+gene g_173-T1 transcr. 1 in sequence scaffold_1_1413123-1414610: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_104-T1 transcr. 1 in sequence scaffold_1_1419317-1421175: Initial exon does not begin with start codon but with agc
+gene g_104-T1 transcr. 1 in sequence scaffold_1_1419317-1421175: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_305-T1 transcr. 1 in sequence scaffold_1_1421176-1423561: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_106-T1 transcr. 1 in sequence scaffold_1_1449668-1451719: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_309-T1 transcr. 1 in sequence scaffold_1_1463558-1466112: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_110-T1 transcr. 1 in sequence scaffold_1_1471448-1473303: Initial exon does not begin with start codon but with cgc
+gene g_110-T1 transcr. 1 in sequence scaffold_1_1471448-1473303: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_310-T1 transcr. 1 in sequence scaffold_1_1473304-1474611: Initial exon does not begin with start codon but with cat
+gene g_156-T1 transcr. 1 in sequence scaffold_1_1474612-1477922: Initial exon does not begin with start codon but with tac
+gene g_366-T1 transcr. 1 in sequence scaffold_1_1486974-1488548: Initial exon does not begin with start codon but with caa
+gene g_171-T1 transcr. 1 in sequence scaffold_1_1488549-1490095: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_312-T1 transcr. 1 in sequence scaffold_1_1504945-1507428: Initial exon does not begin with start codon but with cag
+gene g_353-T1 transcr. 1 in sequence scaffold_1_1516986-1519926: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_316-T1 transcr. 1 in sequence scaffold_1_1532056-1535651: Initial exon does not begin with start codon but with gca
+gene g_316-T1 transcr. 1 in sequence scaffold_1_1532056-1535651: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_317-T1 transcr. 1 in sequence scaffold_1_1571105-1573414: Initial exon does not begin with start codon but with cga
+gene g_114-T1 transcr. 1 in sequence scaffold_1_1585405-1587538: Initial exon does not begin with start codon but with ggc
+gene g_115-T1 transcr. 1 in sequence scaffold_1_1592331-1594831: Initial exon does not begin with start codon but with agg
+gene g_116-T1 transcr. 1 in sequence scaffold_1_1594832-1596300: Initial exon does not begin with start codon but with cac
+gene g_322-T1 transcr. 1 in sequence scaffold_1_1633536-1636479: Initial exon does not begin with start codon but with ttc
+gene g_174-T1 transcr. 1 in sequence scaffold_1_1636480-1638035: Initial exon does not begin with start codon but with tcc
+gene g_174-T1 transcr. 1 in sequence scaffold_1_1636480-1638035: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_170-T1 transcr. 1 in sequence scaffold_1_1638209-1640232: Initial exon does not begin with start codon but with aac
+gene g_121-T1 transcr. 1 in sequence scaffold_1_1641515-1645402: Initial exon does not begin with start codon but with ctc
+gene g_121-T1 transcr. 1 in sequence scaffold_1_1641515-1645402: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_122-T1 transcr. 1 in sequence scaffold_1_1648710-1652029: Initial exon does not begin with start codon but with ccc
+gene g_123-T1 transcr. 1 in sequence scaffold_1_1663134-1664802: Initial exon does not begin with start codon but with ccg
+gene g_126-T1 transcr. 1 in sequence scaffold_1_1682936-1685302: Initial exon does not begin with start codon but with ggt
+gene g_133-T1 transcr. 1 in sequence scaffold_1_1720273-1722315: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_326-T1 transcr. 1 in sequence scaffold_1_1731084-1733399: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_134-T1 transcr. 1 in sequence scaffold_1_1741773-1743873: Initial exon does not begin with start codon but with aga
+gene g_136-T1 transcr. 1 in sequence scaffold_1_1764001-1765840: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_332-T1 transcr. 1 in sequence scaffold_1_1793148-1794535: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_137-T1 transcr. 1 in sequence scaffold_1_1818729-1820218: Initial exon does not begin with start codon but with aaa
+gene g_357-T1 transcr. 1 in sequence scaffold_1_1822713-1824741: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_138-T1 transcr. 1 in sequence scaffold_1_1828076-1830127: Initial exon does not begin with start codon but with aaa
+gene g_138-T1 transcr. 1 in sequence scaffold_1_1828076-1830127: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_139-T1 transcr. 1 in sequence scaffold_1_1834960-1837327: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_140-T1 transcr. 1 in sequence scaffold_1_1839567-1842497: Initial exon does not begin with start codon but with gct
+gene g_339-T1 transcr. 1 in sequence scaffold_1_1860705-1862178: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_141-T1 transcr. 1 in sequence scaffold_1_1862179-1865235: Initial exon does not begin with start codon but with aat
+gene g_359-T1 transcr. 1 in sequence scaffold_1_1867881-1870933: Initial exon does not begin with start codon but with cgt
+gene g_359-T1 transcr. 1 in sequence scaffold_1_1867881-1870933: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_143-T1 transcr. 1 in sequence scaffold_1_1879425-1881923: Initial exon does not begin with start codon but with att
+gene g_143-T1 transcr. 1 in sequence scaffold_1_1879425-1881923: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_341-T1 transcr. 1 in sequence scaffold_1_1883657-1885038: Initial exon does not begin with start codon but with gca
+gene g_341-T1 transcr. 1 in sequence scaffold_1_1883657-1885038: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_342-T1 transcr. 1 in sequence scaffold_1_1885039-1886551: Initial exon does not begin with start codon but with caa
+gene g_146-T1 transcr. 1 in sequence scaffold_1_1901709-1903903: Initial exon does not begin with start codon but with gtc
+gene g_147-T1 transcr. 1 in sequence scaffold_1_1903904-1905259: Initial exon does not begin with start codon but with tca
+gene g_180-T1 transcr. 1 in sequence scaffold_1_1905260-1907488: Terminal exon doesn't end in stop codon. Variable stopCodonExcludedFromCDS set right?
+gene g_368-T1 transcr. 1 in sequence scaffold_1_1911350-1913643: Initial exon does not begin with start codon but with ata
+gene g_148-T1 transcr. 1 in sequence scaffold_1_1920056-1922591: Initial exon does not begin with start codon but with aac
+gene g_346-T1 transcr. 1 in sequence scaffold_1_1931137-1933372: Initial exon does not begin with start codon but with gcc
+gene g_347-T1 transcr. 1 in sequence scaffold_1_1956420-1960390: Initial exon does not begin with start codon but with cag
+start codon frequencies: ATG(261), CTG(3), TTG(5)
+# admissible start codons and their probabilities: ATG(0.97), CTG(0.0112), TTG(0.0186)
+ number of bases in the reading frames: 131588 131937 131871
+--- frame = 0 ---    minPatSum = 225
+--- frame = 1 ---    minPatSum = 225
+--- frame = 2 ---    minPatSum = 225
+--- initial frame = 0 ---    minPatSum = 225
+--- initial frame = 1 ---    minPatSum = 225
+--- initial frame = 2 ---    minPatSum = 225
+--- internal exon terminal frame = 0 ---    minPatSum = 225
+--- internal exon terminal frame = 1 ---    minPatSum = 225
+--- internal exon terminal frame = 2 ---    minPatSum = 225
+single, initial, internal, terminal mean exon lengths :
+n.a.	267	308	456
+single exon : 0
+initial exon 0 : 110
+initial exon 1 : 94
+initial exon 2 : 65
+internal exon 0 : 160
+internal exon 1 : 140
+internal exon 2 : 105
+terminal exon : 285
+Frequency of stop codons:
+tag:   81 (0.284)
+taa:   92 (0.323)
+tga:  112 (0.393)
+end *EXON*
+Storing parameters to file...
+Writing exon model parameters [1] to file /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/ab_initio_parameters/augustus/species/aspergillus_tubingensis_dfa_scaf1/aspergillus_tubingensis_dfa_scaf1_exon_probs.pbl.

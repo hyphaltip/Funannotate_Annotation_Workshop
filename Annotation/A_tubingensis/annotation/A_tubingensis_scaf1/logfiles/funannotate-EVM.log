@@ -1,0 +1,52 @@
+[06/30/25 06:11:18]: /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/aux_scripts/funannotate-runEVM.py -w /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/weights.evm.txt -c 16 -g /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/gene_predictions.gff3 -d /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM -f /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa -l annotation/A_tubingensis_scaf1/logfiles/funannotate-EVM.log -m 10 -i 1500 -o /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/evm.round1.gff3 --EVM_HOME /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/opt/evidencemodeler-1.1.1 -p /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/protein_alignments.gff3 -t /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/transcript_alignments.gff3
+
+[06/30/25 06:11:18]: EVM: partitioning input to ~ 35 genes per partition using min 1500 bp interval
+[06/30/25 06:11:18]: 1 total contigs; skipping 0 contigs with no genes
+[06/30/25 06:11:18]: Merged 3022 genes into 645 supergenes with bedtools
+[06/30/25 06:11:18]: scaffold_1_1-95282 --> 95281 bp
+[06/30/25 06:11:18]: scaffold_1_89534-198919 --> 109385 bp
+[06/30/25 06:11:18]: scaffold_1_196729-311416 --> 114687 bp
+[06/30/25 06:11:18]: scaffold_1_309728-416248 --> 106520 bp
+[06/30/25 06:11:18]: scaffold_1_412873-528863 --> 115990 bp
+[06/30/25 06:11:18]: scaffold_1_527338-671512 --> 144174 bp
+[06/30/25 06:11:18]: scaffold_1_669520-754709 --> 85189 bp
+[06/30/25 06:11:18]: scaffold_1_751930-869779 --> 117849 bp
+[06/30/25 06:11:18]: scaffold_1_862295-959795 --> 97500 bp
+[06/30/25 06:11:18]: scaffold_1_956694-1048614 --> 91920 bp
+[06/30/25 06:11:18]: scaffold_1_1046241-1143279 --> 97038 bp
+[06/30/25 06:11:18]: scaffold_1_1140788-1236299 --> 95511 bp
+[06/30/25 06:11:18]: scaffold_1_1234655-1360489 --> 125834 bp
+[06/30/25 06:11:18]: scaffold_1_1357854-1448485 --> 90631 bp
+[06/30/25 06:11:18]: scaffold_1_1443443-1553288 --> 109845 bp
+[06/30/25 06:11:18]: scaffold_1_1551490-1674524 --> 123034 bp
+[06/30/25 06:11:18]: scaffold_1_1671846-1762389 --> 90543 bp
+[06/30/25 06:11:18]: scaffold_1_1758654-1847386 --> 88732 bp
+[06/30/25 06:11:18]: scaffold_1_1845432-1967716 --> 122284 bp
+[06/30/25 06:11:19]: Finished partitioning, generating command list
+[06/30/25 06:11:43]: perl /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/opt/evidencemodeler-1.1.1/EvmUtils/recombine_EVM_partial_outputs.pl --partitions partitions_list.out --output_file_name evm.out
+[06/30/25 06:11:43]: Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_1671846-1762389/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_309728-416248/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_1443443-1553288/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_196729-311416/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_751930-869779/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_1357854-1448485/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_669520-754709/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_1845432-1967716/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_1-95282/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_1140788-1236299/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_1551490-1674524/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_862295-959795/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_1046241-1143279/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_527338-671512/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_89534-198919/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_956694-1048614/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_1234655-1360489/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_412873-528863/evm.out
+Parsing /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/scaffold_1_1758654-1847386/evm.out
+	writing output /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1/evm.out
+
+
+[06/30/25 06:11:43]: perl /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/opt/evidencemodeler-1.1.1/EvmUtils/convert_EVM_outputs_to_GFF3.pl --partitions partitions_list.out --output evm.out --genome /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa
+[06/30/25 06:11:43]: // Processing scaffold_1, /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM/scaffold_1
+
+[06/30/25 06:11:43]: Converting to GFF3 and collecting all EVM results

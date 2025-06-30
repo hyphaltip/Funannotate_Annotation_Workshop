@@ -1,0 +1,159 @@
+[06/30/25 05:54:20]: /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/funannotate predict --keep_no_stops --SeqCenter WVU -i genomes/A_tubingensis_scaf1.masked.fasta -o annotation/A_tubingensis_scaf1 -s Aspergillus tubingensis --strain DFA_scaf1 --AUGUSTUS_CONFIG_PATH /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/config/ --cpus 16 --min_training_models 50 --max_intronlen 1200 --name ATUBSCAF1 --optimize_augustus --min_protlen 30 --tmpdir /scratch/jstajich/17620058 --busco_db ascomycota_odb10
+
+[06/30/25 05:54:20]: OS: Rocky Linux 8.8, 256 cores, ~ 528 GB RAM. Python: 3.8.15
+[06/30/25 05:54:20]: Running funannotate v1.8.17
+[06/30/25 05:54:20]: GeneMark path: /opt/linux/rocky/8.x/x86_64/pkgs/genemarkESET/4.72_lic
+[06/30/25 05:54:21]: Full path to gmes_petap.pl: /opt/linux/rocky/8.x/x86_64/pkgs/genemarkESET/4.72_lic/gmes_petap.pl
+[06/30/25 05:54:21]: GeneMark appears to be functional? True
+[06/30/25 05:54:21]: exonerate version=exonerate 2.4.0 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/exonerate
+[06/30/25 05:54:21]: diamond version=2.1.8 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/diamond
+[06/30/25 05:54:21]: tbl2asn version=25.8 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/tbl2asn
+[06/30/25 05:54:21]: bedtools version=bedtools v2.31.1 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/bedtools
+[06/30/25 05:54:21]: augustus version=3.5.0 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/augustus
+[06/30/25 05:54:21]: etraining version=NA path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/etraining
+[06/30/25 05:54:21]: tRNAscan-SE version=2.0.12 (Nov 2022) path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/tRNAscan-SE
+[06/30/25 05:54:21]: bam2hints version=NA path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/bam2hints
+[06/30/25 05:54:21]: minimap2 version=2.26-r1175 path=/opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/minimap2
+[06/30/25 05:54:21]: $AUGUSTUS_CONFIG_PATH=/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/config/
+[06/30/25 05:54:21]: Found training files, will re-use these files:
+  --rna_bam annotation/A_tubingensis_scaf1/training/funannotate_train.coordSorted.bam
+  --pasa_gff annotation/A_tubingensis_scaf1/training/funannotate_train.pasa.gff3
+  --stringtie annotation/A_tubingensis_scaf1/training/funannotate_train.stringtie.gtf
+  --transcript_alignments annotation/A_tubingensis_scaf1/training/funannotate_train.transcripts.gff3
+[06/30/25 05:54:21]: {'augustus': 1, 'hiq': 2, 'genemark': 1, 'pasa': 6, 'codingquarry': 2, 'snap': 1, 'glimmerhmm': 1, 'proteins': 1, 'transcripts': 1}
+[06/30/25 05:54:25]: {'augustus': 'pasa', 'genemark': 'selftraining', 'snap': 'pasa', 'glimmerhmm': 'pasa', 'codingquarry': 'rna-bam'}
+[06/30/25 05:54:25]: Parsed training data, run ab-initio gene predictors as follows:
+[06/30/25 05:54:25]: augustus --species=anidulans --proteinprofile=/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/config/EOG092C0B3U.prfl /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/config/busco_test.fa
+[06/30/25 05:54:26]: perl /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/opt/evidencemodeler-1.1.1/EvmUtils/gff3_gene_prediction_file_validator.pl /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/pasa_predictions.gff3
+[06/30/25 05:54:26]: {'augustus': 1, 'hiq': 2, 'genemark': 1, 'pasa': 6, 'codingquarry': 2, 'snap': 1, 'glimmerhmm': 1, 'proteins': 1, 'transcripts': 1}
+[06/30/25 05:54:26]: Loading genome assembly and parsing soft-masked repetitive sequences
+[06/30/25 05:54:26]: Genome loaded: 1 scaffolds; 1,967,716 bp; 1.77% repeats masked
+[06/30/25 05:54:26]: Parsed 1,351 transcript alignments from: annotation/A_tubingensis_scaf1/training/funannotate_train.transcripts.gff3
+[06/30/25 05:54:26]: Creating transcript EVM alignments and Augustus transcripts hintsfile
+[06/30/25 05:54:27]: Extracting hints from RNA-seq BAM file using bam2hints
+[06/30/25 05:54:27]: bam2hints --intronsonly --in annotation/A_tubingensis_scaf1/training/funannotate_train.coordSorted.bam --out annotation/A_tubingensis_scaf1/predict_misc/bam_hints.tmp
+[06/30/25 05:54:27]: join_mult_hints.pl
+[06/30/25 05:54:27]: /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/aux_scripts/filterIntronsFindStrand.pl /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa annotation/A_tubingensis_scaf1/predict_misc/bam_hints.joined.tmp --score
+[06/30/25 05:57:37]: join_mult_hints.pl
+[06/30/25 05:57:37]: GeneMark-ES cannot run with only a single contig, you must provide --ini_mod file to run GeneMark
+[06/30/25 05:57:37]: GeneMark predictions failed. If you can run GeneMark outside of funannotate, then pass the results to --genemark_gtf.
+[06/30/25 05:57:37]: Filtering PASA data for suitable training set
+[06/30/25 05:57:37]: /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/aux_scripts/filterGenemark.pl /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/pasa.training.tmp.gtf /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/hints.ALL.gff
+[06/30/25 05:57:38]: 580 PASA genes; 378 have multi-CDS; 141 from filterGeneMark; 113 have multi-CDS
+[06/30/25 05:57:38]: filterGeneMark GTF filter set to False; require genes with multiple CDS set to True
+[06/30/25 05:57:38]: diamond makedb --in /scratch/jstajich/17620058/augustus.training.proteins.fa --db /scratch/jstajich/17620058/aug_training.dmnd
+[06/30/25 05:57:38]: diamond blastp --query /scratch/jstajich/17620058/augustus.training.proteins.fa --db /scratch/jstajich/17620058/aug_training.dmnd --more-sensitive -o /scratch/jstajich/17620058/aug.blast.txt -f 6 qseqid sseqid pident --query-cover 80 --subject-cover 80 --id 80 --no-self-hits
+[06/30/25 05:57:42]: 0 models fail blast identity threshold
+[06/30/25 05:57:42]: 202 models will be ignored for training Augustus
+[06/30/25 05:57:42]: 369 of 580 models pass training parameters
+[06/30/25 05:57:42]: Training Augustus using PASA gene models
+[06/30/25 05:57:42]: gff2gbSmallDNA.pl annotation/A_tubingensis_scaf1/predict_misc/final_training_models.gff3 /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa 600 annotation/A_tubingensis_scaf1/predict_misc/augustus.training.pasa.gb
+[06/30/25 05:57:47]: Augustus initial training results:
+[06/30/25 06:07:41]: Augustus optimized training results:
+[06/30/25 06:07:41]: Running Augustus gene prediction using aspergillus_tubingensis_dfa_scaf1 parameters
+[06/30/25 06:08:01]: perl /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/opt/evidencemodeler-1.1.1/EvmUtils/misc/augustus_GFF3_to_EVM_GFF3.pl annotation/A_tubingensis_scaf1/predict_misc/augustus.gff3
+[06/30/25 06:08:01]: Pulling out high quality Augustus predictions
+[06/30/25 06:08:01]: Found 251 high quality predictions from Augustus (>90% exon evidence)
+[06/30/25 06:08:01]: Running CodingQuarry prediction using stringtie alignments
+[06/30/25 06:08:01]: CodingQuarry -p 16 -f /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa -t /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/stringtie.gff3
+[06/30/25 06:09:41]: The environmental variable QUARRY_PATH is set as: /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/opt/codingquarry-2.0/QuarryFiles
+STAGE 1
+Prediction from transcript sequences, run 1 of 2...
+Prediction from transcript sequences, run 2 of 2...
+STAGE 1 complete
+Training..
+Intron training complete
+printed parameters
+Remove single-exon predictions
+Select prediction regions
+Predict from genome sequences
+STAGE 2 complete
+Additional gene discovery
+Additional gene discovery complete
+
+
+Thank you for using CodingQuarry. If you found our program useful, please cite
+us!
+
+Testa AC, Hane JK, Ellwood SR, Oliver RP. CodingQuarry:
+highly accurate hidden Markov model gene prediction in fungal
+genomes using RNA-seq transcripts. BMC genomics. 2016;16:170.
+
+
+[06/30/25 06:09:41]: 743 predictions from CodingQuarry
+[06/30/25 06:09:41]: Running SNAP gene prediction, using training data: annotation/A_tubingensis_scaf1/predict_misc/final_training_models.gff3
+[06/30/25 06:09:41]: 369 gene models to train snap on 1 scaffolds
+[06/30/25 06:09:41]: fathom /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/snap.training.zff /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/snap-training.scaffolds.fasta -categorize 1000 -min-intron 10 -max-intron 1200
+[06/30/25 06:09:41]: fathom uni.ann uni.dna -export 1000 -plus
+[06/30/25 06:09:41]: forge export.ann export.dna
+[06/30/25 06:09:42]: perl /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/hmm-assembler.pl snap-trained annotation/A_tubingensis_scaf1/predict_misc/snaptrain
+[06/30/25 06:09:42]: snap /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/snap-trained.hmm /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa
+[06/30/25 06:09:47]: scoring....decoding.10.20.30.40.50.60.70.80.90.100 done
+scoring....decoding.10.20.30.40.50.60.70.80.90.100 done
+
+[06/30/25 06:09:47]: 638 predictions from SNAP
+[06/30/25 06:09:47]: Running GlimmerHMM gene prediction, using training data: annotation/A_tubingensis_scaf1/predict_misc/final_training_models.gff3
+[06/30/25 06:09:47]: trainGlimmerHMM /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/glimmer.exons -d annotation/A_tubingensis_scaf1/predict_misc/glimmerhmm
+[06/30/25 06:11:13]: perl /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/glimmhmm.pl /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/bin/glimmerhmm /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/glimmerhmm -g
+[06/30/25 06:11:18]: Process scaffold_1
+Done 950000 bp
+Done 1851087 bp
+Done 1967716 bp
+Done scaffold_1
+
+[06/30/25 06:11:18]: 587 predictions from GlimmerHMM
+[06/30/25 06:11:18]: Prediction sources: ['HiQ', 'Augustus', 'CodingQuarry', 'GlimmerHMM', 'pasa', 'snap']
+[06/30/25 06:11:18]: Summary of gene models: {'total': 3022, 'HiQ': 251, 'Augustus': 223, 'CodingQuarry': 743, 'GlimmerHMM': 587, 'pasa': 580, 'snap': 638}
+[06/30/25 06:11:18]: EVM Weights: {'HiQ': 2, 'Augustus': 1, 'CodingQuarry': 2, 'GlimmerHMM': 1, 'pasa': 6, 'snap': 1, 'proteins': 1, 'transcripts': 1}
+[06/30/25 06:11:18]: Summary of gene models passed to EVM (weights):
+[06/30/25 06:11:18]: Launching EVM via funannotate-runEVM.py
+[06/30/25 06:11:18]: /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/bin/python3.8 /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/aux_scripts/funannotate-runEVM.py -w /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/weights.evm.txt -c 16 -g /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/gene_predictions.gff3 -d /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/EVM -f /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa -l annotation/A_tubingensis_scaf1/logfiles/funannotate-EVM.log -m 10 -i 1500 -o /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/evm.round1.gff3 --EVM_HOME /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/opt/evidencemodeler-1.1.1 -p /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/protein_alignments.gff3 -t /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/transcript_alignments.gff3
+[06/30/25 06:11:43]: 652 total gene models from EVM
+[06/30/25 06:11:43]: Generating protein fasta files from 652 EVM models
+[06/30/25 06:11:43]: now filtering out bad gene models (< 30 aa in length, transposable elements, etc).
+[06/30/25 06:11:43]: diamond blastp --sensitive --query annotation/A_tubingensis_scaf1/predict_misc/evm.round1.proteins.fa --threads 16 --out annotation/A_tubingensis_scaf1/predict_misc/repeats.xml --db /bigdata/stajichlab/shared/lib/funannotate_db/repeats.dmnd --evalue 1e-10 --max-target-seqs 1 --outfmt 5
+[06/30/25 06:11:45]: bedtools intersect -sorted -f 0.9 -a /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/evm.round1.gff3.sorted.gff -b /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/repeatmasker.bed.sorted.bed
+[06/30/25 06:11:45]: Found 2 gene models to remove: 0 too short; 0 span gaps; 2 transposable elements
+[06/30/25 06:11:45]: 650 gene models remaining
+[06/30/25 06:11:45]: Predicting tRNAs
+[06/30/25 06:11:45]: tRNAscan-SE -o annotation/A_tubingensis_scaf1/predict_misc/tRNAscan.out --thread 16 /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa
+[06/30/25 06:11:48]: Status: Phase I: Searching for tRNAs with HMM-enabled Infernal
+Status: Phase II: Infernal verification of candidate tRNAs detected with first-pass scan
+
+[06/30/25 06:11:48]: 
+tRNAscan-SE v.2.0.12 (Nov 2022) - scan sequences for transfer RNAs
+Copyright (C) 2022 Patricia Chan and Todd Lowe
+                   University of California Santa Cruz
+Freely distributed under the GNU General Public License (GPLv3)
+
+------------------------------------------------------------
+Sequence file(s) to search:        /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa
+Search Mode:                       Eukaryotic
+Results written to:                annotation/A_tubingensis_scaf1/predict_misc/tRNAscan.out
+Output format:                     Tabular
+Searching with:                    Infernal First Pass->Infernal
+Isotype-specific model scan:       Yes
+Covariance model:                  /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/tRNAscan-SE/models/TRNAinf-euk.cm
+                                   /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/tRNAscan-SE/models/TRNAinf-euk-SeC.cm
+Infernal first pass cutoff score:  10
+
+Temporary directory:               /scratch/jstajich/17620058
+------------------------------------------------------------
+
+
+[06/30/25 06:11:48]: bedtools intersect -sorted -v -a /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/trnascan.gff3.sorted.gff3 -b /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/evm.cleaned.gff3.sorted.gff3 /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/assembly-gaps.bed.sorted.gff3
+[06/30/25 06:11:48]: 19 tRNAscan models are valid (non-overlapping)
+[06/30/25 06:11:48]: Generating GenBank tbl annotation file
+[06/30/25 06:11:49]: Collecting final annotation files for 669 total gene models
+[06/30/25 06:11:49]: Converting to final Genbank format
+[06/30/25 06:11:49]: /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/bin/python3.8 /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/aux_scripts/tbl2asn_parallel.py -i annotation/A_tubingensis_scaf1/predict_misc/tbl2asn/genome.tbl -f /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/predict_misc/genome.softmasked.fa -o annotation/A_tubingensis_scaf1/predict_misc/tbl2asn --sbt /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/config/test.sbt -d annotation/A_tubingensis_scaf1/predict_results/Aspergillus_tubingensis_DFA_scaf1.discrepency.report.txt -s Aspergillus tubingensis -t -l paired-ends -v 1 -c 16 --strain DFA_scaf1
+[06/30/25 06:11:52]: Funannotate predict is finished, output files are in the annotation/A_tubingensis_scaf1/predict_results folder
+[06/30/25 06:11:52]: Your next step to capture UTRs and update annotation using PASA:
+
+  funannotate update -i annotation/A_tubingensis_scaf1 --cpus 16
+
+[06/30/25 06:11:52]: Training parameters file saved: annotation/A_tubingensis_scaf1/predict_results/aspergillus_tubingensis_dfa_scaf1.parameters.json
+[06/30/25 06:11:52]: Add species parameters to database:
+
+  funannotate species -s aspergillus_tubingensis_dfa_scaf1 -a annotation/A_tubingensis_scaf1/predict_results/aspergillus_tubingensis_dfa_scaf1.parameters.json
+

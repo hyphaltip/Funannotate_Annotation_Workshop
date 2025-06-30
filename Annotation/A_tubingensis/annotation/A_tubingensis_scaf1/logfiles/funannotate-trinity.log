@@ -1,0 +1,12 @@
+[06/30/25 05:28:15]: /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/aux_scripts/trinity.py -f annotation/A_tubingensis_scaf1/training/genome.fasta -o annotation/A_tubingensis_scaf1/training/trinity.fasta -b annotation/A_tubingensis_scaf1/training/hisat2.coordSorted.bam -t annotation/A_tubingensis_scaf1/training --stranded no --max_intronlen 1000 --cpus 32 --TRINITYHOME /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/opt/trinity-2.8.5 --memory 128G --logfile annotation/A_tubingensis_scaf1/logfiles/funannotate-trinity.log --jaccard_clip -l annotation/A_tubingensis_scaf1/training/normalize/left.norm.fq -r annotation/A_tubingensis_scaf1/training/normalize/right.norm.fq
+
+[06/30/25 05:28:15]: Building Hisat2 genome index
+[06/30/25 05:28:15]: hisat2-build -p 32 annotation/A_tubingensis_scaf1/training/genome.fasta annotation/A_tubingensis_scaf1/training/hisat2.genome
+[06/30/25 05:28:17]: Aligning reads to genome using Hisat2
+[06/30/25 05:28:17]: hisat2 -p 32 --max-intronlen 1000 --dta -x annotation/A_tubingensis_scaf1/training/hisat2.genome -1 /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/normalize/left.norm.fq -2 /bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/normalize/right.norm.fq | samtools sort --reference annotation/A_tubingensis_scaf1/training/genome.fasta -@ 16 -o annotation/A_tubingensis_scaf1/training/hisat2.coordSorted.bam -
+[06/30/25 05:28:19]: Running genome-guided Trinity, logfile: annotation/A_tubingensis_scaf1/training/Trinity-gg.log
+[06/30/25 05:28:19]: Clustering of reads from BAM and preparing assembly commands
+[06/30/25 05:28:19]: Trinity --no_distributed_trinity_exec --genome_guided_bam annotation/A_tubingensis_scaf1/training/hisat2.coordSorted.bam --genome_guided_max_intron 1000 --CPU 32 --max_memory 128G --output annotation/A_tubingensis_scaf1/training/trinity_gg --jaccard_clip
+[06/30/25 05:28:38]: Assembling 1,155 Trinity clusters using 31 CPUs
+[06/30/25 05:35:45]: perl /opt/linux/rocky/8.x/x86_64/pkgs/funannotate/1.8.x/opt/trinity-2.8.5/util/support_scripts/GG_partitioned_trinity_aggregator.pl Trinity_GG
+[06/30/25 05:35:45]: 1,782 transcripts derived from Trinity
