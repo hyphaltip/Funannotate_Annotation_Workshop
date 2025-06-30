@@ -18,7 +18,7 @@ do
 	if [[ ! -f $FOLDER/${SRA}_1.fastq.gz ]]; then
 		
 		parallel-fastq-dump -T $SCRATCH -O $FOLDER --threads $CPU --split-files --gzip --sra-id $SRA \
-			--defline-seq '@$ac.$si/$ri' --defline-qual ''  # these args are for fastq-dump
+			--defline-seq '@$ac.$si/$ri' --defline-qual '+$ac.$si/$ri'  # these args are for fastq-dump
 	# fastq-dump --gzip -O $FOLDER --defline-seq '@$ac.$si/$ri' --defline-qual '' $SRA 
 	fi
 done < sra_rna.csv
