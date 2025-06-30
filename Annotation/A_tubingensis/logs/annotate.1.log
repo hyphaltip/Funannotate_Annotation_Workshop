@@ -1,0 +1,37 @@
+Loading funannotate/1.8
+  Loading requirement: CodingQuarry/2.0 phobius/1.01 signalp/6
+[Jun 30 07:08 AM]: OS: Rocky Linux 8.8, 256 cores, ~ 528 GB RAM. Python: 3.8.15
+[Jun 30 07:08 AM]: Running 1.8.17
+[Jun 30 07:08 AM]: Parsing input files
+[Jun 30 07:08 AM]: Existing tbl found: annotation/A_tubingensis_scaf1/update_results/Aspergillus_tubingensis_DFA_scaf1.tbl
+[Jun 30 07:08 AM]: Adding Functional Annotation to Aspergillus tubingensis, NCBI accession: None
+[Jun 30 07:08 AM]: Annotation consists of: 662 gene models
+[Jun 30 07:08 AM]: 742 protein records loaded
+[Jun 30 07:08 AM]: Running HMMer search of PFAM version 37.3
+[Jun 30 07:08 AM]: 927 annotations added
+[Jun 30 07:08 AM]: Running Diamond blastp search of UniProt DB version 2025_02
+[Jun 30 07:09 AM]: 93 valid gene/product annotations from 155 total
+[Jun 30 07:09 AM]: Running Eggnog-mapper
+[Jun 30 07:28 AM]: Parsing EggNog Annotations
+[Jun 30 07:28 AM]: EggNog version parsed as 2.1.12-5a40309
+[Jun 30 07:28 AM]: 1,526  COG and EggNog annotations added
+[Jun 30 07:28 AM]: Combining UniProt/EggNog gene and product names using Gene2Product version 1.96
+[Jun 30 07:28 AM]: 265 gene name and product description annotations added
+[Jun 30 07:28 AM]: Running Diamond blastp search of MEROPS version 12.5
+[Jun 30 07:28 AM]: 17 annotations added
+[Jun 30 07:28 AM]: Annotating CAZYmes using HMMer search of dbCAN version 13.0
+[Jun 30 07:28 AM]: 22 annotations added
+[Jun 30 07:28 AM]: Annotating proteins with BUSCO ascomycota_odb10 models
+[Jun 30 07:28 AM]: 139 annotations added
+[Jun 30 07:28 AM]: Predicting secreted and transmembrane proteins using Phobius
+     Progress: 0 complete, 0 failed, 742 remaining             Progress: 23 complete, 0 failed, 719 remaining             Progress: 183 complete, 0 failed, 559 remaining             Progress: 292 complete, 0 failed, 450 remaining             Progress: 413 complete, 0 failed, 329 remaining             Progress: 554 complete, 0 failed, 188 remaining             Progress: 721 complete, 0 failed, 21 remaining             Progress: 742 complete, 0 failed, 0 remaining        
+[Jun 30 07:28 AM]: Existing SignalP results found: annotation/A_tubingensis_scaf1/annotate_misc/signalp.results.txt
+[Jun 30 07:28 AM]: 37 secretome and 137 transmembane annotations added
+[Jun 30 07:28 AM]: Parsing InterProScan5 XML file
+[Jun 30 07:29 AM]: Found 0 duplicated annotations, adding 7,725 valid annotations
+[Jun 30 07:29 AM]: Converting to final Genbank format, good luck!
+[Jun 30 07:29 AM]: Creating AGP file and corresponding contigs file
+[Jun 30 07:29 AM]: Writing genome annotation table.
+[Jun 30 07:29 AM]: Funannotate annotate has completed successfully!
+-------------------------------------------------------
+-------------------------------------------------------
