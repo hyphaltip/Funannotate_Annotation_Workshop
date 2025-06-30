@@ -1,0 +1,52 @@
+ClusterBlast scores for scaffold_1
+
+Table of genes, locations, strands and annotations of query cluster:
+ATUBSCAF1_000359	1066849	1069019	+	hypothetical protein	
+ATUBSCAF1_000360	1069646	1071661	+	hypothetical protein	
+ATUBSCAF1_000361	1073190	1074496	+	hypothetical protein	
+ATUBSCAF1_000362	1074706	1076609	-	hypothetical protein	
+ATUBSCAF1_000363	1077244	1078054	-	hypothetical protein	
+ATUBSCAF1_000364	1078111	1078495	-	hypothetical protein	
+ATUBSCAF1_000365	1079010	1080790	-	hypothetical protein	
+ATUBSCAF1_000366	1084931	1085542	+	hypothetical protein	
+ATUBSCAF1_000367	1086957	1088010	+	hypothetical protein	
+ATUBSCAF1_000368	1088165	1088659	-	hypothetical protein	
+ATUBSCAF1_000370	1089333	1090392	-	hypothetical protein	
+ATUBSCAF1_000371	1094090	1094711	-	hypothetical protein	
+ATUBSCAF1_000372	1095323	1096488	+	hypothetical protein	
+ATUBSCAF1_000373	1096530	1101324	-	hypothetical protein	
+ATUBSCAF1_000374	1106407	1106749	+	hypothetical protein	
+ATUBSCAF1_000375	1106945	1107692	+	hypothetical protein	
+ATUBSCAF1_000376	1108218	1109345	+	hypothetical protein	
+ATUBSCAF1_000377	1113587	1121414	-	hypothetical protein	
+ATUBSCAF1_000378	1122676	1124365	+	hypothetical protein	
+ATUBSCAF1_000379	1125936	1128261	-	hypothetical protein	
+ATUBSCAF1_000380	1131355	1132121	-	hypothetical protein	
+ATUBSCAF1_000381	1136126	1137557	-	hypothetical protein	
+ATUBSCAF1_000382	1137754	1138063	+	hypothetical protein	
+ATUBSCAF1_000383	1139323	1140362	+	hypothetical protein	
+ATUBSCAF1_000384	1143414	1144911	-	hypothetical protein	
+ATUBSCAF1_000385	1145103	1145337	-	hypothetical protein	
+ATUBSCAF1_000386	1146160	1147739	-	hypothetical protein	
+ATUBSCAF1_000387	1148009	1148945	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0001518.3	astellolide A
+
+
+Details:
+
+>>
+1. BGC0001518.3
+Source: astellolide A
+Type: terpene
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 402.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ATUBSCAF1_000365	AO090026000582	49	247	50.752688172043015	1.21e-78
+ATUBSCAF1_000366	AO090026000576	47	155	99.47916666666666	5.89e-48
+
