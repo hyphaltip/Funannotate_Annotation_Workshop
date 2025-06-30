@@ -43,22 +43,23 @@ do
     if [ -z $RNASEQ ]; then
         echo "No RNASeq for training, skipping $BASE"
     else
-	# this is dynamically checking for files that are paired but if not paired we use the --single option
-	LEFT=$RNADIR/${RNASEQ}_R1.fastq.gz
-	RIGHT=$RNADIR/${RNASEQ}_R2.fastq.gz
-	if [[ ! -z $LEFT && ! -z $RIGHT ]]; then
-        # paired end data
-        funannotate train -i $GENOME --cpus $CPUS \
-        --memory $MEM  --species "$SPECIES" --strain $STRAIN \
-        -o $OUTDIR/$BASE --jaccard_clip \
-        --max_intronlen 1000 --left $LEFT --right $RIGHT
-	elif [ ! -z $LEFT ]; then
-	# unpaired - single end only
-        funannotate train -i $GENOME --cpus $CPUS --memory $MEM  --species "$SPECIES" --strain $STRAIN  -o $OUTDIR/$BASE --jaccard_clip \
-        --max_intronlen 1000 \
-		--single $LEFT
-	else
-        echo "No RNASeq files found in '$RNADIR' for '$RNASEQ' - check RNASEQ column in $SAMPLES"
-        exit
+        # this is dynamically checking for files that are paired but if not paired we use the --single option
+        LEFT=$RNADIR/${RNASEQ}_R1.fastq.gz
+        RIGHT=$RNADIR/${RNASEQ}_R2.fastq.gz
+        if [[ ! -z $LEFT && ! -z $RIGHT ]]; then
+            # paired end data
+            funannotate train -i $GENOME --cpus $CPUS \
+            --memory $MEM  --species "$SPECIES" --strain $STRAIN \
+            -o $OUTDIR/$BASE --jaccard_clip \
+            --max_intronlen 1000 --left $LEFT --right $RIGHT
+        elif [ ! -z $LEFT ]; then
+        # unpaired - single end only
+            funannotate train -i $GENOME --cpus $CPUS --memory $MEM  --species "$SPECIES" --strain $STRAIN  -o $OUTDIR/$BASE --jaccard_clip \
+            --max_intronlen 1000 \
+            --single $LEFT
+        else
+            echo "No RNASeq files found in '$RNADIR' for '$RNASEQ' - check RNASEQ column in $SAMPLES"
+            exit
+        fi
     fi
 done

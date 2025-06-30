@@ -1,0 +1,5 @@
+Loading funannotate/1.8
+  Loading requirement: CodingQuarry/2.0 phobius/1.01 signalp/6
+[Jun 29 11:06 PM]: OS: Rocky Linux 8.8, 64 cores, ~ 528 GB RAM. Python: 3.8.15
+[Jun 29 11:06 PM]: Running 1.8.17
+[Jun 29 11:06 PM]: Adapter and Quality trimming PE reads with Trimmomatic

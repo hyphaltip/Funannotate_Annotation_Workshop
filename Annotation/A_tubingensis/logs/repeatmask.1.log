@@ -355,3 +355,4 @@ Number of families returned by RECON: 651
 Processing families with greater than 15 elements
 Instance Gathering: 00:00:00 (hh:mm:ss) Elapsed Time
 Refining 1 families
+slurmstepd-i38: error: *** JOB 17604080 ON i38 CANCELLED AT 2025-06-29T21:38:59 ***
