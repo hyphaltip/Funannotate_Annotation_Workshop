@@ -1,0 +1,353 @@
+ATUBSCAF1_000005-T1	AMO2	amine oxidase	EggNog-Mapper
+ATUBSCAF1_000006-T1	AMO2	amine oxidase	EggNog-Mapper
+ATUBSCAF1_000010-T1	DAO1	D-amino-acid oxidase	UniProtKB
+ATUBSCAF1_000010-T1	DAO1	D-amino-acid oxidase	EggNog-Mapper
+ATUBSCAF1_000018-T1	ACS2	acetyl-coenzyme A	EggNog-Mapper
+ATUBSCAF1_000023-T1	ras1	RAS small monomeric GTPase RasA	EggNog-Mapper
+ATUBSCAF1_000027-T1	SFU1	Transcription factor	EggNog-Mapper
+ATUBSCAF1_000027-T2	SFU1	Transcription factor	EggNog-Mapper
+ATUBSCAF1_000030-T1	DAO1	D-amino-acid oxidase	UniProtKB
+ATUBSCAF1_000030-T1	DAO1	D-amino acid oxidase	EggNog-Mapper
+ATUBSCAF1_000034-T1	TRX1	Thioredoxin	UniProtKB
+ATUBSCAF1_000034-T1	TRX1	Belongs to the thioredoxin family	EggNog-Mapper
+ATUBSCAF1_000037-T1	APL4	AP-1 adaptor complex subunit gamma	EggNog-Mapper
+ATUBSCAF1_000038-T1	HAP3	CCAAT-binding factor complex subunit HapC	EggNog-Mapper
+ATUBSCAF1_000042-T1	scn1	Cut9 interacting protein Scn1	EggNog-Mapper
+ATUBSCAF1_000044-T1	SPO7	Spo7-like protein	EggNog-Mapper
+ATUBSCAF1_000045-T1	MCM3	Belongs to the MCM family	EggNog-Mapper
+ATUBSCAF1_000052-T1	SRP68	Signal-recognition-particle assembly has a crucial role in targeting secretory proteins to the rough endoplasmic reticulum membrane	EggNog-Mapper
+ATUBSCAF1_000052-T2	SRP68	Signal-recognition-particle assembly has a crucial role in targeting secretory proteins to the rough endoplasmic reticulum membrane	EggNog-Mapper
+ATUBSCAF1_000053-T1	ERG5	C-22 sterol desaturase erg5	UniProtKB
+ATUBSCAF1_000053-T1	ERG5	cytochrome P450	EggNog-Mapper
+ATUBSCAF1_000054-T1	RDL2	Rhodanese Homology Domain	EggNog-Mapper
+ATUBSCAF1_000055-T1	FUN12	Translation initiation factor	EggNog-Mapper
+ATUBSCAF1_000058-T1	GYP8	TBC domain protein	EggNog-Mapper
+ATUBSCAF1_000061-T1	ANB1	Eukaryotic translation initiation factor 5A	UniProtKB
+ATUBSCAF1_000061-T1	ANB1	Translation initiation factor	EggNog-Mapper
+ATUBSCAF1_000062-T1	VPS52	GARP complex subunit (Sac2)	EggNog-Mapper
+ATUBSCAF1_000074-T1	PAB1	Polyadenylate-binding protein, cytoplasmic and nuclear	UniProtKB
+ATUBSCAF1_000074-T1	PAB1	Binds the poly(A) tail of mRNA	EggNog-Mapper
+ATUBSCAF1_000074-T2	PAB1	Polyadenylate-binding protein, cytoplasmic and nuclear	UniProtKB
+ATUBSCAF1_000074-T2	PAB1	Binds the poly(A) tail of mRNA	EggNog-Mapper
+ATUBSCAF1_000075-T1	HUL5	IQ and HECT domain protein	EggNog-Mapper
+ATUBSCAF1_000076-T1	MRPL27	50S ribosomal protein YmL27	EggNog-Mapper
+ATUBSCAF1_000078-T1	ACF2	Endo-1,3-beta-glucanase Engl1	EggNog-Mapper
+ATUBSCAF1_000078-T2	ACF2	Endo-1,3-beta-glucanase Engl1	EggNog-Mapper
+ATUBSCAF1_000079-T1	VCX1	Belongs to the Ca(2 ) cation antiporter (CaCA) (TC 2.A.19) family	EggNog-Mapper
+ATUBSCAF1_000079-T2	VCX1	Belongs to the Ca(2 ) cation antiporter (CaCA) (TC 2.A.19) family	EggNog-Mapper
+ATUBSCAF1_000079-T3	VCX1	Belongs to the Ca(2 ) cation antiporter (CaCA) (TC 2.A.19) family	EggNog-Mapper
+ATUBSCAF1_000079-T4	VCX1	Belongs to the Ca(2 ) cation antiporter (CaCA) (TC 2.A.19) family	EggNog-Mapper
+ATUBSCAF1_000085-T1	RPS8A	Small ribosomal subunit protein eS8	UniProtKB
+ATUBSCAF1_000085-T1	RPS8A	Belongs to the eukaryotic ribosomal protein eS8 family	EggNog-Mapper
+ATUBSCAF1_000085-T2	RPS8A	Small ribosomal subunit protein eS8	UniProtKB
+ATUBSCAF1_000085-T2	RPS8A	Belongs to the eukaryotic ribosomal protein eS8 family	EggNog-Mapper
+ATUBSCAF1_000086-T1	DCK1	Belongs to the DOCK family	EggNog-Mapper
+ATUBSCAF1_000092-T1	MRP10	Involved in mitochondrial genome encoded proteins translation	EggNog-Mapper
+ATUBSCAF1_000097-T1	PCL1	Cyclin	EggNog-Mapper
+ATUBSCAF1_000099-T1	ERG2	C-8 sterol isomerase erg2	UniProtKB
+ATUBSCAF1_000099-T1	ERG2	C-8 sterol isomerase	EggNog-Mapper
+ATUBSCAF1_000100-T1	NCS6	Cytoplasmic tRNA 2-thiolation protein 1	UniProtKB
+ATUBSCAF1_000100-T1	CTU1	Plays a central role in 2-thiolation of mcm(5)S(2)U at tRNA wobble positions of tRNA(Lys), tRNA(Glu) and tRNA(Gln)	EggNog-Mapper
+ATUBSCAF1_000108-T1	RPL15	Large ribosomal subunit protein eL15	UniProtKB
+ATUBSCAF1_000108-T1	rpl15	Belongs to the eukaryotic ribosomal protein eL15 family	EggNog-Mapper
+ATUBSCAF1_000108-T2	RPL15	Large ribosomal subunit protein eL15	UniProtKB
+ATUBSCAF1_000108-T2	rpl15	Belongs to the eukaryotic ribosomal protein eL15 family	EggNog-Mapper
+ATUBSCAF1_000109-T1	HUL4	Ubiquitin-protein ligase	EggNog-Mapper
+ATUBSCAF1_000113-T1	NGG1	Transcriptional regulator Ngg1	EggNog-Mapper
+ATUBSCAF1_000113-T2	NGG1	Transcriptional regulator Ngg1	EggNog-Mapper
+ATUBSCAF1_000114-T1	NPR2	Nitrogen permease regulator	EggNog-Mapper
+ATUBSCAF1_000117-T1	URE1	Urease	UniProtKB
+ATUBSCAF1_000117-T1	URE1	belongs to the metallo- dependent hydrolases superfamily	EggNog-Mapper
+ATUBSCAF1_000118-T1	HMO1	high mobility group	EggNog-Mapper
+ATUBSCAF1_000118-T2	HMO1	high mobility group	EggNog-Mapper
+ATUBSCAF1_000119-T1	MCR1	NADH-cytochrome b5 reductase 2	UniProtKB
+ATUBSCAF1_000119-T1	MCR1	Belongs to the flavoprotein pyridine nucleotide cytochrome reductase family	EggNog-Mapper
+ATUBSCAF1_000120-T1	RPL20B	Large ribosomal subunit protein eL20	UniProtKB
+ATUBSCAF1_000120-T1	RPL20B	Belongs to the eukaryotic ribosomal protein eL20 family	EggNog-Mapper
+ATUBSCAF1_000120-T2	RPL20B	Large ribosomal subunit protein eL20	UniProtKB
+ATUBSCAF1_000120-T2	RPL20B	Belongs to the eukaryotic ribosomal protein eL20 family	EggNog-Mapper
+ATUBSCAF1_000121-T1	CSN12	Protein CSN12	UniProtKB
+ATUBSCAF1_000121-T1	CSN12	PCI/PINT associated module	EggNog-Mapper
+ATUBSCAF1_000125-T1	TIM10	Mitochondrial import inner membrane translocase subunit tim10	UniProtKB
+ATUBSCAF1_000125-T1	TIM10	translocase subunit Tim10	EggNog-Mapper
+ATUBSCAF1_000126-T1	MSK1	lysyl-tRNA synthetase	EggNog-Mapper
+ATUBSCAF1_000129-T1	PXA1	Peroxisomal ABC transporter (PXA1)	EggNog-Mapper
+ATUBSCAF1_000131-T1	sds22	Protein phosphatase PP1 regulatory subunit Sds22	EggNog-Mapper
+ATUBSCAF1_000133-T1	XYL1	Probable NAD(P)H-dependent D-xylose reductase xyl1	UniProtKB
+ATUBSCAF1_000133-T1	xyl1	Catalyzes the initial reaction in the xylose utilization pathway by reducing D-xylose into xylitol	EggNog-Mapper
+ATUBSCAF1_000136-T1	MRD1	Multiple RNA-binding domain-containing protein 1	UniProtKB
+ATUBSCAF1_000136-T1	MRD1	pre-rRNA processing protein Mrd1	EggNog-Mapper
+ATUBSCAF1_000137-T1	MRD1	Multiple RNA-binding domain-containing protein 1	UniProtKB
+ATUBSCAF1_000137-T1	MRD1	pre-rRNA processing protein Mrd1	EggNog-Mapper
+ATUBSCAF1_000138-T1	DYN2	dynein light chain	EggNog-Mapper
+ATUBSCAF1_000140-T1	DUR3	Belongs to the sodium solute symporter (SSF) (TC 2.A.21) family	EggNog-Mapper
+ATUBSCAF1_000141-T1	SBH1	Protein transport protein Sec61 subunit beta	UniProtKB
+ATUBSCAF1_000141-T1	SBH1	Necessary for protein translocation in the endoplasmic reticulum	EggNog-Mapper
+ATUBSCAF1_000146-T1	POL30	This protein is an auxiliary protein of DNA polymerase delta and is involved in the control of eukaryotic DNA replication by increasing the polymerase's processibility during elongation of the leading strand	EggNog-Mapper
+ATUBSCAF1_000152-T1	SAR1	Small COPII coat GTPase SAR1	UniProtKB
+ATUBSCAF1_000152-T1	SAR1	Small GTPase component of the coat protein complex II (COPII) which promotes the formation of transport vesicles from the endoplasmic reticulum (ER)	EggNog-Mapper
+ATUBSCAF1_000153-T1	GLC7	serine threonine-protein phosphatase	EggNog-Mapper
+ATUBSCAF1_000153-T2	GLC7	serine threonine-protein phosphatase	EggNog-Mapper
+ATUBSCAF1_000153-T3	GLC7	Serine threonine-protein phosphatase	EggNog-Mapper
+ATUBSCAF1_000157-T1	TFC4	RNA polymerase III transcription factor TFIIIC subunit (Tfc4)	EggNog-Mapper
+ATUBSCAF1_000158-T1	VTS1	RNA-binding protein vts1	UniProtKB
+ATUBSCAF1_000158-T1	VTS1	SAM domain protein	EggNog-Mapper
+ATUBSCAF1_000162-T1	TRM82	Required for the formation of N(7)-methylguanine at position 46 (m7G46) in tRNA	EggNog-Mapper
+ATUBSCAF1_000163-T1	RPP0	Ribosomal protein P0 is the functional equivalent of E.coli protein L10	EggNog-Mapper
+ATUBSCAF1_000163-T2	RPP0	Ribosomal protein P0 is the functional equivalent of E.coli protein L10	EggNog-Mapper
+ATUBSCAF1_000164-T1	HEM12	Uroporphyrinogen decarboxylase	UniProtKB
+ATUBSCAF1_000164-T1	HEM12	Belongs to the uroporphyrinogen decarboxylase family	EggNog-Mapper
+ATUBSCAF1_000165-T1	FCY1	cytosine deaminase	EggNog-Mapper
+ATUBSCAF1_000166-T1	YDJ1	Protein mitochondrial targeting protein (Mas1)	EggNog-Mapper
+ATUBSCAF1_000166-T2	YDJ1	Protein mitochondrial targeting protein (Mas1)	EggNog-Mapper
+ATUBSCAF1_000166-T3	YDJ1	Protein mitochondrial targeting protein (Mas1)	EggNog-Mapper
+ATUBSCAF1_000168-T1	VPS53	GARP complex subunit Vps53	EggNog-Mapper
+ATUBSCAF1_000169-T1	MEX67	mRNA export factor MEX67	EggNog-Mapper
+ATUBSCAF1_000169-T2	MEX67	mRNA export factor MEX67	EggNog-Mapper
+ATUBSCAF1_000171-T1	ERV46	COPII-coated vesicle membrane protein Erv46	EggNog-Mapper
+ATUBSCAF1_000175-T1	RPO26	DNA-directed RNA polymerases I, II, and III subunit RPABC2	UniProtKB
+ATUBSCAF1_000175-T1	RPO26	DNA-directed RNA polymerase I, II, and III subunit Rpb6	EggNog-Mapper
+ATUBSCAF1_000175-T2	RPO26	DNA-directed RNA polymerases I, II, and III subunit RPABC2	UniProtKB
+ATUBSCAF1_000175-T2	RPO26	DNA-directed RNA polymerase I, II, and III subunit Rpb6	EggNog-Mapper
+ATUBSCAF1_000177-T1	naa20	N-acetyltransferase (Nat5)	EggNog-Mapper
+ATUBSCAF1_000177-T2	naa20	N-acetyltransferase (Nat5)	EggNog-Mapper
+ATUBSCAF1_000179-T1	TIF32	Eukaryotic translation initiation factor 3 subunit A	UniProtKB
+ATUBSCAF1_000179-T1	TIF32	RNA-binding component of the eukaryotic translation initiation factor 3 (eIF-3) complex, which is involved in protein synthesis of a specialized repertoire of mRNAs and, together with other initiation factors, stimulates binding of mRNA and methionyl-tRNAi to the 40S ribosome	EggNog-Mapper
+ATUBSCAF1_000180-T1	GNG1	Guanine nucleotide-binding protein subunit gamma	UniProtKB
+ATUBSCAF1_000182-T1	PDE2	High affinity cAMP phosphodiesterase	EggNog-Mapper
+ATUBSCAF1_000183-T1	SNT2	PHD finger and BAH domain protein (Snt2)	EggNog-Mapper
+ATUBSCAF1_000185-T1	SNT2	PHD finger and BAH domain protein (Snt2)	EggNog-Mapper
+ATUBSCAF1_000188-T1	VPS8	Golgi complex component (Vps8)	EggNog-Mapper
+ATUBSCAF1_000189-T1	VPS8	Golgi complex component (Vps8)	EggNog-Mapper
+ATUBSCAF1_000192-T1	KRE33	RNA cytidine acetyltransferase	UniProtKB
+ATUBSCAF1_000192-T1	NAT10	RNA cytidine acetyltransferase with specificity toward both 18S rRNA and tRNAs	EggNog-Mapper
+ATUBSCAF1_000196-T1	ATP3	ATP synthase subunit gamma	EggNog-Mapper
+ATUBSCAF1_000196-T2	ATP3	ATP synthase subunit gamma	EggNog-Mapper
+ATUBSCAF1_000196-T3	ATP3	ATP synthase subunit gamma	EggNog-Mapper
+ATUBSCAF1_000197-T1	TOP1	Topoisomerase I	EggNog-Mapper
+ATUBSCAF1_000202-T1	RIM13	Belongs to the peptidase C2 family	EggNog-Mapper
+ATUBSCAF1_000202-T2	RIM13	Belongs to the peptidase C2 family	EggNog-Mapper
+ATUBSCAF1_000203-T1	ANT1	Belongs to the mitochondrial carrier (TC 2.A.29) family	EggNog-Mapper
+ATUBSCAF1_000203-T2	ANT1	Belongs to the mitochondrial carrier (TC 2.A.29) family	EggNog-Mapper
+ATUBSCAF1_000204-T1	LCL3	Probable endonuclease lcl3	UniProtKB
+ATUBSCAF1_000204-T1	lcl3	endonuclease lcl3	EggNog-Mapper
+ATUBSCAF1_000205-T1	ADK2	Involved in maintaining the homeostasis of cellular nucleotides by catalyzing the interconversion of nucleoside phosphates	EggNog-Mapper
+ATUBSCAF1_000206-T1	PRI2	DNA primase is the polymerase that synthesizes small RNA primers for the Okazaki fragments made during discontinuous DNA replication	EggNog-Mapper
+ATUBSCAF1_000207-T1	SEC23	Protein transport protein sec23	UniProtKB
+ATUBSCAF1_000207-T1	SEC23	Component of the coat protein complex II (COPII) which promotes the formation of transport vesicles from the endoplasmic reticulum (ER)	EggNog-Mapper
+ATUBSCAF1_000208-T1	RPL12	Large ribosomal subunit protein uL11	UniProtKB
+ATUBSCAF1_000208-T2	RPL12	Large ribosomal subunit protein uL11	UniProtKB
+ATUBSCAF1_000219-T1	RPL29	Large ribosomal subunit protein eL29	UniProtKB
+ATUBSCAF1_000219-T1	rpl29	Belongs to the eukaryotic ribosomal protein eL29 family	EggNog-Mapper
+ATUBSCAF1_000219-T2	rpl29	structural constituent of ribosome	EggNog-Mapper
+ATUBSCAF1_000220-T1	ATP16	ATP synthase delta chain, mitochondrial	EggNog-Mapper
+ATUBSCAF1_000220-T2	ATP16	ATP synthase delta chain, mitochondrial	EggNog-Mapper
+ATUBSCAF1_000228-T1	BUD16	Pyridoxal kinase	EggNog-Mapper
+ATUBSCAF1_000232-T1	cdc16	Domain in Tre-2, BUB2p, and Cdc16p	EggNog-Mapper
+ATUBSCAF1_000232-T2	cdc16	Domain in Tre-2, BUB2p, and Cdc16p	EggNog-Mapper
+ATUBSCAF1_000234-T1	SOL1	Glucosamine-6-phosphate isomerases/6-phosphogluconolactonase	EggNog-Mapper
+ATUBSCAF1_000238-T1	CWC22	Pre-mRNA-splicing factor cwc22	UniProtKB
+ATUBSCAF1_000238-T1	CWC22	Cell cycle control protein (Cwf22)	EggNog-Mapper
+ATUBSCAF1_000239-T1	dpm2	Dolichol phosphate-mannose biosynthesis regulatory protein Dpm2	EggNog-Mapper
+ATUBSCAF1_000242-T1	MPH1	ATP-dependent DNA helicase mph1	UniProtKB
+ATUBSCAF1_000242-T1	MPH1	ATP-dependent DNA helicase involved in DNA damage repair by homologous recombination and in genome maintenance	EggNog-Mapper
+ATUBSCAF1_000245-T1	CAP2	F-actin-capping protein subunit beta	UniProtKB
+ATUBSCAF1_000245-T1	CAP2	F-actin capping protein beta subunit	EggNog-Mapper
+ATUBSCAF1_000247-T1	TAF5	Transcription initiation factor TFIID subunit	EggNog-Mapper
+ATUBSCAF1_000248-T1	PPE1	Protein phosphatase methylesterase 1	UniProtKB
+ATUBSCAF1_000248-T1	PPE1	Demethylates proteins that have been reversibly carboxymethylated	EggNog-Mapper
+ATUBSCAF1_000248-T2	PPE1	Protein phosphatase methylesterase 1	UniProtKB
+ATUBSCAF1_000248-T2	PPE1	Demethylates proteins that have been reversibly carboxymethylated	EggNog-Mapper
+ATUBSCAF1_000250-T1	NPL4	Nuclear protein localization protein 4	UniProtKB
+ATUBSCAF1_000250-T1	NPL4	Involved in the import of nuclear-targeted proteins into the nucleus and the export of poly(A) RNA out of the nucleus	EggNog-Mapper
+ATUBSCAF1_000250-T2	NPL4	Nuclear protein localization protein 4	UniProtKB
+ATUBSCAF1_000250-T2	NPL4	Involved in the import of nuclear-targeted proteins into the nucleus and the export of poly(A) RNA out of the nucleus	EggNog-Mapper
+ATUBSCAF1_000250-T3	NPL4	Nuclear protein localization protein 4	UniProtKB
+ATUBSCAF1_000250-T3	NPL4	Involved in the import of nuclear-targeted proteins into the nucleus and the export of poly(A) RNA out of the nucleus	EggNog-Mapper
+ATUBSCAF1_000250-T4	NPL4	Nuclear protein localization protein 4	UniProtKB
+ATUBSCAF1_000250-T4	NPL4	Involved in the import of nuclear-targeted proteins into the nucleus and the export of poly(A) RNA out of the nucleus	EggNog-Mapper
+ATUBSCAF1_000251-T1	ALTA7	Minor allergen Alt a 7	UniProtKB
+ATUBSCAF1_000251-T1	PST2	NADH-quinone oxidoreductase	EggNog-Mapper
+ATUBSCAF1_000252-T1	YTH1	mRNA 3'-end-processing protein yth1	UniProtKB
+ATUBSCAF1_000252-T1	YTH1	mRNA 3'-end-processing protein YTH1	EggNog-Mapper
+ATUBSCAF1_000259-T1	PHO85	Negative regulator of the PHO system	UniProtKB
+ATUBSCAF1_000259-T1	PHO85	Belongs to the protein kinase superfamily	EggNog-Mapper
+ATUBSCAF1_000263-T1	DIP2	Small nucleolar ribonucleoprotein complex subunit Dip2	EggNog-Mapper
+ATUBSCAF1_000264-T1	ARC2	Actin-related protein 2/3 complex subunit 2	UniProtKB
+ATUBSCAF1_000264-T1	ARC35	Functions as actin-binding component of the Arp2 3 complex which is involved in regulation of actin polymerization and together with an activating nucleation-promoting factor (NPF) mediates the formation of branched actin networks	EggNog-Mapper
+ATUBSCAF1_000264-T2	ARC2	Actin-related protein 2/3 complex subunit 2	UniProtKB
+ATUBSCAF1_000264-T2	ARC35	Functions as actin-binding component of the Arp2 3 complex which is involved in regulation of actin polymerization and together with an activating nucleation-promoting factor (NPF) mediates the formation of branched actin networks	EggNog-Mapper
+ATUBSCAF1_000272-T1	PWP1	rRNA processing protein Pwp1	EggNog-Mapper
+ATUBSCAF1_000274-T1	RRN3	RNA polymerase I specific transcription initiation factor RRN3	EggNog-Mapper
+ATUBSCAF1_000276-T1	DPS1	Aspartyl-tRNA synthetase	EggNog-Mapper
+ATUBSCAF1_000278-T1	TUB1	Tubulin is the major constituent of microtubules	EggNog-Mapper
+ATUBSCAF1_000278-T2	TUB1	Tubulin is the major constituent of microtubules	EggNog-Mapper
+ATUBSCAF1_000278-T3	TUB1	Tubulin is the major constituent of microtubules	EggNog-Mapper
+ATUBSCAF1_000280-T1	PMA1	Plasma membrane ATPase	UniProtKB
+ATUBSCAF1_000280-T1	PMA1	Plasma membrane	EggNog-Mapper
+ATUBSCAF1_000286-T1	RPC2	DNA-directed RNA polymerase III subunit RPC2	UniProtKB
+ATUBSCAF1_000286-T1	rpc2	DNA-dependent RNA polymerase catalyzes the transcription of DNA into RNA using the four ribonucleoside triphosphates as substrates	EggNog-Mapper
+ATUBSCAF1_000287-T1	UFD1	Ubiquitin fusion degradation protein (Ufd1)	EggNog-Mapper
+ATUBSCAF1_000289-T1	RVB2	RuvB-like helicase 2	UniProtKB
+ATUBSCAF1_000289-T1	RVB2	participates in several chromatin remodeling complexes, including the SWR1 and the INO80 complexes	EggNog-Mapper
+ATUBSCAF1_000313-T1	BRX1	Ribosome biogenesis protein BRX1	EggNog-Mapper
+ATUBSCAF1_000315-T1	RAB11A	Ras-related protein Rab-11A	UniProtKB
+ATUBSCAF1_000315-T1	YPT31	Ras GTPase Rab11	EggNog-Mapper
+ATUBSCAF1_000317-T1	MCX1	ATP-dependent Clp protease	EggNog-Mapper
+ATUBSCAF1_000319-T1	GLD1	Glycerol-3-phosphate dehydrogenase [NAD(+)]	UniProtKB
+ATUBSCAF1_000319-T1	GPD1	Dehydrogenase	EggNog-Mapper
+ATUBSCAF1_000320-T1	GDB1	Glycogen debranching enzyme	EggNog-Mapper
+ATUBSCAF1_000322-T1	AMT16	Phospho-2-dehydro-3-deoxyheptonate aldolase AMT16	UniProtKB
+ATUBSCAF1_000322-T1	ARO3	Stereospecific condensation of phosphoenolpyruvate (PEP) and D-erythrose-4-phosphate (E4P) giving rise to 3-deoxy-D- arabino-heptulosonate-7-phosphate (DAHP)	EggNog-Mapper
+ATUBSCAF1_000322-T2	AMT16	Phospho-2-dehydro-3-deoxyheptonate aldolase AMT16	UniProtKB
+ATUBSCAF1_000322-T2	ARO3	Stereospecific condensation of phosphoenolpyruvate (PEP) and D-erythrose-4-phosphate (E4P) giving rise to 3-deoxy-D- arabino-heptulosonate-7-phosphate (DAHP)	EggNog-Mapper
+ATUBSCAF1_000325-T1	CYT1	Cytochrome c1, heme protein, mitochondrial	UniProtKB
+ATUBSCAF1_000325-T1	CYT1	Cytochrome c1	EggNog-Mapper
+ATUBSCAF1_000327-T1	RCY1	Secretion pathway protein Sls2 Rcy1	EggNog-Mapper
+ATUBSCAF1_000327-T2	RCY1	Secretion pathway protein Sls2 Rcy1	EggNog-Mapper
+ATUBSCAF1_000328-T1	PRT1	Eukaryotic translation initiation factor 3 subunit B	UniProtKB
+ATUBSCAF1_000328-T1	PRT1	Component of the eukaryotic translation initiation factor 3 (eIF-3) complex, which is involved in protein synthesis and, together with other initiation factors, stimulates binding of mRNA and methionyl-tRNAi to the 40S ribosome	EggNog-Mapper
+ATUBSCAF1_000331-T1	MSH4	DNA mismatch repair protein	EggNog-Mapper
+ATUBSCAF1_000332-T1	RSA4	Ribosome biogenesis protein Rsa4	EggNog-Mapper
+ATUBSCAF1_000342-T1	PAM17	motor subunit Pam17	EggNog-Mapper
+ATUBSCAF1_000349-T1	cyp15	Peptidyl-prolyl cis-trans isomerase	EggNog-Mapper
+ATUBSCAF1_000350-T1	CCT2	Probable T-complex protein 1 subunit beta	UniProtKB
+ATUBSCAF1_000350-T1	CCT2	assists the folding of proteins upon ATP hydrolysis	EggNog-Mapper
+ATUBSCAF1_000355-T1	IRE1	Protein kinase and ribonuclease Ire1	EggNog-Mapper
+ATUBSCAF1_000356-T1	ARG4	Argininosuccinate lyase	EggNog-Mapper
+ATUBSCAF1_000359-T1	FLC3	DUF907 domain protein	EggNog-Mapper
+ATUBSCAF1_000368-T1	FPR2	Peptidyl-prolyl cis-trans isomerase	EggNog-Mapper
+ATUBSCAF1_000370-T1	ZRT2	Plasma membrane low affinity zinc ion transporter	EggNog-Mapper
+ATUBSCAF1_000383-T1	GLD2	Glycerol 2-dehydrogenase (NADP(+))	UniProtKB
+ATUBSCAF1_000384-T1	ERG24	Ergosterol biosynthesis ERG4/ERG24 family	EggNog-Mapper
+ATUBSCAF1_000385-T1	ERG24	Ergosterol biosynthesis ERG4/ERG24 family	EggNog-Mapper
+ATUBSCAF1_000386-T1	ERG24	Ergosterol biosynthesis ERG4/ERG24 family	EggNog-Mapper
+ATUBSCAF1_000389-T1	GOR1	Belongs to the D-isomer specific 2-hydroxyacid dehydrogenase family	EggNog-Mapper
+ATUBSCAF1_000390-T1	cwf19	Cell cycle control protein (Cwf19)	EggNog-Mapper
+ATUBSCAF1_000403-T1	sap62	Pre-mRNA-splicing factor SF3a complex subunit 2 (Prp11)	EggNog-Mapper
+ATUBSCAF1_000404-T1	CBK1	Serine threonine protein kinase	EggNog-Mapper
+ATUBSCAF1_000405-T1	TIM54	Mitochondrial import inner membrane translocase subunit tim54	UniProtKB
+ATUBSCAF1_000410-T1	NAR1	Cytosolic Fe-S cluster assembly factor nar1	UniProtKB
+ATUBSCAF1_000410-T1	NAR1	Component of the cytosolic Fe S protein assembly machinery	EggNog-Mapper
+ATUBSCAF1_000411-T1	RPC10	Metallothionein-I gene transcription activator	EggNog-Mapper
+ATUBSCAF1_000412-T1	TRP4	Anthranilate phosphoribosyltransferase	EggNog-Mapper
+ATUBSCAF1_000417-T1	VPS26	Vacuolar protein sorting-associated protein 26	UniProtKB
+ATUBSCAF1_000417-T1	vps26	Vacuolar protein sorting-associated protein 26	EggNog-Mapper
+ATUBSCAF1_000417-T2	VPS26	Vacuolar protein sorting-associated protein 26	UniProtKB
+ATUBSCAF1_000417-T2	vps26	Vacuolar protein sorting-associated protein 26	EggNog-Mapper
+ATUBSCAF1_000417-T3	VPS26	Vacuolar protein sorting-associated protein 26	UniProtKB
+ATUBSCAF1_000417-T3	vps26	Vacuolar protein sorting-associated protein 26	EggNog-Mapper
+ATUBSCAF1_000418-T1	MON2	Endosomal peripheral membrane protein (Mon2)	EggNog-Mapper
+ATUBSCAF1_000419-T1	MON2	Endosomal peripheral membrane protein (Mon2)	EggNog-Mapper
+ATUBSCAF1_000420-T1	SPM2	Ubiquitin-conjugating enzyme spm2	UniProtKB
+ATUBSCAF1_000420-T1	MMS2	Belongs to the ubiquitin-conjugating enzyme family	EggNog-Mapper
+ATUBSCAF1_000422-T1	GIR2	RWD domain protein (Gir2)	EggNog-Mapper
+ATUBSCAF1_000424-T1	SIR2	Sir2 family	EggNog-Mapper
+ATUBSCAF1_000426-T1	CLB2	Belongs to the cyclin family	EggNog-Mapper
+ATUBSCAF1_000427-T1	RML2	Large ribosomal subunit protein uL2m	UniProtKB
+ATUBSCAF1_000427-T1	RML2	ribosomal protein L2	EggNog-Mapper
+ATUBSCAF1_000432-T1	dna2	DNA replication	EggNog-Mapper
+ATUBSCAF1_000433-T1	dna2	DNA replication	EggNog-Mapper
+ATUBSCAF1_000435-T1	NIT2	Carbon-nitrogen hydrolase	EggNog-Mapper
+ATUBSCAF1_000436-T1	DIS3	Belongs to the RNR ribonuclease family	EggNog-Mapper
+ATUBSCAF1_000439-T1	TRM8	tRNA (guanine-N(7)-)-methyltransferase	UniProtKB
+ATUBSCAF1_000439-T1	TRM8	Catalyzes the formation of N(7)-methylguanine at position 46 (m7G46) in tRNA	EggNog-Mapper
+ATUBSCAF1_000441-T1	ESC4	BRCT domain protein	EggNog-Mapper
+ATUBSCAF1_000444-T1	YDC1	Ceramidase	EggNog-Mapper
+ATUBSCAF1_000454-T1	RCD1	Cell differentiation protein rcd1	UniProtKB
+ATUBSCAF1_000454-T1	rcd1	Cell differentiation protein rcd1	EggNog-Mapper
+ATUBSCAF1_000457-T1	PSF1	DNA replication complex GINS protein psf1	UniProtKB
+ATUBSCAF1_000457-T1	PSF1	PSF1 domain protein	EggNog-Mapper
+ATUBSCAF1_000462-T1	GCN4	BZIP transcription factor CpcA	EggNog-Mapper
+ATUBSCAF1_000468-T1	CCC1	Calcium transporter	EggNog-Mapper
+ATUBSCAF1_000468-T2	CCC1	Calcium transporter	EggNog-Mapper
+ATUBSCAF1_000477-T1	CCC2	copper-transporting ATPase	EggNog-Mapper
+ATUBSCAF1_000479-T1	RAX1	RGS domain protein (Rax1)	EggNog-Mapper
+ATUBSCAF1_000481-T1	GCN5	Histone acetyltransferase GCN5	EggNog-Mapper
+ATUBSCAF1_000482-T1	rad1	DNA repair protein Rad1	EggNog-Mapper
+ATUBSCAF1_000483-T1	RAD50	DNA repair protein RAD50	EggNog-Mapper
+ATUBSCAF1_000485-T1	wc2	PAS fold	EggNog-Mapper
+ATUBSCAF1_000488-T1	CCR4	CCR4-Not complex 3'-5'-exoribonuclease subunit Ccr4	UniProtKB
+ATUBSCAF1_000488-T1	CCR4	Acts as catalytic component of the CCR4-NOT core complex, which in the nucleus seems to be a general transcription factor, and in the cytoplasm the major mRNA deadenylase involved in mRNA turnover	EggNog-Mapper
+ATUBSCAF1_000488-T2	CCR4	CCR4-Not complex 3'-5'-exoribonuclease subunit Ccr4	UniProtKB
+ATUBSCAF1_000488-T2	CCR4	Acts as catalytic component of the CCR4-NOT core complex, which in the nucleus seems to be a general transcription factor, and in the cytoplasm the major mRNA deadenylase involved in mRNA turnover	EggNog-Mapper
+ATUBSCAF1_000496-T1	TFC1	RNA polymerase III transcription factor	EggNog-Mapper
+ATUBSCAF1_000499-T1	vps5	Vacuolar protein sorting-associated protein Vps5	EggNog-Mapper
+ATUBSCAF1_000500-T1	MDE1	Methylthioribulose-1-phosphate dehydratase	UniProtKB
+ATUBSCAF1_000500-T1	MDE1	Catalyzes the dehydration of methylthioribulose-1- phosphate (MTRu-1-P) into 2,3-diketo-5-methylthiopentyl-1- phosphate (DK-MTP-1-P)	EggNog-Mapper
+ATUBSCAF1_000502-T1	ALD6	Methylmalonate-semialdehyde dehydrogenase	EggNog-Mapper
+ATUBSCAF1_000506-T1	ECM39	Alpha-1,6-mannosyltransferase subunit (Ecm39)	EggNog-Mapper
+ATUBSCAF1_000510-T1	HTS1	Histidine--tRNA ligase, mitochondrial	UniProtKB
+ATUBSCAF1_000510-T1	HTS1	Histidyl-tRNA synthetase, mitochondrial	EggNog-Mapper
+ATUBSCAF1_000511-T1	COQ6	FAD-dependent monooxygenase required for the C5-ring hydroxylation during ubiquinone biosynthesis	EggNog-Mapper
+ATUBSCAF1_000513-T1	SNX4	Sorting nexin-4	UniProtKB
+ATUBSCAF1_000513-T1	SNX4	Sorting nexin, involved in the separation or division of vacuoles throughout the entire life cycle of the cells	EggNog-Mapper
+ATUBSCAF1_000514-T1	KEX2	Pheromone processing endoprotease	EggNog-Mapper
+ATUBSCAF1_000515-T1	BNA41	Kynurenine 3-monooxygenase 1	UniProtKB
+ATUBSCAF1_000515-T1	BNA4	Catalyzes the hydroxylation of L-kynurenine (L-Kyn) to form 3-hydroxy-L-kynurenine (L-3OHKyn)	EggNog-Mapper
+ATUBSCAF1_000518-T1	TRR1	Thioredoxin reductase	UniProtKB
+ATUBSCAF1_000518-T1	TRR1	Belongs to the class-II pyridine nucleotide-disulfide oxidoreductase family	EggNog-Mapper
+ATUBSCAF1_000520-T1	TVP38	Golgi apparatus membrane protein tvp38	UniProtKB
+ATUBSCAF1_000520-T1	TVP38	Golgi membrane protein involved in vesicular trafficking and spindle migration	EggNog-Mapper
+ATUBSCAF1_000523-T1	TVP23	Golgi apparatus membrane protein tvp23	UniProtKB
+ATUBSCAF1_000523-T1	TVP23	Golgi membrane protein involved in vesicular trafficking	EggNog-Mapper
+ATUBSCAF1_000537-T1	GLN1	glutamine synthetase	EggNog-Mapper
+ATUBSCAF1_000537-T2	GLN1	glutamine synthetase	EggNog-Mapper
+ATUBSCAF1_000541-T1	MIP11	MST50-interacting protein 11	UniProtKB
+ATUBSCAF1_000541-T1	cpc2	beta subunit CpcB	EggNog-Mapper
+ATUBSCAF1_000541-T2	MIP11	MST50-interacting protein 11	UniProtKB
+ATUBSCAF1_000541-T2	cpc2	beta subunit CpcB	EggNog-Mapper
+ATUBSCAF1_000542-T1	emi5	Plays an essential role in the assembly of succinate dehydrogenase (SDH), an enzyme complex (also referred to as respiratory complex II) that is a component of both the tricarboxylic acid (TCA) cycle and the mitochondrial electron transport chain, and which couples the oxidation of succinate to fumarate with the reduction of ubiquinone (coenzyme Q) to ubiquinol	EggNog-Mapper
+ATUBSCAF1_000543-T1	ERV25	Endoplasmic reticulum vesicle protein 25	UniProtKB
+ATUBSCAF1_000543-T1	ERV25	Endosomal cargo receptor (Erv25)	EggNog-Mapper
+ATUBSCAF1_000548-T1	SCP1	Calponin homology domain protein	EggNog-Mapper
+ATUBSCAF1_000551-T1	FTR1	Iron permease FTR1 family	EggNog-Mapper
+ATUBSCAF1_000552-T1	FET3	Belongs to the multicopper oxidase family	EggNog-Mapper
+ATUBSCAF1_000554-T1	ORM1	Protein ORM1	UniProtKB
+ATUBSCAF1_000554-T1	ORM1	unfolded protein response	EggNog-Mapper
+ATUBSCAF1_000560-T1	HAS1	ATP-dependent RNA helicase has1	UniProtKB
+ATUBSCAF1_000560-T1	HAS1	ATP-dependent RNA helicase involved in 40S ribosomal subunit biogenesis	EggNog-Mapper
+ATUBSCAF1_000560-T2	HAS1	ATP-dependent RNA helicase has1	UniProtKB
+ATUBSCAF1_000560-T2	HAS1	ATP-dependent RNA helicase involved in 40S ribosomal subunit biogenesis	EggNog-Mapper
+ATUBSCAF1_000561-T1	HST2	Belongs to the sirtuin family	EggNog-Mapper
+ATUBSCAF1_000563-T1	FLC3	DUF907 domain protein	EggNog-Mapper
+ATUBSCAF1_000564-T1	YHC1	Component of the spliceosomal U1 snRNP, which is essential for recognition of the pre-mRNA 5' splice-site and the subsequent assembly of the spliceosome	EggNog-Mapper
+ATUBSCAF1_000566-T1	RO4	Actin-like protein	UniProtKB
+ATUBSCAF1_000566-T1	ARP1	Belongs to the actin family	EggNog-Mapper
+ATUBSCAF1_000567-T1	ALG13	Involved in protein N-glycosylation	EggNog-Mapper
+ATUBSCAF1_000567-T2	ALG13	Involved in protein N-glycosylation	EggNog-Mapper
+ATUBSCAF1_000568-T1	RSM24	37S ribosomal protein Rsm24	EggNog-Mapper
+ATUBSCAF1_000572-T1	ISW2	SNF2 family helicase ATPase	EggNog-Mapper
+ATUBSCAF1_000578-T1	HFD1	Belongs to the aldehyde dehydrogenase family	EggNog-Mapper
+ATUBSCAF1_000578-T2	HFD1	Belongs to the aldehyde dehydrogenase family	EggNog-Mapper
+ATUBSCAF1_000579-T1	ICL1	Isocitrate lyase	UniProtKB
+ATUBSCAF1_000579-T1	ICL1	Belongs to the isocitrate lyase PEP mutase superfamily	EggNog-Mapper
+ATUBSCAF1_000580-T1	NTH1	Alpha-trehalose glucohydrolase	EggNog-Mapper
+ATUBSCAF1_000580-T2	NTH1	Alpha-trehalose glucohydrolase	EggNog-Mapper
+ATUBSCAF1_000584-T1	OTU2	OTU-like cysteine protease	EggNog-Mapper
+ATUBSCAF1_000593-T1	wsc1	WSC domain protein	EggNog-Mapper
+ATUBSCAF1_000594-T1	PPS1	CDP-diacylglycerol--serine O-phosphatidyltransferase	UniProtKB
+ATUBSCAF1_000594-T1	CHO1	Belongs to the CDP-alcohol phosphatidyltransferase class-I family	EggNog-Mapper
+ATUBSCAF1_000595-T1	GAR1	H/ACA ribonucleoprotein complex subunit gar1	UniProtKB
+ATUBSCAF1_000595-T1	GAR1	Required for ribosome biogenesis	EggNog-Mapper
+ATUBSCAF1_000599-T1	MKC1	Mitogen-activated protein kinase	EggNog-Mapper
+ATUBSCAF1_000615-T1	PIB2	FYVE domain protein	EggNog-Mapper
+ATUBSCAF1_000622-T1	GTT1	Glutathione S-transferase	EggNog-Mapper
+ATUBSCAF1_000625-T1	ARL3	ADP-ribosylation factor family protein	EggNog-Mapper
+ATUBSCAF1_000627-T1	GPI3	Phosphatidylinositol N-acetylglucosaminyltransferase gpi3 subunit	UniProtKB
+ATUBSCAF1_000627-T1	SPT14	Phosphatidylinositol UDP-GlcNAc transferase subunit PIG-A	EggNog-Mapper
+ATUBSCAF1_000627-T2	GPI3	Phosphatidylinositol N-acetylglucosaminyltransferase gpi3 subunit	UniProtKB
+ATUBSCAF1_000627-T2	SPT14	Phosphatidylinositol UDP-GlcNAc transferase subunit PIG-A	EggNog-Mapper
+ATUBSCAF1_000628-T1	DBP6	ATP-dependent RNA helicase dbp6	UniProtKB
+ATUBSCAF1_000628-T1	DBP6	DEAD DEAH box helicase	EggNog-Mapper
+ATUBSCAF1_000639-T1	STR2	Cystathionine gamma-synthase	EggNog-Mapper
+ATUBSCAF1_000641-T1	SUR2	Belongs to the sterol desaturase family	EggNog-Mapper
+ATUBSCAF1_000645-T1	SEC65	SRP19 protein	EggNog-Mapper
+ATUBSCAF1_000649-T1	YSH1	Cleavage and polyadenylation specifity factor, 73 kDa subunit	EggNog-Mapper
+ATUBSCAF1_000650-T1	YSH1	Cleavage and polyadenylation specifity factor, 73 kDa subunit	EggNog-Mapper
+ATUBSCAF1_000652-T1	LKH1	Protein kinase (Lkh1)	EggNog-Mapper
+ATUBSCAF1_000653-T1	fsf1	Mitochondrial	EggNog-Mapper
+ATUBSCAF1_000657-T1	PUS7	Pseudouridine synthase TruD Pus7	EggNog-Mapper
+ATUBSCAF1_000663-T1	BNI4	to Saccharomyces cerevisiae BNI4 (YNL233W)	EggNog-Mapper
+ATUBSCAF1_000663-T2	BNI4	to Saccharomyces cerevisiae BNI4 (YNL233W)	EggNog-Mapper
+ATUBSCAF1_000663-T3	BNI4	to Saccharomyces cerevisiae BNI4 (YNL233W)	EggNog-Mapper

@@ -1,0 +1,530 @@
+ATUBSCAF1_000078-T1	name	ACF2
+ATUBSCAF1_000078-T1	product	endo-1,3-beta glucanase
+ATUBSCAF1_000078-T2	name	ACF2
+ATUBSCAF1_000078-T2	product	endo-1,3-beta glucanase
+ATUBSCAF1_000018-T1	name	ACS2
+ATUBSCAF1_000018-T1	product	acetyl-coenzyme A synthetase 2
+ATUBSCAF1_000205-T1	name	ADK2
+ATUBSCAF1_000205-T1	product	Adenylate kinase 2
+ATUBSCAF1_000502-T1	name	ALD6
+ATUBSCAF1_000502-T1	product	aldehyde dehydrogenase (NADP(+)) ald6
+ATUBSCAF1_000567-T1	name	ALG13
+ATUBSCAF1_000567-T1	product	N-acetylglucosaminyldiphosphodolichol N-acetylglucosaminyltransferase catalytic subunit alg13
+ATUBSCAF1_000567-T2	name	ALG13
+ATUBSCAF1_000567-T2	product	N-acetylglucosaminyldiphosphodolichol N-acetylglucosaminyltransferase catalytic subunit alg13
+ATUBSCAF1_000005-T1	name	AMO2_1
+ATUBSCAF1_000005-T1	product	Cytochrome c oxidase subunit 1
+ATUBSCAF1_000006-T1	name	AMO2_2
+ATUBSCAF1_000006-T1	product	Cytochrome c oxidase subunit 1
+ATUBSCAF1_000061-T1	name	ANB1
+ATUBSCAF1_000061-T1	product	translation initiation factor eIF5A
+ATUBSCAF1_000203-T1	name	ANT1
+ATUBSCAF1_000203-T1	product	ADP/ATP carrier protein
+ATUBSCAF1_000203-T2	name	ANT1
+ATUBSCAF1_000203-T2	product	ADP/ATP carrier protein
+ATUBSCAF1_000037-T1	name	APL4
+ATUBSCAF1_000037-T1	product	clathrin associated protein complex large subunit
+ATUBSCAF1_000264-T1	name	ARC35
+ATUBSCAF1_000264-T1	product	Arp complex subunit
+ATUBSCAF1_000264-T2	name	ARC35
+ATUBSCAF1_000264-T2	product	Arp complex subunit
+ATUBSCAF1_000356-T1	name	ARG4
+ATUBSCAF1_000356-T1	product	argininosuccinate lyase
+ATUBSCAF1_000625-T1	name	ARL3
+ATUBSCAF1_000625-T1	product	ADP-ribosylation factor protein 3
+ATUBSCAF1_000322-T1	name	ARO3
+ATUBSCAF1_000322-T1	product	3-deoxy-7-phosphoheptulonate synthase
+ATUBSCAF1_000322-T2	name	ARO3
+ATUBSCAF1_000322-T2	product	3-deoxy-7-phosphoheptulonate synthase
+ATUBSCAF1_000566-T1	name	ARP1
+ATUBSCAF1_000566-T1	product	Centractin
+ATUBSCAF1_000196-T1	name	ATP3
+ATUBSCAF1_000196-T1	product	atp3 gamma subunit of the F1 sector of mitochondrial F1F0 ATP synthase
+ATUBSCAF1_000196-T2	name	ATP3
+ATUBSCAF1_000196-T2	product	atp3 gamma subunit of the F1 sector of mitochondrial F1F0 ATP synthase
+ATUBSCAF1_000196-T3	name	ATP3
+ATUBSCAF1_000196-T3	product	atp3 gamma subunit of the F1 sector of mitochondrial F1F0 ATP synthase
+ATUBSCAF1_000220-T1	name	ATP16
+ATUBSCAF1_000220-T1	product	delta subunit of the central stalk of mitochondrial F1F0 ATP synthase, atp16
+ATUBSCAF1_000220-T2	name	ATP16
+ATUBSCAF1_000220-T2	product	delta subunit of the central stalk of mitochondrial F1F0 ATP synthase, atp16
+ATUBSCAF1_000515-T1	name	BNA4
+ATUBSCAF1_000515-T1	product	kynurenine 3-monooxygenase, mitochondrial precursor
+ATUBSCAF1_000663-T1	name	BNI4
+ATUBSCAF1_000663-T1	product	bud neck involved protein
+ATUBSCAF1_000663-T2	name	BNI4
+ATUBSCAF1_000663-T2	product	bud neck involved protein
+ATUBSCAF1_000663-T3	name	BNI4
+ATUBSCAF1_000663-T3	product	bud neck involved protein
+ATUBSCAF1_000313-T1	name	BRX1
+ATUBSCAF1_000313-T1	product	Ribosome bioproteinsis protein brx1
+ATUBSCAF1_000228-T1	name	BUD16
+ATUBSCAF1_000228-T1	product	Putative pyridoxal kinase
+ATUBSCAF1_000245-T1	name	CAP2
+ATUBSCAF1_000245-T1	product	F-actin-capping protein subunit beta
+ATUBSCAF1_000404-T1	name	CBK1
+ATUBSCAF1_000404-T1	product	Serine/threonine-protein kinase
+ATUBSCAF1_000468-T1	name	CCC1
+ATUBSCAF1_000468-T1	product	Protein ccc1
+ATUBSCAF1_000468-T2	name	CCC1
+ATUBSCAF1_000468-T2	product	Protein ccc1
+ATUBSCAF1_000477-T1	name	CCC2
+ATUBSCAF1_000477-T1	product	Cu(2+)-transporting P-type ATPase
+ATUBSCAF1_000488-T1	name	CCR4
+ATUBSCAF1_000488-T1	product	Glucose-repressible alcohol dehydrogenase transcriptional effector
+ATUBSCAF1_000488-T2	name	CCR4
+ATUBSCAF1_000488-T2	product	Glucose-repressible alcohol dehydrogenase transcriptional effector
+ATUBSCAF1_000350-T1	name	CCT2
+ATUBSCAF1_000350-T1	product	T-complex protein 1 subunit beta
+ATUBSCAF1_000594-T1	name	CHO1
+ATUBSCAF1_000594-T1	product	CDP-diacylglycerol-serine O-phosphatidyltransferase
+ATUBSCAF1_000426-T1	name	CLB2
+ATUBSCAF1_000426-T1	product	G2/mitotic-specific cyclin
+ATUBSCAF1_000511-T1	name	COQ6
+ATUBSCAF1_000511-T1	product	Putative ubiquinone biosynthesis monooxygenase
+ATUBSCAF1_000121-T1	name	CSN12
+ATUBSCAF1_000121-T1	product	COP9 signalosome (CSN) subunit
+ATUBSCAF1_000100-T1	name	CTU1
+ATUBSCAF1_000100-T1	product	cytosolic thiouridylase subunit Ctu1
+ATUBSCAF1_000238-T1	name	CWC22
+ATUBSCAF1_000238-T1	product	pre-mRNA-splicing factor cwc22
+ATUBSCAF1_000325-T1	name	CYT1
+ATUBSCAF1_000325-T1	product	cytochrome c1
+ATUBSCAF1_000010-T1	name	DAO1_1
+ATUBSCAF1_000010-T1	product	D-amino acid oxidase
+ATUBSCAF1_000030-T1	name	DAO1_2
+ATUBSCAF1_000030-T1	product	D-amino acid oxidase
+ATUBSCAF1_000628-T1	name	DBP6
+ATUBSCAF1_000628-T1	product	ATP-dependent RNA helicase dbp6
+ATUBSCAF1_000086-T1	name	DCK1
+ATUBSCAF1_000086-T1	product	Deoxycytidine kinase 1
+ATUBSCAF1_000263-T1	name	DIP2
+ATUBSCAF1_000263-T1	product	beta transducin
+ATUBSCAF1_000436-T1	name	DIS3
+ATUBSCAF1_000436-T1	product	exosome catalytic subunit dis3
+ATUBSCAF1_000276-T1	name	DPS1
+ATUBSCAF1_000276-T1	product	aspartate--tRNA ligase dps1
+ATUBSCAF1_000140-T1	name	DUR3
+ATUBSCAF1_000140-T1	product	urea active transporter
+ATUBSCAF1_000138-T1	name	DYN2
+ATUBSCAF1_000138-T1	product	Dynein light chain
+ATUBSCAF1_000506-T1	name	ECM39
+ATUBSCAF1_000506-T1	product	Dol-P-Man:Man(7)GlcNAc(2)-PP-Dol alpha-1,6-mannosyltransferase
+ATUBSCAF1_000099-T1	name	ERG2
+ATUBSCAF1_000099-T1	product	C-8 sterol isomerase
+ATUBSCAF1_000053-T1	name	ERG5
+ATUBSCAF1_000053-T1	product	RNA polymerase C-22 sterol desaturase
+ATUBSCAF1_000384-T1	name	ERG24_1
+ATUBSCAF1_000384-T1	product	erg24, C-14 sterol reductase
+ATUBSCAF1_000385-T1	name	ERG24_2
+ATUBSCAF1_000385-T1	product	erg24, C-14 sterol reductase
+ATUBSCAF1_000386-T1	name	ERG24_3
+ATUBSCAF1_000386-T1	product	erg24, C-14 sterol reductase
+ATUBSCAF1_000543-T1	name	ERV25
+ATUBSCAF1_000543-T1	product	vesicle coat component
+ATUBSCAF1_000171-T1	name	ERV46
+ATUBSCAF1_000171-T1	product	ER-derived vesicles protein erv46
+ATUBSCAF1_000441-T1	name	ESC4
+ATUBSCAF1_000441-T1	product	regulator of Ty1 Transposition
+ATUBSCAF1_000165-T1	name	FCY1
+ATUBSCAF1_000165-T1	product	Cytosine deaminase
+ATUBSCAF1_000552-T1	name	FET3
+ATUBSCAF1_000552-T1	product	ferroxidase fet3
+ATUBSCAF1_000359-T1	name	FLC3_1
+ATUBSCAF1_000359-T1	product	Putative flavin carrier protein 3
+ATUBSCAF1_000563-T1	name	FLC3_2
+ATUBSCAF1_000563-T1	product	Putative flavin carrier protein 3
+ATUBSCAF1_000368-T1	name	FPR2
+ATUBSCAF1_000368-T1	product	Peptidyl-prolyl cis-trans isomerase fpr2
+ATUBSCAF1_000551-T1	name	FTR1
+ATUBSCAF1_000551-T1	product	high-affinity iron permease
+ATUBSCAF1_000055-T1	name	FUN12
+ATUBSCAF1_000055-T1	product	eukaryotic translation initiation factor 5B
+ATUBSCAF1_000595-T1	name	GAR1
+ATUBSCAF1_000595-T1	product	H/ACA snoRNP pseudouridylase subunit
+ATUBSCAF1_000462-T1	name	GCN4
+ATUBSCAF1_000462-T1	product	General control protein
+ATUBSCAF1_000481-T1	name	GCN5
+ATUBSCAF1_000481-T1	product	histone acetyltransferase
+ATUBSCAF1_000320-T1	name	GDB1
+ATUBSCAF1_000320-T1	product	bifunctional 4-alpha-glucanotransferase/amylo-alpha-1,6-glucosidase
+ATUBSCAF1_000422-T1	name	GIR2
+ATUBSCAF1_000422-T1	product	Protein gir2
+ATUBSCAF1_000153-T1	name	GLC7
+ATUBSCAF1_000153-T1	product	type 1 serine/threonine-protein phosphatase catalytic subunit glc7
+ATUBSCAF1_000153-T2	name	GLC7
+ATUBSCAF1_000153-T2	product	type 1 serine/threonine-protein phosphatase catalytic subunit glc7
+ATUBSCAF1_000153-T3	name	GLC7
+ATUBSCAF1_000153-T3	product	type 1 serine/threonine-protein phosphatase catalytic subunit glc7
+ATUBSCAF1_000383-T1	name	GLD2
+ATUBSCAF1_000383-T1	product	Glycerol 2-dehydrogenase (NADP(+))
+ATUBSCAF1_000537-T1	name	GLN1
+ATUBSCAF1_000537-T1	product	glutamate--ammonia ligase
+ATUBSCAF1_000537-T2	name	GLN1
+ATUBSCAF1_000537-T2	product	glutamate--ammonia ligase
+ATUBSCAF1_000180-T1	name	GNG1
+ATUBSCAF1_000180-T1	product	Guanine nucleotide-binding protein subunit gamma
+ATUBSCAF1_000389-T1	name	GOR1
+ATUBSCAF1_000389-T1	product	glyoxylate reductase
+ATUBSCAF1_000319-T1	name	GPD1
+ATUBSCAF1_000319-T1	product	glycerol-3-phosphate dehydrogenase
+ATUBSCAF1_000622-T1	name	GTT1
+ATUBSCAF1_000622-T1	product	bifunctional glutathione transferase/peroxidase
+ATUBSCAF1_000058-T1	name	GYP8
+ATUBSCAF1_000058-T1	product	GTPase-activating protein gyp8
+ATUBSCAF1_000038-T1	name	HAP3
+ATUBSCAF1_000038-T1	product	transcriptional activator hap3
+ATUBSCAF1_000560-T1	name	HAS1
+ATUBSCAF1_000560-T1	product	ATP-dependent RNA helicase
+ATUBSCAF1_000560-T2	name	HAS1
+ATUBSCAF1_000560-T2	product	ATP-dependent RNA helicase
+ATUBSCAF1_000164-T1	name	HEM12
+ATUBSCAF1_000164-T1	product	Uroporphyrinogen decarboxylase in heme biosynthesis
+ATUBSCAF1_000578-T1	name	HFD1
+ATUBSCAF1_000578-T1	product	Hexadecenal dehydrogenase
+ATUBSCAF1_000578-T2	name	HFD1
+ATUBSCAF1_000578-T2	product	Hexadecenal dehydrogenase
+ATUBSCAF1_000118-T1	name	HMO1
+ATUBSCAF1_000118-T1	product	high mobility group protein
+ATUBSCAF1_000118-T2	name	HMO1
+ATUBSCAF1_000118-T2	product	high mobility group protein
+ATUBSCAF1_000561-T1	name	HST2
+ATUBSCAF1_000561-T1	product	Sir2 histone deacetylase Hst2
+ATUBSCAF1_000510-T1	name	HTS1
+ATUBSCAF1_000510-T1	product	Cytoplasmic and mitochondrial histidine tRNA synthetase
+ATUBSCAF1_000109-T1	name	HUL4
+ATUBSCAF1_000109-T1	product	Putative E3 ubiquitin-protein ligase
+ATUBSCAF1_000075-T1	name	HUL5
+ATUBSCAF1_000075-T1	product	ubiquitin-protein ligase (E3)
+ATUBSCAF1_000579-T1	name	ICL1
+ATUBSCAF1_000579-T1	product	isocitrate lyase 1
+ATUBSCAF1_000355-T1	name	IRE1
+ATUBSCAF1_000355-T1	product	bifunctional endoribonuclease/protein kinase ire1
+ATUBSCAF1_000572-T1	name	ISW2
+ATUBSCAF1_000572-T1	product	chromatin remodeling complex Adenosinetriphosphatase
+ATUBSCAF1_000514-T1	name	KEX2
+ATUBSCAF1_000514-T1	product	pheromone processing endoprotease
+ATUBSCAF1_000652-T1	name	LKH1
+ATUBSCAF1_000652-T1	product	serine threonine protein kinase CMGC group
+ATUBSCAF1_000045-T1	name	MCM3
+ATUBSCAF1_000045-T1	product	MCM DNA helicase complex subunit
+ATUBSCAF1_000119-T1	name	MCR1
+ATUBSCAF1_000119-T1	product	NADH-cytochrome b5 reductase
+ATUBSCAF1_000317-T1	name	MCX1
+ATUBSCAF1_000317-T1	product	ATP-binding protein
+ATUBSCAF1_000500-T1	name	MDE1
+ATUBSCAF1_000500-T1	product	Methylthioribulose-1-phosphate dehydratase
+ATUBSCAF1_000169-T1	name	MEX67
+ATUBSCAF1_000169-T1	product	nuclear mRNA export, poly(A)+RNA binding protein
+ATUBSCAF1_000169-T2	name	MEX67
+ATUBSCAF1_000169-T2	product	nuclear mRNA export, poly(A)+RNA binding protein
+ATUBSCAF1_000599-T1	name	MKC1
+ATUBSCAF1_000599-T1	product	mitogen-activated serine/threonine-protein kinase
+ATUBSCAF1_000420-T1	name	MMS2
+ATUBSCAF1_000420-T1	product	E2 ubiquitin-conjugating protein mms2
+ATUBSCAF1_000418-T1	name	MON2_1
+ATUBSCAF1_000418-T1	product	Endocytosis and vacuole integrity protein
+ATUBSCAF1_000419-T1	name	MON2_2
+ATUBSCAF1_000419-T1	product	Endocytosis and vacuole integrity protein
+ATUBSCAF1_000242-T1	name	MPH1
+ATUBSCAF1_000242-T1	product	3'-5' DNA helicase
+ATUBSCAF1_000136-T1	name	MRD1_1
+ATUBSCAF1_000136-T1	product	Multiple RNA-binding domain-containing protein 1
+ATUBSCAF1_000137-T1	name	MRD1_2
+ATUBSCAF1_000137-T1	product	Multiple RNA-binding domain-containing protein 1
+ATUBSCAF1_000092-T1	name	MRP10
+ATUBSCAF1_000092-T1	product	40S ribosomal protein mrp10
+ATUBSCAF1_000076-T1	name	MRPL27
+ATUBSCAF1_000076-T1	product	60S ribosomal protein L27, mitochondrial
+ATUBSCAF1_000331-T1	name	MSH4
+ATUBSCAF1_000331-T1	product	MutS protein msh4
+ATUBSCAF1_000126-T1	name	MSK1
+ATUBSCAF1_000126-T1	product	mitochondrial lysine-tRNA synthetase
+ATUBSCAF1_000410-T1	name	NAR1
+ATUBSCAF1_000410-T1	product	Cytosolic Fe-S cluster assembly factor nar1
+ATUBSCAF1_000192-T1	name	NAT10
+ATUBSCAF1_000192-T1	product	N-acetyltransferase 10
+ATUBSCAF1_000113-T1	name	NGG1
+ATUBSCAF1_000113-T1	product	Transcriptional regulator
+ATUBSCAF1_000113-T2	name	NGG1
+ATUBSCAF1_000113-T2	product	Transcriptional regulator
+ATUBSCAF1_000435-T1	name	NIT2
+ATUBSCAF1_000435-T1	product	Carbon-nitrogen hydrolase
+ATUBSCAF1_000250-T1	name	NPL4
+ATUBSCAF1_000250-T1	product	nuclear protein localization protein 4
+ATUBSCAF1_000250-T2	name	NPL4
+ATUBSCAF1_000250-T2	product	nuclear protein localization protein 4
+ATUBSCAF1_000250-T3	name	NPL4
+ATUBSCAF1_000250-T3	product	nuclear protein localization protein 4
+ATUBSCAF1_000250-T4	name	NPL4
+ATUBSCAF1_000250-T4	product	nuclear protein localization protein 4
+ATUBSCAF1_000114-T1	name	NPR2
+ATUBSCAF1_000114-T1	product	Nitrogen permease regulator 2
+ATUBSCAF1_000580-T1	name	NTH1
+ATUBSCAF1_000580-T1	product	alpha,alpha-trehalase nth1
+ATUBSCAF1_000580-T2	name	NTH1
+ATUBSCAF1_000580-T2	product	alpha,alpha-trehalase nth1
+ATUBSCAF1_000554-T1	name	ORM1
+ATUBSCAF1_000554-T1	product	sphingolipid homeostasis protein orm1
+ATUBSCAF1_000584-T1	name	OTU2
+ATUBSCAF1_000584-T1	product	OTU protein
+ATUBSCAF1_000074-T1	name	PAB1
+ATUBSCAF1_000074-T1	product	Protein phosphatase PP2A regulatory subunit B
+ATUBSCAF1_000074-T2	name	PAB1
+ATUBSCAF1_000074-T2	product	Protein phosphatase PP2A regulatory subunit B
+ATUBSCAF1_000342-T1	name	PAM17
+ATUBSCAF1_000342-T1	product	TIM23 complex component
+ATUBSCAF1_000097-T1	name	PCL1
+ATUBSCAF1_000097-T1	product	PHO85 cyclin-1
+ATUBSCAF1_000182-T1	name	PDE2
+ATUBSCAF1_000182-T1	product	3',5'-cyclic-nucleotide phosphodiesterase
+ATUBSCAF1_000259-T1	name	PHO85
+ATUBSCAF1_000259-T1	product	negative regulator of the PHO system
+ATUBSCAF1_000615-T1	name	PIB2
+ATUBSCAF1_000615-T1	product	Zn finger protein
+ATUBSCAF1_000280-T1	name	PMA1
+ATUBSCAF1_000280-T1	product	plasma membrane H+-ATPase
+ATUBSCAF1_000146-T1	name	POL30
+ATUBSCAF1_000146-T1	product	proliferating cell nuclear antigen
+ATUBSCAF1_000248-T1	name	PPE1
+ATUBSCAF1_000248-T1	product	Protein phosphatase methylesterase 1
+ATUBSCAF1_000248-T2	name	PPE1
+ATUBSCAF1_000248-T2	product	Protein phosphatase methylesterase 1
+ATUBSCAF1_000206-T1	name	PRI2
+ATUBSCAF1_000206-T1	product	DNA primase subunit pri2
+ATUBSCAF1_000328-T1	name	PRT1
+ATUBSCAF1_000328-T1	product	Translation initiation factor 3 subunit b
+ATUBSCAF1_000457-T1	name	PSF1
+ATUBSCAF1_000457-T1	product	DNA replication protein psf1
+ATUBSCAF1_000251-T1	name	PST2
+ATUBSCAF1_000251-T1	product	flavodoxin-like fold protein
+ATUBSCAF1_000657-T1	name	PUS7
+ATUBSCAF1_000657-T1	product	multisubstrate pseudouridine synthase 7
+ATUBSCAF1_000272-T1	name	PWP1
+ATUBSCAF1_000272-T1	product	rRNA-processing protein
+ATUBSCAF1_000129-T1	name	PXA1
+ATUBSCAF1_000129-T1	product	ATP-binding cassette long-chain fatty acid transporter pxa1
+ATUBSCAF1_000483-T1	name	RAD50
+ATUBSCAF1_000483-T1	product	DNA repair protein rad50
+ATUBSCAF1_000479-T1	name	RAX1
+ATUBSCAF1_000479-T1	product	Bud site selection protein, Revert to axial protein 1
+ATUBSCAF1_000327-T1	name	RCY1
+ATUBSCAF1_000327-T1	product	F-box protein: endocytic membrane traffic, recycling ReCYcling 1
+ATUBSCAF1_000327-T2	name	RCY1
+ATUBSCAF1_000327-T2	product	F-box protein: endocytic membrane traffic, recycling ReCYcling 1
+ATUBSCAF1_000054-T1	name	RDL2
+ATUBSCAF1_000054-T1	product	Thiosulfate sulfurtransferase rdl2, mitochondrial
+ATUBSCAF1_000202-T1	name	RIM13
+ATUBSCAF1_000202-T1	product	cysteine protease
+ATUBSCAF1_000202-T2	name	RIM13
+ATUBSCAF1_000202-T2	product	cysteine protease
+ATUBSCAF1_000427-T1	name	RML2
+ATUBSCAF1_000427-T1	product	mitochondrial 54S ribosomal protein rml2
+ATUBSCAF1_000411-T1	name	RPC10
+ATUBSCAF1_000411-T1	product	DNA-directed RNA polymerase core subunit rpc10
+ATUBSCAF1_000208-T1	name	RPL12
+ATUBSCAF1_000208-T1	product	60S ribosomal protein L12
+ATUBSCAF1_000208-T2	name	RPL12
+ATUBSCAF1_000208-T2	product	60S ribosomal protein L12
+ATUBSCAF1_000120-T1	name	RPL20B
+ATUBSCAF1_000120-T1	product	60S ribosomal protein L20B
+ATUBSCAF1_000120-T2	name	RPL20B
+ATUBSCAF1_000120-T2	product	60S ribosomal protein L20B
+ATUBSCAF1_000175-T1	name	RPO26
+ATUBSCAF1_000175-T1	product	subunit common to RNA polymerases I, II, and III
+ATUBSCAF1_000175-T2	name	RPO26
+ATUBSCAF1_000175-T2	product	subunit common to RNA polymerases I, II, and III
+ATUBSCAF1_000163-T1	name	RPP0
+ATUBSCAF1_000163-T1	product	ribosomal protein P0 (A0) (L10E)
+ATUBSCAF1_000163-T2	name	RPP0
+ATUBSCAF1_000163-T2	product	ribosomal protein P0 (A0) (L10E)
+ATUBSCAF1_000085-T1	name	RPS8A
+ATUBSCAF1_000085-T1	product	ribosomal protein S8A
+ATUBSCAF1_000085-T2	name	RPS8A
+ATUBSCAF1_000085-T2	product	ribosomal protein S8A
+ATUBSCAF1_000274-T1	name	RRN3
+ATUBSCAF1_000274-T1	product	DNA independent RNA polymerase I transcription factor
+ATUBSCAF1_000332-T1	name	RSA4
+ATUBSCAF1_000332-T1	product	ribosome assembly
+ATUBSCAF1_000568-T1	name	RSM24
+ATUBSCAF1_000568-T1	product	37S ribosomal protein S24, mitochondrial
+ATUBSCAF1_000289-T1	name	RVB2
+ATUBSCAF1_000289-T1	product	RuvB-like protein 2
+ATUBSCAF1_000152-T1	name	SAR1
+ATUBSCAF1_000152-T1	product	COPII coat GTPase
+ATUBSCAF1_000141-T1	name	SBH1
+ATUBSCAF1_000141-T1	product	Arf guanine nucleotide exchange factor sbh1
+ATUBSCAF1_000548-T1	name	SCP1
+ATUBSCAF1_000548-T1	product	calponin
+ATUBSCAF1_000207-T1	name	SEC23
+ATUBSCAF1_000207-T1	product	GTPase-activating protein S23
+ATUBSCAF1_000645-T1	name	SEC65
+ATUBSCAF1_000645-T1	product	signal recognition particle subunit
+ATUBSCAF1_000027-T1	name	SFU1
+ATUBSCAF1_000027-T1	product	Suppressor of ferric uptake 1
+ATUBSCAF1_000027-T2	name	SFU1
+ATUBSCAF1_000027-T2	product	Suppressor of ferric uptake 1
+ATUBSCAF1_000424-T1	name	SIR2
+ATUBSCAF1_000424-T1	product	NAD-dependent histone deacetylase sir2
+ATUBSCAF1_000183-T1	name	SNT2_1
+ATUBSCAF1_000183-T1	product	putative PHD type zinc finger protein with BAH domain-containing protein
+ATUBSCAF1_000185-T1	name	SNT2_2
+ATUBSCAF1_000185-T1	product	putative PHD type zinc finger protein with BAH domain-containing protein
+ATUBSCAF1_000513-T1	name	SNX4
+ATUBSCAF1_000513-T1	product	intercellular trafficking and secretion
+ATUBSCAF1_000234-T1	name	SOL1
+ATUBSCAF1_000234-T1	product	suppressor of los1-1
+ATUBSCAF1_000044-T1	name	SPO7
+ATUBSCAF1_000044-T1	product	Nem1-Spo7 phosphatase regulatory subunit
+ATUBSCAF1_000627-T1	name	SPT14
+ATUBSCAF1_000627-T1	product	Phosphatidylinositol N-acetylglucosaminyltransferase GPI3 subunit
+ATUBSCAF1_000627-T2	name	SPT14
+ATUBSCAF1_000627-T2	product	Phosphatidylinositol N-acetylglucosaminyltransferase GPI3 subunit
+ATUBSCAF1_000052-T1	name	SRP68
+ATUBSCAF1_000052-T1	product	signal recognition particle subunit srp68
+ATUBSCAF1_000052-T2	name	SRP68
+ATUBSCAF1_000052-T2	product	signal recognition particle subunit srp68
+ATUBSCAF1_000639-T1	name	STR2
+ATUBSCAF1_000639-T1	product	Cystathionine gamma-synthase
+ATUBSCAF1_000641-T1	name	SUR2
+ATUBSCAF1_000641-T1	product	Sphingolipid C4-hydroxylase sur2
+ATUBSCAF1_000247-T1	name	TAF5
+ATUBSCAF1_000247-T1	product	Transcription initiation factor TFIID subunit 5
+ATUBSCAF1_000496-T1	name	TFC1
+ATUBSCAF1_000496-T1	product	tau 95 subunit of transcription factor TFIIIC
+ATUBSCAF1_000157-T1	name	TFC4
+ATUBSCAF1_000157-T1	product	transcription factor TFIIIC subunit tfc4
+ATUBSCAF1_000179-T1	name	TIF32
+ATUBSCAF1_000179-T1	product	eukaryotic translation initiation factor 3 subunit A
+ATUBSCAF1_000125-T1	name	TIM10
+ATUBSCAF1_000125-T1	product	protein transporter tim10
+ATUBSCAF1_000405-T1	name	TIM54
+ATUBSCAF1_000405-T1	product	mitochondrial import inner membrane translocase subunit tim54
+ATUBSCAF1_000197-T1	name	TOP1
+ATUBSCAF1_000197-T1	product	DNA topoisomerase 1
+ATUBSCAF1_000439-T1	name	TRM8
+ATUBSCAF1_000439-T1	product	tRNA (guanine-N(7)-)-methyltransferase (tRNA(m7G46)-methyltransferase)
+ATUBSCAF1_000162-T1	name	TRM82
+ATUBSCAF1_000162-T1	product	tRNA (guanine-N(7)-)-methyltransferase non-catalytic subunit trm82
+ATUBSCAF1_000412-T1	name	TRP4
+ATUBSCAF1_000412-T1	product	anthranilate phosphoribosyltransferase
+ATUBSCAF1_000518-T1	name	TRR1
+ATUBSCAF1_000518-T1	product	thioredoxin-disulfide reductase
+ATUBSCAF1_000034-T1	name	TRX1
+ATUBSCAF1_000034-T1	product	thioredoxin trx1
+ATUBSCAF1_000278-T1	name	TUB1
+ATUBSCAF1_000278-T1	product	alpha-tubulin
+ATUBSCAF1_000278-T2	name	TUB1
+ATUBSCAF1_000278-T2	product	alpha-tubulin
+ATUBSCAF1_000278-T3	name	TUB1
+ATUBSCAF1_000278-T3	product	alpha-tubulin
+ATUBSCAF1_000523-T1	name	TVP23
+ATUBSCAF1_000523-T1	product	Golgi apparatus membrane protein tvp23
+ATUBSCAF1_000520-T1	name	TVP38
+ATUBSCAF1_000520-T1	product	Tlg2-vesicle protein
+ATUBSCAF1_000287-T1	name	UFD1
+ATUBSCAF1_000287-T1	product	ubiquitin fusion degradation protein
+ATUBSCAF1_000117-T1	name	URE1
+ATUBSCAF1_000117-T1	product	Urease
+ATUBSCAF1_000079-T1	name	VCX1
+ATUBSCAF1_000079-T1	product	Vacuolar calcium ion transporter
+ATUBSCAF1_000079-T2	name	VCX1
+ATUBSCAF1_000079-T2	product	Vacuolar calcium ion transporter
+ATUBSCAF1_000079-T3	name	VCX1
+ATUBSCAF1_000079-T3	product	Vacuolar calcium ion transporter
+ATUBSCAF1_000079-T4	name	VCX1
+ATUBSCAF1_000079-T4	product	Vacuolar calcium ion transporter
+ATUBSCAF1_000188-T1	name	VPS8_1
+ATUBSCAF1_000188-T1	product	Vacuolar protein sorting-associated protein 8
+ATUBSCAF1_000189-T1	name	VPS8_2
+ATUBSCAF1_000189-T1	product	Vacuolar protein sorting-associated protein 8
+ATUBSCAF1_000062-T1	name	VPS52
+ATUBSCAF1_000062-T1	product	Vacuolar protein sorting-associated protein 52
+ATUBSCAF1_000168-T1	name	VPS53
+ATUBSCAF1_000168-T1	product	Vacuolar protein sorting-associated protein 53
+ATUBSCAF1_000158-T1	name	VTS1
+ATUBSCAF1_000158-T1	product	Flap-structured DNA-binding and RNA-binding protein
+ATUBSCAF1_000444-T1	name	YDC1
+ATUBSCAF1_000444-T1	product	alkaline ceramidase ydc1
+ATUBSCAF1_000166-T1	name	YDJ1
+ATUBSCAF1_000166-T1	product	Type I HSP40 co-chaperone
+ATUBSCAF1_000166-T2	name	YDJ1
+ATUBSCAF1_000166-T2	product	Type I HSP40 co-chaperone
+ATUBSCAF1_000166-T3	name	YDJ1
+ATUBSCAF1_000166-T3	product	Type I HSP40 co-chaperone
+ATUBSCAF1_000564-T1	name	YHC1
+ATUBSCAF1_000564-T1	product	U1 small nuclear ribonucleoprotein C
+ATUBSCAF1_000315-T1	name	YPT31
+ATUBSCAF1_000315-T1	product	Rab GTPase ypt31
+ATUBSCAF1_000649-T1	name	YSH1_1
+ATUBSCAF1_000649-T1	product	endoribonuclease ysh1
+ATUBSCAF1_000650-T1	name	YSH1_2
+ATUBSCAF1_000650-T1	product	endoribonuclease ysh1
+ATUBSCAF1_000252-T1	name	YTH1
+ATUBSCAF1_000252-T1	product	RNA-binding component of cleavage and polyadenylation factor
+ATUBSCAF1_000370-T1	name	ZRT2
+ATUBSCAF1_000370-T1	product	low-affinity Zn(2+) transporter zrt2
+ATUBSCAF1_000232-T1	name	cdc16
+ATUBSCAF1_000232-T1	product	CDC16 protein
+ATUBSCAF1_000232-T2	name	cdc16
+ATUBSCAF1_000232-T2	product	CDC16 protein
+ATUBSCAF1_000541-T1	name	cpc2
+ATUBSCAF1_000541-T1	product	cross-pathway control WD-repeat protein cpc2
+ATUBSCAF1_000541-T2	name	cpc2
+ATUBSCAF1_000541-T2	product	cross-pathway control WD-repeat protein cpc2
+ATUBSCAF1_000390-T1	name	cwf19
+ATUBSCAF1_000390-T1	product	Pre-mRNA-splicing factor cwf19
+ATUBSCAF1_000349-T1	name	cyp15
+ATUBSCAF1_000349-T1	product	Peptidyl-prolyl cis-trans isomerase cyp15
+ATUBSCAF1_000432-T1	name	dna2_1
+ATUBSCAF1_000432-T1	product	DNA replication endonuclease-helicase Dna2
+ATUBSCAF1_000433-T1	name	dna2_2
+ATUBSCAF1_000433-T1	product	DNA replication endonuclease-helicase Dna2
+ATUBSCAF1_000239-T1	name	dpm2
+ATUBSCAF1_000239-T1	product	Dolichol phosphate-mannose biosynthesis regulatory protein
+ATUBSCAF1_000542-T1	name	emi5
+ATUBSCAF1_000542-T1	product	Succinate dehydrogenase assembly factor 2 mitochondrial
+ATUBSCAF1_000653-T1	name	fsf1
+ATUBSCAF1_000653-T1	product	Sideroflexin FSF1
+ATUBSCAF1_000204-T1	name	lcl3
+ATUBSCAF1_000204-T1	product	putative endonuclease lcl3
+ATUBSCAF1_000177-T1	name	naa20
+ATUBSCAF1_000177-T1	product	N-alpha-acetyltransferase 20
+ATUBSCAF1_000177-T2	name	naa20
+ATUBSCAF1_000177-T2	product	N-alpha-acetyltransferase 20
+ATUBSCAF1_000482-T1	name	rad1
+ATUBSCAF1_000482-T1	product	checkpoint clamp complex protein Rad1
+ATUBSCAF1_000023-T1	name	ras1
+ATUBSCAF1_000023-T1	product	RAS1 protein
+ATUBSCAF1_000454-T1	name	rcd1
+ATUBSCAF1_000454-T1	product	RNA-binding protein, CCR4-NOT complex subunit Rcd1
+ATUBSCAF1_000286-T1	name	rpc2
+ATUBSCAF1_000286-T1	product	DNA-directed RNA polymerase III complex subunit Rpc2
+ATUBSCAF1_000108-T1	name	rpl15
+ATUBSCAF1_000108-T1	product	60S ribosomal protein L15
+ATUBSCAF1_000108-T2	name	rpl15
+ATUBSCAF1_000108-T2	product	60S ribosomal protein L15
+ATUBSCAF1_000219-T1	name	rpl29
+ATUBSCAF1_000219-T1	product	60S ribosomal protein L29
+ATUBSCAF1_000219-T2	name	rpl29
+ATUBSCAF1_000219-T2	product	60S ribosomal protein L29
+ATUBSCAF1_000403-T1	name	sap62
+ATUBSCAF1_000403-T1	product	CWF complex protein sap62
+ATUBSCAF1_000042-T1	name	scn1
+ATUBSCAF1_000042-T1	product	Cut9-interacting protein scn1
+ATUBSCAF1_000131-T1	name	sds22
+ATUBSCAF1_000131-T1	product	protein phosphatase regulatory subunit Sds22
+ATUBSCAF1_000499-T1	name	vps5
+ATUBSCAF1_000499-T1	product	Vacuolar protein sorting-associated protein vps5
+ATUBSCAF1_000417-T1	name	vps26
+ATUBSCAF1_000417-T1	product	Vacuolar protein sorting-associated protein 26
+ATUBSCAF1_000417-T2	name	vps26
+ATUBSCAF1_000417-T2	product	Vacuolar protein sorting-associated protein 26
+ATUBSCAF1_000417-T3	name	vps26
+ATUBSCAF1_000417-T3	product	Vacuolar protein sorting-associated protein 26
+ATUBSCAF1_000485-T1	name	wc2
+ATUBSCAF1_000485-T1	product	white collar 2 type of transcription factor
+ATUBSCAF1_000593-T1	name	wsc1
+ATUBSCAF1_000593-T1	product	Protein SLG1
+ATUBSCAF1_000133-T1	name	xyl1
+ATUBSCAF1_000133-T1	product	D-xylose reductase
