@@ -16,3 +16,19 @@ Loading funannotate/1.8
 [Jun 30 05:35 AM]: Converting transcript alignments to GFF3 format
 [Jun 30 05:35 AM]: Converting Trinity transcript alignments to GFF3 format
 [Jun 30 05:35 AM]: Running PASA alignment step using 1,781 transcripts
+[Jun 30 05:43 AM]: PASA assigned 1,630 transcripts to 1,201 loci (genes)
+[Jun 30 05:43 AM]: Getting PASA models for training with TransDecoder
+[Jun 30 05:45 AM]: PASA finished. PASAweb accessible via: localhost:port/cgi-bin/index.cgi?db=/bigdata/stajichlab/jstajich/projects/teaching/Annotation_Workshop/Annotation/A_tubingensis/annotation/A_tubingensis_scaf1/training/pasa/Aspergillus_tubingensis_DFA_scaf1_pasa
+[Jun 30 05:45 AM]: Using Kallisto TPM data to determine which PASA gene models to select at each locus
+[Jun 30 05:45 AM]: Building Kallisto index
+[Jun 30 05:45 AM]: Mapping reads using pseudoalignment in Kallisto
+[Jun 30 05:45 AM]: Parsing expression value results. Keeping best transcript at each locus.
+[Jun 30 05:45 AM]: Wrote 580 PASA gene models
+[Jun 30 05:45 AM]: PASA database name: Aspergillus_tubingensis_DFA_scaf1
+[Jun 30 05:45 AM]: Trinity/PASA has completed, you are now ready to run funanotate predict, for example:
+
+  funannotate predict -i genomes/A_tubingensis_scaf1.masked.fasta \
+            -o annotation/A_tubingensis_scaf1 -s "Aspergillus tubingensis" --strain DFA_scaf1 --cpus 32
+
+-------------------------------------------------------
+-------------------------------------------------------
