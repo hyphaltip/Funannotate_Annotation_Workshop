@@ -1,0 +1,86 @@
+Loading funannotate/1.8
+  Loading requirement: CodingQuarry/2.0 phobius/1.01 signalp/6
+-------------------------------------------------------
+[Jun 30 05:54 AM]: OS: Rocky Linux 8.8, 256 cores, ~ 528 GB RAM. Python: 3.8.15
+[Jun 30 05:54 AM]: Running funannotate v1.8.17
+[Jun 30 05:54 AM]: Found training files, will re-use these files:
+  --rna_bam annotation/A_tubingensis_scaf1/training/funannotate_train.coordSorted.bam
+  --pasa_gff annotation/A_tubingensis_scaf1/training/funannotate_train.pasa.gff3
+  --stringtie annotation/A_tubingensis_scaf1/training/funannotate_train.stringtie.gtf
+  --transcript_alignments annotation/A_tubingensis_scaf1/training/funannotate_train.transcripts.gff3
+[Jun 30 05:54 AM]: Parsed training data, run ab-initio gene predictors as follows:
+  [4mProgram        Training-Method[0m
+  augustus       pasa           
+  codingquarry   rna-bam        
+  genemark       selftraining   
+  glimmerhmm     pasa           
+  snap           pasa           
+[Jun 30 05:54 AM]: Loading genome assembly and parsing soft-masked repetitive sequences
+[Jun 30 05:54 AM]: Genome loaded: 1 scaffolds; 1,967,716 bp; 1.77% repeats masked
+[Jun 30 05:54 AM]: Parsed 1,351 transcript alignments from: annotation/A_tubingensis_scaf1/training/funannotate_train.transcripts.gff3
+[Jun 30 05:54 AM]: Creating transcript EVM alignments and Augustus transcripts hintsfile
+[Jun 30 05:54 AM]: Extracting hints from RNA-seq BAM file using bam2hints
+/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/funannotate/1.8.x/lib/python3.8/site-packages/funannotate/aux_scripts/funannotate-p2g.py:14: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import parse_version
+[Jun 30 05:54 AM]: Mapping 560,293 proteins to genome using diamond and exonerate
+[Jun 30 05:55 AM]: Found 27,060 preliminary alignments with diamond in 0:00:39 --> generated FASTA files for exonerate in 0:00:29
+[Jun 30 05:57 AM]: Exonerate finished in 0:01:53: found 228 alignments
+     Progress: 23 complete, 0 failed, 27037 remaining             Progress: 140 complete, 0 failed, 26920 remaining             Progress: 262 complete, 0 failed, 26798 remaining             Progress: 386 complete, 0 failed, 26674 remaining             Progress: 545 complete, 0 failed, 26515 remaining             Progress: 708 complete, 0 failed, 26352 remaining             Progress: 880 complete, 0 failed, 26180 remaining             Progress: 1029 complete, 0 failed, 26031 remaining             Progress: 1171 complete, 0 failed, 25889 remaining             Progress: 1351 complete, 0 failed, 25709 remaining             Progress: 1531 complete, 0 failed, 25529 remaining             Progress: 1699 complete, 0 failed, 25361 remaining             Progress: 1890 complete, 0 failed, 25170 remaining             Progress: 2085 complete, 0 failed, 24975 remaining             Progress: 2341 complete, 0 failed, 24719 remaining             Progress: 2527 complete, 0 failed, 24533 remaining             Progress: 2706 complete, 0 failed, 24354 remaining             Progress: 2891 complete, 0 failed, 24169 remaining             Progress: 3060 complete, 0 failed, 24000 remaining             Progress: 3255 complete, 0 failed, 23805 remaining             Progress: 3463 complete, 0 failed, 23597 remaining             Progress: 3670 complete, 0 failed, 23390 remaining             Progress: 3914 complete, 0 failed, 23146 remaining             Progress: 4164 complete, 0 failed, 22896 remaining             Progress: 4395 complete, 0 failed, 22665 remaining             Progress: 4637 complete, 0 failed, 22423 remaining             Progress: 4879 complete, 0 failed, 22181 remaining             Progress: 5101 complete, 0 failed, 21959 remaining             Progress: 5313 complete, 0 failed, 21747 remaining             Progress: 5528 complete, 0 failed, 21532 remaining             Progress: 5746 complete, 0 failed, 21314 remaining             Progress: 5993 complete, 0 failed, 21067 remaining             Progress: 6227 complete, 0 failed, 20833 remaining             Progress: 6495 complete, 0 failed, 20565 remaining             Progress: 6740 complete, 0 failed, 20320 remaining             Progress: 6974 complete, 0 failed, 20086 remaining             Progress: 7229 complete, 0 failed, 19831 remaining             Progress: 7500 complete, 0 failed, 19560 remaining             Progress: 7769 complete, 0 failed, 19291 remaining             Progress: 8040 complete, 0 failed, 19020 remaining             Progress: 8323 complete, 0 failed, 18737 remaining             Progress: 8608 complete, 0 failed, 18452 remaining             Progress: 8888 complete, 0 failed, 18172 remaining             Progress: 9145 complete, 0 failed, 17915 remaining             Progress: 9428 complete, 0 failed, 17632 remaining             Progress: 9709 complete, 0 failed, 17351 remaining             Progress: 9971 complete, 0 failed, 17089 remaining             Progress: 10220 complete, 0 failed, 16840 remaining             Progress: 10479 complete, 0 failed, 16581 remaining             Progress: 10735 complete, 0 failed, 16325 remaining             Progress: 11011 complete, 0 failed, 16049 remaining             Progress: 11262 complete, 0 failed, 15798 remaining             Progress: 11505 complete, 0 failed, 15555 remaining             Progress: 11771 complete, 0 failed, 15289 remaining             Progress: 12015 complete, 0 failed, 15045 remaining             Progress: 12276 complete, 0 failed, 14784 remaining             Progress: 12545 complete, 0 failed, 14515 remaining             Progress: 12794 complete, 0 failed, 14266 remaining             Progress: 13043 complete, 0 failed, 14017 remaining             Progress: 13316 complete, 0 failed, 13744 remaining             Progress: 13592 complete, 0 failed, 13468 remaining             Progress: 13876 complete, 0 failed, 13184 remaining             Progress: 14159 complete, 0 failed, 12901 remaining             Progress: 14435 complete, 0 failed, 12625 remaining             Progress: 14723 complete, 0 failed, 12337 remaining             Progress: 15005 complete, 0 failed, 12055 remaining             Progress: 15300 complete, 0 failed, 11760 remaining             Progress: 15575 complete, 0 failed, 11485 remaining             Progress: 15869 complete, 0 failed, 11191 remaining             Progress: 16150 complete, 0 failed, 10910 remaining             Progress: 16450 complete, 0 failed, 10610 remaining             Progress: 16776 complete, 0 failed, 10284 remaining             Progress: 17082 complete, 0 failed, 9978 remaining             Progress: 17382 complete, 0 failed, 9678 remaining             Progress: 17687 complete, 0 failed, 9373 remaining             Progress: 17982 complete, 0 failed, 9078 remaining             Progress: 18253 complete, 0 failed, 8807 remaining             Progress: 18529 complete, 0 failed, 8531 remaining             Progress: 18796 complete, 0 failed, 8264 remaining             Progress: 19082 complete, 0 failed, 7978 remaining             Progress: 19334 complete, 0 failed, 7726 remaining             Progress: 19611 complete, 0 failed, 7449 remaining             Progress: 19898 complete, 0 failed, 7162 remaining             Progress: 20168 complete, 0 failed, 6892 remaining             Progress: 20444 complete, 0 failed, 6616 remaining             Progress: 20721 complete, 0 failed, 6339 remaining             Progress: 20951 complete, 0 failed, 6109 remaining             Progress: 21156 complete, 0 failed, 5904 remaining             Progress: 21435 complete, 0 failed, 5625 remaining             Progress: 21696 complete, 0 failed, 5364 remaining             Progress: 21968 complete, 0 failed, 5092 remaining             Progress: 22235 complete, 0 failed, 4825 remaining             Progress: 22478 complete, 0 failed, 4582 remaining             Progress: 22735 complete, 0 failed, 4325 remaining             Progress: 23013 complete, 0 failed, 4047 remaining             Progress: 23282 complete, 0 failed, 3778 remaining             Progress: 23535 complete, 0 failed, 3525 remaining             Progress: 23820 complete, 0 failed, 3240 remaining             Progress: 24100 complete, 0 failed, 2960 remaining             Progress: 24399 complete, 0 failed, 2661 remaining             Progress: 24696 complete, 0 failed, 2364 remaining             Progress: 25018 complete, 0 failed, 2042 remaining             Progress: 25325 complete, 0 failed, 1735 remaining             Progress: 25648 complete, 0 failed, 1412 remaining             Progress: 25974 complete, 0 failed, 1086 remaining             Progress: 26289 complete, 0 failed, 771 remaining             Progress: 26592 complete, 0 failed, 468 remaining             Progress: 26890 complete, 0 failed, 170 remaining             Progress: 27060 complete, 0 failed, 0 remaining        
+[Jun 30 05:57 AM]: GeneMark-ES cannot run with only a single contig, you must provide --ini_mod file to run GeneMark
+[Jun 30 05:57 AM]: GeneMark predictions failed. If you can run GeneMark outside of funannotate, then pass the results to --genemark_gtf.
+[Jun 30 05:57 AM]: Filtering PASA data for suitable training set
+[Jun 30 05:57 AM]: 369 of 580 models pass training parameters
+[Jun 30 05:57 AM]: Training Augustus using PASA gene models
+[Jun 30 05:57 AM]: Augustus initial training results:
+  [4mFeature       Specificity   Sensitivity[0m
+  nucleotides   95.4%         88.7%      
+  exons         76.6%         72.9%      
+  genes         41.9%         41.9%      
+[Jun 30 06:07 AM]: Augustus optimized training results:
+  [4mFeature       Specificity   Sensitivity[0m
+  nucleotides   94.3%         88.3%      
+  exons         72.5%         68.7%      
+  genes         40.5%         41.1%      
+[Jun 30 06:07 AM]: Running Augustus gene prediction using aspergillus_tubingensis_dfa_scaf1 parameters
+[Jun 30 06:08 AM]: 474 predictions from Augustus
+     Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 0 complete, 0 failed, 4 remaining             Progress: 1 complete, 0 failed, 3 remaining             Progress: 3 complete, 0 failed, 1 remaining             Progress: 4 complete, 0 failed, 0 remaining        
+[Jun 30 06:08 AM]: Pulling out high quality Augustus predictions
+[Jun 30 06:08 AM]: Found 251 high quality predictions from Augustus (>90% exon evidence)
+[Jun 30 06:08 AM]: Running CodingQuarry prediction using stringtie alignments
+[Jun 30 06:09 AM]: 743 predictions from CodingQuarry
+[Jun 30 06:09 AM]: Running SNAP gene prediction, using training data: annotation/A_tubingensis_scaf1/predict_misc/final_training_models.gff3
+[Jun 30 06:09 AM]: 638 predictions from SNAP
+[Jun 30 06:09 AM]: Running GlimmerHMM gene prediction, using training data: annotation/A_tubingensis_scaf1/predict_misc/final_training_models.gff3
+[Jun 30 06:11 AM]: 587 predictions from GlimmerHMM
+[Jun 30 06:11 AM]: Summary of gene models passed to EVM (weights):
+[Jun 30 06:11 AM]: EVM: partitioning input to ~ 35 genes per partition using min 1500 bp interval
+[Jun 30 06:11 AM]: Converting to GFF3 and collecting all EVM results
+     Progress: 0 complete, 0 failed, 19 remaining             Progress: 0 complete, 0 failed, 19 remaining             Progress: 0 complete, 0 failed, 19 remaining             Progress: 0 complete, 0 failed, 19 remaining             Progress: 0 complete, 0 failed, 19 remaining             Progress: 0 complete, 0 failed, 19 remaining             Progress: 0 complete, 0 failed, 19 remaining             Progress: 1 complete, 0 failed, 18 remaining             Progress: 2 complete, 0 failed, 17 remaining             Progress: 2 complete, 0 failed, 17 remaining             Progress: 2 complete, 0 failed, 17 remaining             Progress: 3 complete, 0 failed, 16 remaining             Progress: 4 complete, 0 failed, 15 remaining             Progress: 5 complete, 0 failed, 14 remaining             Progress: 8 complete, 0 failed, 11 remaining             Progress: 11 complete, 0 failed, 8 remaining             Progress: 11 complete, 0 failed, 8 remaining             Progress: 13 complete, 0 failed, 6 remaining             Progress: 15 complete, 0 failed, 4 remaining             Progress: 17 complete, 0 failed, 2 remaining             Progress: 17 complete, 0 failed, 2 remaining             Progress: 18 complete, 0 failed, 1 remaining             Progress: 18 complete, 0 failed, 1 remaining             Progress: 18 complete, 0 failed, 1 remaining             Progress: 19 complete, 0 failed, 0 remaining        
+  [4mSource         Weight   Count[0m
+  Augustus       1        223  
+  Augustus HiQ   2        251  
+  CodingQuarry   2        743  
+  GlimmerHMM     1        587  
+  pasa           6        580  
+  snap           1        638  
+  Total          -        3022 
+[Jun 30 06:11 AM]: 652 total gene models from EVM
+[Jun 30 06:11 AM]: Generating protein fasta files from 652 EVM models
+[Jun 30 06:11 AM]: now filtering out bad gene models (< 30 aa in length, transposable elements, etc).
+[Jun 30 06:11 AM]: Found 2 gene models to remove: 0 too short; 0 span gaps; 2 transposable elements
+[Jun 30 06:11 AM]: 650 gene models remaining
+[Jun 30 06:11 AM]: Predicting tRNAs
+[Jun 30 06:11 AM]: 19 tRNAscan models are valid (non-overlapping)
+[Jun 30 06:11 AM]: Generating GenBank tbl annotation file
+[Jun 30 06:11 AM]: Collecting final annotation files for 669 total gene models
+[Jun 30 06:11 AM]: Converting to final Genbank format
+[Jun 30 06:11 AM]: Funannotate predict is finished, output files are in the annotation/A_tubingensis_scaf1/predict_results folder
+[Jun 30 06:11 AM]: Your next step to capture UTRs and update annotation using PASA:
+
+  funannotate update -i annotation/A_tubingensis_scaf1 --cpus 16
+
+[Jun 30 06:11 AM]: Training parameters file saved: annotation/A_tubingensis_scaf1/predict_results/aspergillus_tubingensis_dfa_scaf1.parameters.json
+[Jun 30 06:11 AM]: Add species parameters to database:
+
+  funannotate species -s aspergillus_tubingensis_dfa_scaf1 -a annotation/A_tubingensis_scaf1/predict_results/aspergillus_tubingensis_dfa_scaf1.parameters.json
+
