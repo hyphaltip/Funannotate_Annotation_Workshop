@@ -1,16 +1,24 @@
 #!/usr/bin/bash -l
-#SBATCH -p short -c 48 --mem 64gb --out logs/unicycler.log
+#SBATCH -p short -c 48 --mem 64gb --out logs/AAFTF.log
 
-module load unicycler
+module load AAFTF
 CPU=8
+MEM=64
 if [ ! -z $SLURM_CPUS_ON_NODE ]; then
   CPU=$SLURM_CPUS_ON_NODE
 fi
 INDIR=../../Dataset/A_tubingensis/input
-OUTDIR=assemblies/unicycler
+OUTDIR=assemblies/spades
 
 mkdir -p $OUTDIR
+# these data were processed in the clean step
+# right now this isn't using nanopore reads just an example for short read assembly with spades
+OUTREADS=input
+LEFT=$OUTREADS/${BASE}_filtered_1.fastq.gz
+RIGHT=$OUTREADS/${BASE}_filtered_2.fastq.gz
+MERGED=$OUTREADS/${BASE}_filtered_U.fastq.gz
+ID=Atub
+ASMFILE=$OUTDIR/${ID}.spades.fasta
+AAFTF assemble -c $CPU --left $LEFT --right $RIGHT --merged $MERGED --memory $MEM \
+	      -o $ASMFILE -w $WORKDIR/spades_${ID}
 
-# -l  is for long reads, this is the Nanopore File, all FASTQ in same file
-# -1 and -2 are paired end reads for short read library (eg illumina)
-unicycler -l $INDIR/SRR29740272_1.fastq.gz -1 $INDIR/SRR29740273_1.fastq.gz -2 $INDIR/SRR29740273_2.fastq.gz -o $OUTDIR -t $CPU
